@@ -1,0 +1,2263 @@
+.agents/plugins/marketplace.json
+  s_ad4313f963efd6::t_2990cebf81b280 1-32
+.agents/skills/Presentations/SKILL.md
+  s_ad4313f963efd6::t_56ea7ecb0d5e64 1-245
+.agents/skills/Presentations/agents/openai.yaml
+  s_ad4313f963efd6::t_90754eb1b56800 1-7
+.agents/skills/Presentations/artifact_tool_docs/API_QUICK_START.md
+  s_ad4313f963efd6::t_bc3f8fcc80e40e 1-77
+.agents/skills/Presentations/artifact_tool_docs/api/API_DOCS.md
+  s_ad4313f963efd6::t_18b8ae052d0c3a 1-247
+.agents/skills/Presentations/artifact_tool_docs/api/references/auto-layout.spec.md
+  s_ad4313f963efd6::t_9030a14ce51614 1-100
+.agents/skills/Presentations/artifact_tool_docs/api/references/charts.spec.md
+  s_ad4313f963efd6::t_b73937839e9e95 1-270
+.agents/skills/Presentations/artifact_tool_docs/api/references/comments.md
+  s_ad4313f963efd6::t_5b8003df8ece9a 1-103
+.agents/skills/Presentations/artifact_tool_docs/api/references/connectors.md
+  s_ad4313f963efd6::t_1f6a584ac926c4 1-206
+.agents/skills/Presentations/artifact_tool_docs/api/references/cookbook/imported-deck.md
+  s_ad4313f963efd6::t_5048209b198f36 1-181
+.agents/skills/Presentations/artifact_tool_docs/api/references/cookbook/layout.md
+  s_ad4313f963efd6::t_b1da93345f0ff7 1-419
+.agents/skills/Presentations/artifact_tool_docs/api/references/fill.spec.md
+  s_ad4313f963efd6::t_7a05a1f1aa92ae 1-186
+.agents/skills/Presentations/artifact_tool_docs/api/references/help.md
+  s_ad4313f963efd6::t_1143603f9bc1d4 1-223
+.agents/skills/Presentations/artifact_tool_docs/api/references/images.spec.md
+  s_ad4313f963efd6::t_05c73a6fa2cac1 1-248
+.agents/skills/Presentations/artifact_tool_docs/api/references/inspect.md
+  s_ad4313f963efd6::t_9b46db30756f26 1-176
+.agents/skills/Presentations/artifact_tool_docs/api/references/jsx.md
+  s_ad4313f963efd6::t_176a411c2919b1 1-231
+.agents/skills/Presentations/artifact_tool_docs/api/references/layout.spec.md
+  s_ad4313f963efd6::t_ebdee304ab7da0 1-98
+.agents/skills/Presentations/artifact_tool_docs/api/references/master.spec.md
+  s_ad4313f963efd6::t_e3084fd3b761ee 1-57
+.agents/skills/Presentations/artifact_tool_docs/api/references/presentation.spec.md
+  s_ad4313f963efd6::t_6e947161885d9d 1-213
+.agents/skills/Presentations/artifact_tool_docs/api/references/rich-text.spec.md
+  s_ad4313f963efd6::t_b5baaef15a870e 1-253
+.agents/skills/Presentations/artifact_tool_docs/api/references/shapes.spec.md
+  s_ad4313f963efd6::t_f2b1ce8df0c4be 1-239
+.agents/skills/Presentations/artifact_tool_docs/api/references/slide.spec.md
+  s_ad4313f963efd6::t_f01e89601ada85 1-187
+.agents/skills/Presentations/artifact_tool_docs/api/references/speaker-notes.spec.md
+  s_ad4313f963efd6::t_920dcd7caa601d 1-49
+.agents/skills/Presentations/artifact_tool_docs/api/references/styles.spec.md
+  s_ad4313f963efd6::t_ffd33395ddda45 1-85
+.agents/skills/Presentations/artifact_tool_docs/api/references/tables.spec.md
+  s_ad4313f963efd6::t_06c3c4c38b2a01 1-187
+.agents/skills/Presentations/artifact_tool_docs/api/references/theme.spec.md
+  s_ad4313f963efd6::t_038bfe5f3f5ba4 1-85
+.agents/skills/Presentations/artifact_tool_docs/api/references/tokens.md
+  s_ad4313f963efd6::t_ae7b7da5da28d0 1-447
+.agents/skills/Presentations/container_tools/artifact_tool_utils.mjs
+  s_ad4313f963efd6::t_91b4188987f0f2 1-1077
+.agents/skills/Presentations/container_tools/create_montage.py
+  s_ad4313f963efd6::t_c054ff3584ed56 1-300
+.agents/skills/Presentations/container_tools/ensure_raster_image.py
+  s_ad4313f963efd6::t_a4e1204be8dd27 1-224
+.agents/skills/Presentations/container_tools/inspect_presentation_layout_geometry.py
+  s_ad4313f963efd6::t_e8f0281c731b05 1-2659
+.agents/skills/Presentations/container_tools/inspect_presentation_package_integrity.py
+  s_ad4313f963efd6::t_39fd8adaa98400 1-710
+.agents/skills/Presentations/container_tools/mark_artifact_operation_started.mjs
+  s_ad4313f963efd6::t_ed183b53b780a0 1-22
+.agents/skills/Presentations/container_tools/materialize_literal_chart_workbooks.py
+  s_ad4313f963efd6::t_7faf6c2522e9ed 1-849
+.agents/skills/Presentations/container_tools/native_chart_title_gate.py
+  s_ad4313f963efd6::t_7df52326a1a0b7 1-143
+.agents/skills/Presentations/container_tools/native_quantitative_chart_gate.py
+  s_ad4313f963efd6::t_27e583805a2833 1-1086
+.agents/skills/Presentations/container_tools/native_table_arithmetic_gate.py
+  s_ad4313f963efd6::t_5fa24c5771de59 1-519
+.agents/skills/Presentations/container_tools/rasterize_svg.mjs
+  s_ad4313f963efd6::t_68611d800f3677 1-51
+.agents/skills/Presentations/container_tools/render_presentation.mjs
+  s_ad4313f963efd6::t_5c1ce62ce96112 1-97
+.agents/skills/Presentations/container_tools/render_slides.py
+  s_ad4313f963efd6::t_f1f94af80b81ee 1-250
+.agents/skills/Presentations/container_tools/runtime_helpers.mjs
+  s_ad4313f963efd6::t_1b9b00bad99946 1-49
+.agents/skills/Presentations/container_tools/runtime_helpers.py
+  s_ad4313f963efd6::t_c29d14c4455fb0 1-87
+.agents/skills/Presentations/container_tools/slides_test.py
+  s_ad4313f963efd6::t_f7dfad3d419ed0 1-200
+.agents/skills/Presentations/container_tools/template_source_fidelity_gate.py
+  s_ad4313f963efd6::t_08b081dccded57 1-532
+.agents/skills/Presentations/domain_guidance/finance.md
+  s_ad4313f963efd6::t_e458a669b339ac 1-12
+.agents/skills/Presentations/references/cover_art_direction.md
+  s_ad4313f963efd6::t_be76e5af5980f9 1-11
+.agents/skills/Presentations/references/finalization.md
+  s_ad4313f963efd6::t_ef66711fecfd30 1-68
+.agents/skills/Presentations/references/implementation.md
+  s_ad4313f963efd6::t_0cc4c43e3ef3ba 1-50
+.agents/skills/Presentations/references/native_bullets.md
+  s_ad4313f963efd6::t_088bfc8a60efa2 1-23
+.agents/skills/Presentations/references/native_evidence.md
+  s_ad4313f963efd6::t_67aa97cf64d59b 1-19
+.agents/skills/Presentations/references/template-elicitation.md
+  s_ad4313f963efd6::t_79ed51ce22cf12 1-11
+.agents/skills/Presentations/references/template_following.md
+  s_ad4313f963efd6::t_77c46fcdb87664 1-23
+.agents/skills/Presentations/routing/google_slides.md
+  s_ad4313f963efd6::t_63a77565e17e87 1-15
+.agents/skills/Presentations/style_guidelines.md
+  s_ad4313f963efd6::t_2ca64375075df0 1-20
+.agents/skills/Presentations/template_following_scripts/check_template_fidelity.mjs
+  s_ad4313f963efd6::t_310a718584e21c 1-502
+.agents/skills/Presentations/template_following_scripts/inspect_template_deck.mjs
+  s_ad4313f963efd6::t_b2000cfd4f9fb2 1-244
+.agents/skills/Presentations/template_following_scripts/make_contact_sheet.py
+  s_ad4313f963efd6::t_a2c83ed011d095 1-58
+.agents/skills/Presentations/template_following_scripts/prepare_template_starter_deck.mjs
+  s_ad4313f963efd6::t_6c24b696cb29a5 1-292
+.agents/skills/Presentations/template_following_scripts/validate_template_plan.mjs
+  s_ad4313f963efd6::t_46859055abc7e3 1-549
+.agents/skills/Spreadsheets/SKILL.md
+  s_ad4313f963efd6::t_eb69cb1818f065 1-462
+.agents/skills/Spreadsheets/agents/openai.yaml
+  s_ad4313f963efd6::t_0369c3dbb90fe8 1-7
+.agents/skills/Spreadsheets/artifact_tool_docs/API_QUICK_START.md
+  s_ad4313f963efd6::t_4175c8e94ffa8b 1-444
+.agents/skills/Spreadsheets/artifact_tool_docs/DATA_TABLES.md
+  s_ad4313f963efd6::t_bd67e16eac21ef 1-63
+.agents/skills/Spreadsheets/artifact_tool_docs/SPARKLINES.md
+  s_ad4313f963efd6::t_15c4c8f3f5faad 1-56
+.agents/skills/Spreadsheets/container_tools/mark_artifact_operation_started.mjs
+  s_ad4313f963efd6::t_e8537ac3158468 1-22
+.agents/skills/Spreadsheets/domain_guidance/financial_models.md
+  s_ad4313f963efd6::t_04599bb9c87cd7 1-58
+.agents/skills/Spreadsheets/domain_guidance/healthcare.md
+  s_ad4313f963efd6::t_5826cb26fb34a1 1-41
+.agents/skills/Spreadsheets/domain_guidance/marketing_advertising.md
+  s_ad4313f963efd6::t_4fd6a43647dbc2 1-37
+.agents/skills/Spreadsheets/domain_guidance/scientific_research.md
+  s_ad4313f963efd6::t_918025f5e8fe00 1-30
+.agents/skills/Spreadsheets/features/charts.md
+  s_ad4313f963efd6::t_a15ea5a8bc57d0 1-48
+.agents/skills/Spreadsheets/references/image-references.md
+  s_ad4313f963efd6::t_ca09ee18240c4d 1-4
+.agents/skills/Spreadsheets/references/read_only_qna.md
+  s_ad4313f963efd6::t_07423e6b6fccba 1-7
+.agents/skills/Spreadsheets/references/template-elicitation.md
+  s_ad4313f963efd6::t_c7e9aff94b385c 1-11
+.agents/skills/Spreadsheets/routing/google_sheets.md
+  s_ad4313f963efd6::t_c6e495d52f925c 1-14
+.agents/skills/Spreadsheets/style_guidelines.md
+  s_ad4313f963efd6::t_f894017a17d785 1-62
+.agents/skills/Spreadsheets/workflows/create_workflows.md
+  s_ad4313f963efd6::t_201c7526d72d0b 1-12
+.agents/skills/Spreadsheets/workflows/edit_workflows.md
+  s_ad4313f963efd6::t_f0dc090d1a1522 1-24
+.agents/skills/browser-control/SKILL.md
+  s_ad4313f963efd6::t_3508216a6f9cdf 1-36
+.agents/skills/browser-control/agents/openai.yaml
+  s_ad4313f963efd6::t_7cff12724245b1 1-14
+.agents/skills/browser-control/assets/icon.svg
+  s_ad4313f963efd6::t_843afafc8a3d84 1-8
+.agents/skills/computer-control/SKILL.md
+  s_ad4313f963efd6::t_b13beec0385b5d 1-35
+.agents/skills/computer-control/agents/openai.yaml
+  s_ad4313f963efd6::t_272f66d6c52532 1-14
+.agents/skills/computer-control/assets/icon.svg
+  s_ad4313f963efd6::t_9249019daf44f8 1-8
+.agents/skills/designing-pdf-manuals/README.md
+  s_ad4313f963efd6::t_52e88787ff2037 1-52
+.agents/skills/designing-pdf-manuals/SKILL.md
+  s_ad4313f963efd6::t_060a568caa4a5d 1-51
+.agents/skills/designing-pdf-manuals/agents/openai.yaml
+  s_ad4313f963efd6::t_684c14eb0b0580 1-14
+.agents/skills/designing-pdf-manuals/assets/icon.svg
+  s_ad4313f963efd6::t_1b332fcf8a8fc1 1-4
+.agents/skills/designing-pdf-manuals/examples/visual-style-blueprint.md
+  s_ad4313f963efd6::t_1a1cae31dc7835 1-37
+.agents/skills/designing-pdf-manuals/plugin-ready/README.md
+  s_ad4313f963efd6::t_f909311c10d2dd 1-23
+.agents/skills/designing-pdf-manuals/plugin-ready/tool-contracts.yaml
+  s_ad4313f963efd6::t_7d3086fa04b205 1-35
+.agents/skills/designing-pdf-manuals/references/architecture.md
+  s_ad4313f963efd6::t_a039a46f1ff8e2 1-64
+.agents/skills/designing-pdf-manuals/references/design-system.md
+  s_ad4313f963efd6::t_e870c6c6d52d2e 1-86
+.agents/skills/designing-pdf-manuals/references/qa-checklist.md
+  s_ad4313f963efd6::t_995a306d88ffeb 1-70
+.agents/skills/designing-pdf-manuals/references/tool-routing.md
+  s_ad4313f963efd6::t_cd1a470e8f6d56 1-41
+.agents/skills/designing-pdf-manuals/scripts/validate_skill.py
+  s_ad4313f963efd6::t_776f640a6a816d 1-82
+.agents/skills/designing-pdf-manuals/templates/page-map.md
+  s_ad4313f963efd6::t_57f4cd2a080c20 1-19
+.agents/skills/designing-pdf-manuals/templates/project-brief.md
+  s_ad4313f963efd6::t_583132750ae287 1-52
+.agents/skills/designing-pdf-manuals/templates/revision-log.md
+  s_ad4313f963efd6::t_a606907a5abe41 1-19
+.agents/skills/designing-pdf-manuals/tests/baseline-scenarios.md
+  s_ad4313f963efd6::t_279b6ec6db531a 1-18
+.agents/skills/designing-pdf-manuals/tests/test_skill_contract.py
+  s_ad4313f963efd6::t_f7b764fadcbc68 1-78
+.agents/skills/designing-pdf-manuals/tests/test_validator.py
+  s_ad4313f963efd6::t_66ed6ec0b1808b 1-31
+.agents/skills/diagram-design/SKILL.md
+  s_ad4313f963efd6::t_c613a0ae262216 1-389
+.agents/skills/diagram-design/agents/openai.yaml
+  s_ad4313f963efd6::t_d93321a9826598 1-21
+.agents/skills/diagram-design/assets/example-architecture-dark.html
+  s_ad4313f963efd6::t_82c62a59dabb19 1-182
+.agents/skills/diagram-design/assets/example-architecture-delta-dark.html
+  s_ad4313f963efd6::t_7e2127d87ac534 1-193
+.agents/skills/diagram-design/assets/example-architecture-delta-full.html
+  s_ad4313f963efd6::t_5cf0206843cfc4 1-210
+.agents/skills/diagram-design/assets/example-architecture-delta.html
+  s_ad4313f963efd6::t_3ca92233ab1207 1-193
+.agents/skills/diagram-design/assets/example-architecture-full.html
+  s_ad4313f963efd6::t_f210a45b9f0a00 1-194
+.agents/skills/diagram-design/assets/example-architecture.html
+  s_ad4313f963efd6::t_c009ccbf927424 1-183
+.agents/skills/diagram-design/assets/example-bar-dark.html
+  s_ad4313f963efd6::t_8a00fa29dd81b5 1-129
+.agents/skills/diagram-design/assets/example-bar-full.html
+  s_ad4313f963efd6::t_b904a0b64b3608 1-105
+.agents/skills/diagram-design/assets/example-bar.html
+  s_ad4313f963efd6::t_c1414044f9cccd 1-129
+.agents/skills/diagram-design/assets/example-beeswarm-dark.html
+  s_ad4313f963efd6::t_c29f08552db30e 1-384
+.agents/skills/diagram-design/assets/example-beeswarm-full.html
+  s_ad4313f963efd6::t_816d4384e7d45d 1-416
+.agents/skills/diagram-design/assets/example-beeswarm.html
+  s_ad4313f963efd6::t_c3786fcdf24a7d 1-384
+.agents/skills/diagram-design/assets/example-bubble-dark.html
+  s_ad4313f963efd6::t_2b21a789ca28c6 1-147
+.agents/skills/diagram-design/assets/example-bubble-full.html
+  s_ad4313f963efd6::t_3b5b4acc7a2db9 1-177
+.agents/skills/diagram-design/assets/example-bubble.html
+  s_ad4313f963efd6::t_5afeace1256126 1-147
+.agents/skills/diagram-design/assets/example-bump-dark.html
+  s_ad4313f963efd6::t_20f051b3a84bb4 1-142
+.agents/skills/diagram-design/assets/example-bump-full.html
+  s_ad4313f963efd6::t_52ca26ebc3688a 1-172
+.agents/skills/diagram-design/assets/example-bump.html
+  s_ad4313f963efd6::t_a774eb8d0d2732 1-142
+.agents/skills/diagram-design/assets/example-data-flow-dark.html
+  s_ad4313f963efd6::t_d5f61f4c1f94ca 1-143
+.agents/skills/diagram-design/assets/example-data-flow-full.html
+  s_ad4313f963efd6::t_d6b4e6ac9fdea0 1-185
+.agents/skills/diagram-design/assets/example-data-flow.html
+  s_ad4313f963efd6::t_1c1ac80efa271d 1-143
+.agents/skills/diagram-design/assets/example-datalake-dark.html
+  s_ad4313f963efd6::t_91970f0c9ab2e7 1-243
+.agents/skills/diagram-design/assets/example-datalake-full.html
+  s_ad4313f963efd6::t_4f12d7f06b00b5 1-248
+.agents/skills/diagram-design/assets/example-datalake.html
+  s_ad4313f963efd6::t_09af9fe406a834 1-269
+.agents/skills/diagram-design/assets/example-db-schema-dark.html
+  s_ad4313f963efd6::t_c397445c35a4ed 1-302
+.agents/skills/diagram-design/assets/example-db-schema-full.html
+  s_ad4313f963efd6::t_9adab0149b621d 1-305
+.agents/skills/diagram-design/assets/example-db-schema.html
+  s_ad4313f963efd6::t_44da577ecd5878 1-302
+.agents/skills/diagram-design/assets/example-dependency-dark.html
+  s_ad4313f963efd6::t_8824f9f2959916 1-224
+.agents/skills/diagram-design/assets/example-dependency-full.html
+  s_ad4313f963efd6::t_613b0af42d983c 1-227
+.agents/skills/diagram-design/assets/example-dependency.html
+  s_ad4313f963efd6::t_1b85ec24a13cb0 1-224
+.agents/skills/diagram-design/assets/example-deployment-dark.html
+  s_ad4313f963efd6::t_23399f1b299e75 1-190
+.agents/skills/diagram-design/assets/example-deployment-full.html
+  s_ad4313f963efd6::t_23b0b991bbfcf1 1-202
+.agents/skills/diagram-design/assets/example-deployment.html
+  s_ad4313f963efd6::t_049e0cbf8db118 1-190
+.agents/skills/diagram-design/assets/example-dp-integration-dark.html
+  s_ad4313f963efd6::t_de31d40ecadd12 1-80
+.agents/skills/diagram-design/assets/example-dp-integration-full.html
+  s_ad4313f963efd6::t_65cc612d26674b 1-90
+.agents/skills/diagram-design/assets/example-dp-integration.html
+  s_ad4313f963efd6::t_aa5b7aac48c08a 1-80
+.agents/skills/diagram-design/assets/example-dp-security-matrix-dark.html
+  s_ad4313f963efd6::t_8d06f40d687b3a 1-31
+.agents/skills/diagram-design/assets/example-dp-security-matrix-full.html
+  s_ad4313f963efd6::t_726ccb4f9542ed 1-32
+.agents/skills/diagram-design/assets/example-dp-security-matrix.html
+  s_ad4313f963efd6::t_7cd1faf25d6768 1-88
+.agents/skills/diagram-design/assets/example-er-dark.html
+  s_ad4313f963efd6::t_44f342c8939436 1-202
+.agents/skills/diagram-design/assets/example-er-full.html
+  s_ad4313f963efd6::t_8095875183713f 1-205
+.agents/skills/diagram-design/assets/example-er.html
+  s_ad4313f963efd6::t_e23a26fa75aa5d 1-202
+.agents/skills/diagram-design/assets/example-fishbone-dark.html
+  s_ad4313f963efd6::t_fe2c57cec58ef2 1-152
+.agents/skills/diagram-design/assets/example-fishbone-full.html
+  s_ad4313f963efd6::t_fe93d50184477c 1-146
+.agents/skills/diagram-design/assets/example-fishbone.html
+  s_ad4313f963efd6::t_5aba9ece1dbb1e 1-152
+.agents/skills/diagram-design/assets/example-flowchart-dark.html
+  s_ad4313f963efd6::t_26c30451e386e5 1-156
+.agents/skills/diagram-design/assets/example-flowchart-full.html
+  s_ad4313f963efd6::t_383d6359658f64 1-159
+.agents/skills/diagram-design/assets/example-flowchart.html
+  s_ad4313f963efd6::t_85ed131bec01b2 1-156
+.agents/skills/diagram-design/assets/example-gantt-dark.html
+  s_ad4313f963efd6::t_1de1dc0fd38fe2 1-137
+.agents/skills/diagram-design/assets/example-gantt-full.html
+  s_ad4313f963efd6::t_1326b1c60f3d17 1-127
+.agents/skills/diagram-design/assets/example-gantt.html
+  s_ad4313f963efd6::t_c02c248f46c2a9 1-137
+.agents/skills/diagram-design/assets/example-heatmap-dark.html
+  s_ad4313f963efd6::t_5ac8cc7aad3c0e 1-224
+.agents/skills/diagram-design/assets/example-heatmap-full.html
+  s_ad4313f963efd6::t_b175661a53b6db 1-270
+.agents/skills/diagram-design/assets/example-heatmap.html
+  s_ad4313f963efd6::t_0fdf4a6345c725 1-224
+.agents/skills/diagram-design/assets/example-high-level-dark.html
+  s_ad4313f963efd6::t_ed86116f7721cc 1-251
+.agents/skills/diagram-design/assets/example-high-level-full.html
+  s_ad4313f963efd6::t_ded2bb9da9d582 1-247
+.agents/skills/diagram-design/assets/example-high-level-vertical-dark.html
+  s_ad4313f963efd6::t_a4263117bb7839 1-274
+.agents/skills/diagram-design/assets/example-high-level-vertical-full.html
+  s_ad4313f963efd6::t_4e7fad75b9a92c 1-252
+.agents/skills/diagram-design/assets/example-high-level-vertical.html
+  s_ad4313f963efd6::t_087990ef1632fd 1-325
+.agents/skills/diagram-design/assets/example-high-level.html
+  s_ad4313f963efd6::t_5b42dcb078ca34 1-301
+.agents/skills/diagram-design/assets/example-import-drawio.html
+  s_ad4313f963efd6::t_e271e0253f22f1 1-185
+.agents/skills/diagram-design/assets/example-import-excalidraw.html
+  s_ad4313f963efd6::t_7711b25bc4ff86 1-70
+.agents/skills/diagram-design/assets/example-import-mermaid.html
+  s_ad4313f963efd6::t_e72c024492a90b 1-70
+.agents/skills/diagram-design/assets/example-it-state-dark.html
+  s_ad4313f963efd6::t_0df3a8b5861e2c 1-90
+.agents/skills/diagram-design/assets/example-it-state-full.html
+  s_ad4313f963efd6::t_a103c72febe5bf 1-69
+.agents/skills/diagram-design/assets/example-it-state.html
+  s_ad4313f963efd6::t_d919f3c6508651 1-128
+.agents/skills/diagram-design/assets/example-journey-dark.html
+  s_ad4313f963efd6::t_cadc9f1d1c9622 1-148
+.agents/skills/diagram-design/assets/example-journey-full.html
+  s_ad4313f963efd6::t_ffc8a83803d633 1-142
+.agents/skills/diagram-design/assets/example-journey.html
+  s_ad4313f963efd6::t_59342a3f1db70c 1-148
+.agents/skills/diagram-design/assets/example-kanban-dark.html
+  s_ad4313f963efd6::t_ca79874cae01d9 1-174
+.agents/skills/diagram-design/assets/example-kanban-full.html
+  s_ad4313f963efd6::t_ff4808d98cc647 1-178
+.agents/skills/diagram-design/assets/example-kanban.html
+  s_ad4313f963efd6::t_c5e5390c00c90e 1-174
+.agents/skills/diagram-design/assets/example-layers-dark.html
+  s_ad4313f963efd6::t_cb35fd72587591 1-123
+.agents/skills/diagram-design/assets/example-layers-full.html
+  s_ad4313f963efd6::t_eef7622c4f1fea 1-126
+.agents/skills/diagram-design/assets/example-layers.html
+  s_ad4313f963efd6::t_c687d62a26dc44 1-123
+.agents/skills/diagram-design/assets/example-line-dark.html
+  s_ad4313f963efd6::t_441e0ff2047131 1-111
+.agents/skills/diagram-design/assets/example-line-full.html
+  s_ad4313f963efd6::t_3d1b0f499e4d6e 1-105
+.agents/skills/diagram-design/assets/example-line.html
+  s_ad4313f963efd6::t_df29284c4730a2 1-111
+.agents/skills/diagram-design/assets/example-loop-dark.html
+  s_ad4313f963efd6::t_c2a76a0056d91b 1-100
+.agents/skills/diagram-design/assets/example-loop-full.html
+  s_ad4313f963efd6::t_ab6bd85b91f2e6 1-137
+.agents/skills/diagram-design/assets/example-loop-terminal.html
+  s_ad4313f963efd6::t_c949c7f0e28841 1-347
+.agents/skills/diagram-design/assets/example-loop.html
+  s_ad4313f963efd6::t_bc75d6dab52f55 1-100
+.agents/skills/diagram-design/assets/example-marimekko-dark.html
+  s_ad4313f963efd6::t_e4ff6410184c5d 1-148
+.agents/skills/diagram-design/assets/example-marimekko-full.html
+  s_ad4313f963efd6::t_5871ebb33e4464 1-172
+.agents/skills/diagram-design/assets/example-marimekko.html
+  s_ad4313f963efd6::t_1ce47158675dae 1-148
+.agents/skills/diagram-design/assets/example-medallion-dark.html
+  s_ad4313f963efd6::t_980fb12cdfc0ae 1-159
+.agents/skills/diagram-design/assets/example-medallion-full.html
+  s_ad4313f963efd6::t_ca15687bb1d3ed 1-201
+.agents/skills/diagram-design/assets/example-medallion.html
+  s_ad4313f963efd6::t_96cfca7f49142f 1-159
+.agents/skills/diagram-design/assets/example-nested-dark.html
+  s_ad4313f963efd6::t_0d10e99370c0ff 1-132
+.agents/skills/diagram-design/assets/example-nested-full.html
+  s_ad4313f963efd6::t_20aab3de0132e6 1-135
+.agents/skills/diagram-design/assets/example-nested.html
+  s_ad4313f963efd6::t_8147ef4351d57d 1-136
+.agents/skills/diagram-design/assets/example-org-chart-dark.html
+  s_ad4313f963efd6::t_004ebc0b1ba7ce 1-45
+.agents/skills/diagram-design/assets/example-org-chart-full.html
+  s_ad4313f963efd6::t_38f9522997fcea 1-45
+.agents/skills/diagram-design/assets/example-org-chart.html
+  s_ad4313f963efd6::t_a06d1ba38b2c3e 1-45
+.agents/skills/diagram-design/assets/example-paved-road-animated.html
+  s_ad4313f963efd6::t_96f8b66216a0de 1-546
+.agents/skills/diagram-design/assets/example-polar-dark.html
+  s_ad4313f963efd6::t_d4cfa9d45bd282 1-116
+.agents/skills/diagram-design/assets/example-polar-full.html
+  s_ad4313f963efd6::t_70b7b3d2df7737 1-147
+.agents/skills/diagram-design/assets/example-polar.html
+  s_ad4313f963efd6::t_762f2635b6d903 1-116
+.agents/skills/diagram-design/assets/example-policy-trace-animated.html
+  s_ad4313f963efd6::t_824571c92848b9 1-490
+.agents/skills/diagram-design/assets/example-process-dark.html
+  s_ad4313f963efd6::t_01b61e50f27bcf 1-64
+.agents/skills/diagram-design/assets/example-process-full.html
+  s_ad4313f963efd6::t_95fb5044f06694 1-74
+.agents/skills/diagram-design/assets/example-process.html
+  s_ad4313f963efd6::t_aa1a8cc46c0eea 1-64
+.agents/skills/diagram-design/assets/example-pyramid-dark.html
+  s_ad4313f963efd6::t_4d92f983de40de 1-119
+.agents/skills/diagram-design/assets/example-pyramid-full.html
+  s_ad4313f963efd6::t_86354ea12872a5 1-122
+.agents/skills/diagram-design/assets/example-pyramid.html
+  s_ad4313f963efd6::t_811c43f74828d5 1-119
+.agents/skills/diagram-design/assets/example-quadrant-consultant.html
+  s_ad4313f963efd6::t_04feca3f7f2dd2 1-166
+.agents/skills/diagram-design/assets/example-quadrant-dark.html
+  s_ad4313f963efd6::t_9b19300a1a413c 1-135
+.agents/skills/diagram-design/assets/example-quadrant-full.html
+  s_ad4313f963efd6::t_0276104ad64cdf 1-138
+.agents/skills/diagram-design/assets/example-quadrant.html
+  s_ad4313f963efd6::t_561c0475d0dcc1 1-135
+.agents/skills/diagram-design/assets/example-queue-animated.html
+  s_ad4313f963efd6::t_d58d63476aaa15 1-577
+.agents/skills/diagram-design/assets/example-radar-dark.html
+  s_ad4313f963efd6::t_391e8233ee4c02 1-139
+.agents/skills/diagram-design/assets/example-radar-full.html
+  s_ad4313f963efd6::t_06051fbee089db 1-135
+.agents/skills/diagram-design/assets/example-radar.html
+  s_ad4313f963efd6::t_6faaa9d718c71f 1-139
+.agents/skills/diagram-design/assets/example-ridgeline-dark.html
+  s_ad4313f963efd6::t_4827f14e32d8a4 1-104
+.agents/skills/diagram-design/assets/example-ridgeline-full.html
+  s_ad4313f963efd6::t_805e1c8a98328c 1-134
+.agents/skills/diagram-design/assets/example-ridgeline.html
+  s_ad4313f963efd6::t_ea6d8df702f059 1-104
+.agents/skills/diagram-design/assets/example-sankey-dark.html
+  s_ad4313f963efd6::t_b063d0a147fba1 1-150
+.agents/skills/diagram-design/assets/example-sankey-full.html
+  s_ad4313f963efd6::t_757aaa119efa8c 1-151
+.agents/skills/diagram-design/assets/example-sankey.html
+  s_ad4313f963efd6::t_1445563c5c9c4e 1-150
+.agents/skills/diagram-design/assets/example-scatter-dark.html
+  s_ad4313f963efd6::t_18874bb8e460d0 1-141
+.agents/skills/diagram-design/assets/example-scatter-full.html
+  s_ad4313f963efd6::t_ed7dbfda7eb321 1-116
+.agents/skills/diagram-design/assets/example-scatter.html
+  s_ad4313f963efd6::t_8eb97939842283 1-141
+.agents/skills/diagram-design/assets/example-sequence-dark.html
+  s_ad4313f963efd6::t_1f7d9bf9f4c93c 1-222
+.agents/skills/diagram-design/assets/example-sequence-full.html
+  s_ad4313f963efd6::t_90b5b85efb2a2c 1-388
+.agents/skills/diagram-design/assets/example-sequence-oauth-dark.html
+  s_ad4313f963efd6::t_68ece83b42b87a 1-188
+.agents/skills/diagram-design/assets/example-sequence-oauth-full.html
+  s_ad4313f963efd6::t_e4210117f9db9e 1-350
+.agents/skills/diagram-design/assets/example-sequence-oauth.html
+  s_ad4313f963efd6::t_bb8bc08f269b49 1-227
+.agents/skills/diagram-design/assets/example-sequence.html
+  s_ad4313f963efd6::t_9875723358e059 1-222
+.agents/skills/diagram-design/assets/example-slopegraph-dark.html
+  s_ad4313f963efd6::t_95f698824d0fe2 1-119
+.agents/skills/diagram-design/assets/example-slopegraph-full.html
+  s_ad4313f963efd6::t_25ad055cf1dfeb 1-149
+.agents/skills/diagram-design/assets/example-slopegraph.html
+  s_ad4313f963efd6::t_7edf93f61c08fc 1-119
+.agents/skills/diagram-design/assets/example-state-dark.html
+  s_ad4313f963efd6::t_96d6300bf16862 1-147
+.agents/skills/diagram-design/assets/example-state-full.html
+  s_ad4313f963efd6::t_43b27688fe73c4 1-150
+.agents/skills/diagram-design/assets/example-state-lifecycle-dark.html
+  s_ad4313f963efd6::t_25d630a3caa576 1-88
+.agents/skills/diagram-design/assets/example-state-lifecycle-full.html
+  s_ad4313f963efd6::t_217058ff8e6a19 1-112
+.agents/skills/diagram-design/assets/example-state-lifecycle.html
+  s_ad4313f963efd6::t_4c9746028a5f83 1-92
+.agents/skills/diagram-design/assets/example-state.html
+  s_ad4313f963efd6::t_302e92e8f74707 1-147
+.agents/skills/diagram-design/assets/example-story-map-dark.html
+  s_ad4313f963efd6::t_ec19e4c7ad0ede 1-184
+.agents/skills/diagram-design/assets/example-story-map-full.html
+  s_ad4313f963efd6::t_fdca073f0979d7 1-188
+.agents/skills/diagram-design/assets/example-story-map.html
+  s_ad4313f963efd6::t_ed4031b0673eb2 1-184
+.agents/skills/diagram-design/assets/example-streamgraph-dark.html
+  s_ad4313f963efd6::t_3ce429210564d2 1-99
+.agents/skills/diagram-design/assets/example-streamgraph-full.html
+  s_ad4313f963efd6::t_531d425928f680 1-129
+.agents/skills/diagram-design/assets/example-streamgraph.html
+  s_ad4313f963efd6::t_50e381a12c63ac 1-99
+.agents/skills/diagram-design/assets/example-swimlane-dark.html
+  s_ad4313f963efd6::t_208d15c5c5cd6c 1-172
+.agents/skills/diagram-design/assets/example-swimlane-full.html
+  s_ad4313f963efd6::t_0480a7bc4d32e3 1-175
+.agents/skills/diagram-design/assets/example-swimlane.html
+  s_ad4313f963efd6::t_3e84a333d99a3e 1-172
+.agents/skills/diagram-design/assets/example-timeline-dark.html
+  s_ad4313f963efd6::t_d428e3a73095ef 1-135
+.agents/skills/diagram-design/assets/example-timeline-full.html
+  s_ad4313f963efd6::t_4162fdff068c93 1-138
+.agents/skills/diagram-design/assets/example-timeline.html
+  s_ad4313f963efd6::t_7293a192fd803b 1-135
+.agents/skills/diagram-design/assets/example-tree-block-decomposition-dark.html
+  s_ad4313f963efd6::t_4192028c07ea3b 1-151
+.agents/skills/diagram-design/assets/example-tree-block-decomposition-full.html
+  s_ad4313f963efd6::t_62c5e91e731748 1-154
+.agents/skills/diagram-design/assets/example-tree-block-decomposition.html
+  s_ad4313f963efd6::t_d08ca9841785f1 1-151
+.agents/skills/diagram-design/assets/example-tree-dark.html
+  s_ad4313f963efd6::t_1659a943e85fbd 1-173
+.agents/skills/diagram-design/assets/example-tree-full.html
+  s_ad4313f963efd6::t_944f6d4bbbe97b 1-176
+.agents/skills/diagram-design/assets/example-tree.html
+  s_ad4313f963efd6::t_ba3f97be495c84 1-173
+.agents/skills/diagram-design/assets/example-treemap-dark.html
+  s_ad4313f963efd6::t_139bdd91d69174 1-107
+.agents/skills/diagram-design/assets/example-treemap-full.html
+  s_ad4313f963efd6::t_be1121ad7b45af 1-134
+.agents/skills/diagram-design/assets/example-treemap.html
+  s_ad4313f963efd6::t_d330a8bbc857a8 1-107
+.agents/skills/diagram-design/assets/example-uml-class-dark.html
+  s_ad4313f963efd6::t_c70eea193c5411 1-188
+.agents/skills/diagram-design/assets/example-uml-class-full.html
+  s_ad4313f963efd6::t_a18c5bae4d601e 1-191
+.agents/skills/diagram-design/assets/example-uml-class.html
+  s_ad4313f963efd6::t_55dc00c22595ad 1-188
+.agents/skills/diagram-design/assets/example-venn-dark.html
+  s_ad4313f963efd6::t_8372baeeedeb74 1-132
+.agents/skills/diagram-design/assets/example-venn-full.html
+  s_ad4313f963efd6::t_167afb28b5b9f6 1-135
+.agents/skills/diagram-design/assets/example-venn.html
+  s_ad4313f963efd6::t_44ae229fecc185 1-110
+.agents/skills/diagram-design/assets/example-wardley-dark.html
+  s_ad4313f963efd6::t_cc1cbaaa55594f 1-153
+.agents/skills/diagram-design/assets/example-wardley-full.html
+  s_ad4313f963efd6::t_17a24cd76167f3 1-146
+.agents/skills/diagram-design/assets/example-wardley.html
+  s_ad4313f963efd6::t_337fd0795230e9 1-153
+.agents/skills/diagram-design/assets/example-waterfall-dark.html
+  s_ad4313f963efd6::t_24c8f03e5b6dc7 1-129
+.agents/skills/diagram-design/assets/example-waterfall-full.html
+  s_ad4313f963efd6::t_6674cd855873c6 1-106
+.agents/skills/diagram-design/assets/example-waterfall.html
+  s_ad4313f963efd6::t_457c9983af7e7e 1-129
+.agents/skills/diagram-design/assets/icon.svg
+  s_ad4313f963efd6::t_c36938eedd6b0c 1-5
+.agents/skills/diagram-design/assets/icons.html
+  s_ad4313f963efd6::t_389da905348969 1-230
+.agents/skills/diagram-design/assets/index.html
+  s_ad4313f963efd6::t_18f15ae674dffc 1-500
+.agents/skills/diagram-design/assets/template-dark.html
+  s_ad4313f963efd6::t_e9d724ef9fee4d 1-99
+.agents/skills/diagram-design/assets/template-full.html
+  s_ad4313f963efd6::t_3cd7face134805 1-421
+.agents/skills/diagram-design/assets/template-motion.html
+  s_ad4313f963efd6::t_e863612c1fb518 1-448
+.agents/skills/diagram-design/assets/template-terminal.html
+  s_ad4313f963efd6::t_378cf092c14f35 1-188
+.agents/skills/diagram-design/assets/template.html
+  s_ad4313f963efd6::t_24c78b6b05a1eb 1-100
+.agents/skills/diagram-design/references/animation.md
+  s_ad4313f963efd6::t_430a6b0413a747 1-141
+.agents/skills/diagram-design/references/doctor.md
+  s_ad4313f963efd6::t_cdba44cf534ae9 1-127
+.agents/skills/diagram-design/references/export-registry.md
+  s_ad4313f963efd6::t_f165298ec15bc6 1-78
+.agents/skills/diagram-design/references/export.md
+  s_ad4313f963efd6::t_046c93f6ef2ed9 1-182
+.agents/skills/diagram-design/references/import-drawio.md
+  s_ad4313f963efd6::t_9c3c6d4725179f 1-171
+.agents/skills/diagram-design/references/import-excalidraw.md
+  s_ad4313f963efd6::t_7cd93ed52b2527 1-128
+.agents/skills/diagram-design/references/import-mermaid.md
+  s_ad4313f963efd6::t_8d803e951362d4 1-126
+.agents/skills/diagram-design/references/layout-budget.md
+  s_ad4313f963efd6::t_6ceb0be09435d1 1-92
+.agents/skills/diagram-design/references/onboarding.md
+  s_ad4313f963efd6::t_940b42b56fe285 1-344
+.agents/skills/diagram-design/references/output-spec.md
+  s_ad4313f963efd6::t_df6a9e497c4cae 1-275
+.agents/skills/diagram-design/references/primitive-annotation.md
+  s_ad4313f963efd6::t_f3afc52c661050 1-36
+.agents/skills/diagram-design/references/primitive-icons.md
+  s_ad4313f963efd6::t_cb74729e344c6b 1-827
+.agents/skills/diagram-design/references/primitive-sketchy.md
+  s_ad4313f963efd6::t_23306ec6b4b360 1-43
+.agents/skills/diagram-design/references/primitive-terminal.md
+  s_ad4313f963efd6::t_da2ccd5eb02ce5 1-76
+.agents/skills/diagram-design/references/primitives-core.md
+  s_ad4313f963efd6::t_84e085bdda50d4 1-140
+.agents/skills/diagram-design/references/profiles.md
+  s_ad4313f963efd6::t_90bf8eda2dcd2b 1-183
+.agents/skills/diagram-design/references/semantic-patterns.md
+  s_ad4313f963efd6::t_5161921a095567 1-154
+.agents/skills/diagram-design/references/style-guide.md
+  s_ad4313f963efd6::t_82a4b57459c7d7 1-197
+.agents/skills/diagram-design/references/type-architecture-delta.md
+  s_ad4313f963efd6::t_95e7f56558ce01 1-143
+.agents/skills/diagram-design/references/type-architecture.md
+  s_ad4313f963efd6::t_7a54b72cf4ac2d 1-78
+.agents/skills/diagram-design/references/type-bar.md
+  s_ad4313f963efd6::t_750666d5ab0f80 1-106
+.agents/skills/diagram-design/references/type-data-flow.md
+  s_ad4313f963efd6::t_ca059d81d534f8 1-371
+.agents/skills/diagram-design/references/type-db-schema.md
+  s_ad4313f963efd6::t_0a2c950d998d99 1-48
+.agents/skills/diagram-design/references/type-dependency.md
+  s_ad4313f963efd6::t_d8ee69c14f48a2 1-44
+.agents/skills/diagram-design/references/type-deployment.md
+  s_ad4313f963efd6::t_31a44dcb6b6688 1-45
+.agents/skills/diagram-design/references/type-dp-integration.md
+  s_ad4313f963efd6::t_70a19748316fd3 1-407
+.agents/skills/diagram-design/references/type-dp-security-matrix.md
+  s_ad4313f963efd6::t_499f58616d9a16 1-379
+.agents/skills/diagram-design/references/type-er.md
+  s_ad4313f963efd6::t_71c186f68cfd18 1-25
+.agents/skills/diagram-design/references/type-fishbone.md
+  s_ad4313f963efd6::t_bc20cbf7f921ef 1-75
+.agents/skills/diagram-design/references/type-flowchart.md
+  s_ad4313f963efd6::t_18a37549341283 1-23
+.agents/skills/diagram-design/references/type-gantt.md
+  s_ad4313f963efd6::t_774be3611969c4 1-45
+.agents/skills/diagram-design/references/type-heatmap.md
+  s_ad4313f963efd6::t_2c8050320a1cff 1-72
+.agents/skills/diagram-design/references/type-high-level.md
+  s_ad4313f963efd6::t_9e74baedc784a0 1-461
+.agents/skills/diagram-design/references/type-it-state.md
+  s_ad4313f963efd6::t_fa4fe3d84eae86 1-468
+.agents/skills/diagram-design/references/type-journey.md
+  s_ad4313f963efd6::t_6d870baef794bd 1-53
+.agents/skills/diagram-design/references/type-kanban.md
+  s_ad4313f963efd6::t_531becb4218775 1-49
+.agents/skills/diagram-design/references/type-layers.md
+  s_ad4313f963efd6::t_e49fb1f5eb8016 1-26
+.agents/skills/diagram-design/references/type-line.md
+  s_ad4313f963efd6::t_3803e169d206f6 1-336
+.agents/skills/diagram-design/references/type-loop.md
+  s_ad4313f963efd6::t_6132951119c212 1-223
+.agents/skills/diagram-design/references/type-medallion.md
+  s_ad4313f963efd6::t_4aa241403a743b 1-356
+.agents/skills/diagram-design/references/type-nested.md
+  s_ad4313f963efd6::t_a63ac8ab701334 1-22
+.agents/skills/diagram-design/references/type-org-chart.md
+  s_ad4313f963efd6::t_d1199b4d4b8895 1-44
+.agents/skills/diagram-design/references/type-polar.md
+  s_ad4313f963efd6::t_da21f2fa079922 1-136
+.agents/skills/diagram-design/references/type-process.md
+  s_ad4313f963efd6::t_0d3f8f2f7c2929 1-492
+.agents/skills/diagram-design/references/type-pyramid.md
+  s_ad4313f963efd6::t_300aab418ef196 1-33
+.agents/skills/diagram-design/references/type-quadrant.md
+  s_ad4313f963efd6::t_72af00bbe5698c 1-81
+.agents/skills/diagram-design/references/type-radar.md
+  s_ad4313f963efd6::t_2a07152e77d738 1-80
+.agents/skills/diagram-design/references/type-sankey.md
+  s_ad4313f963efd6::t_9bbee154a446be 1-72
+.agents/skills/diagram-design/references/type-scatter.md
+  s_ad4313f963efd6::t_d8820ec3face41 1-197
+.agents/skills/diagram-design/references/type-sequence.md
+  s_ad4313f963efd6::t_b52deb574d2c4a 1-130
+.agents/skills/diagram-design/references/type-state.md
+  s_ad4313f963efd6::t_8f1048c9b8ddbf 1-30
+.agents/skills/diagram-design/references/type-story-map.md
+  s_ad4313f963efd6::t_17045b7fd244e1 1-46
+.agents/skills/diagram-design/references/type-swimlane.md
+  s_ad4313f963efd6::t_19dc82bec87072 1-20
+.agents/skills/diagram-design/references/type-timeline.md
+  s_ad4313f963efd6::t_5581d41783913f 1-20
+.agents/skills/diagram-design/references/type-tree.md
+  s_ad4313f963efd6::t_25e04fc3e9469e 1-24
+.agents/skills/diagram-design/references/type-treemap.md
+  s_ad4313f963efd6::t_2e95e8e8a78aa2 1-128
+.agents/skills/diagram-design/references/type-uml-class.md
+  s_ad4313f963efd6::t_1d4ee8c907ed28 1-65
+.agents/skills/diagram-design/references/type-venn.md
+  s_ad4313f963efd6::t_3fa27e49638592 1-26
+.agents/skills/diagram-design/references/type-wardley.md
+  s_ad4313f963efd6::t_8a4582cd8e5dd6 1-39
+.agents/skills/diagram-design/references/type-waterfall.md
+  s_ad4313f963efd6::t_8a988648116609 1-74
+.agents/skills/diagram-design/scripts/drawio_extract.py
+  s_ad4313f963efd6::t_bf7f3b96db7007 1-897
+.agents/skills/diagram-design/scripts/excalidraw_extract.py
+  s_ad4313f963efd6::t_34690272b64391 1-706
+.agents/skills/diagram-design/scripts/export_svg.py
+  s_ad4313f963efd6::t_743ca536a340a6 1-418
+.agents/skills/diagram-design/scripts/mermaid_extract.py
+  s_ad4313f963efd6::t_fe03f8cbcfc9e6 1-1394
+.agents/skills/diagram-design/scripts/self_check.py
+  s_ad4313f963efd6::t_9900421768e985 1-457
+.agents/skills/doc-coauthoring/AGENTS.md
+  s_ad4313f963efd6::t_1cbf420ef7e022 1-3
+.agents/skills/doc-coauthoring/README-TH.md
+  s_ad4313f963efd6::t_310879ffc3f12b 1-28
+.agents/skills/doc-coauthoring/SKILL.md
+  s_ad4313f963efd6::t_f1f2d369ef64e1 1-356
+.agents/skills/doc-coauthoring/agents/openai.yaml
+  s_ad4313f963efd6::t_ad01db99ae505d 1-17
+.agents/skills/doc-coauthoring/assets/icon.svg
+  s_ad4313f963efd6::t_096777cdcf0847 1-8
+.agents/skills/doc-coauthoring/scripts/install.ps1
+  s_ad4313f963efd6::t_6c51d7868b0fef 1-14
+.agents/skills/doc-coauthoring/scripts/validate.ps1
+  s_ad4313f963efd6::t_d992a9236f88b8 1-17
+.agents/skills/documents/LICENSE.txt
+  s_ad4313f963efd6::t_0ff54076570aa6 1-19
+.agents/skills/documents/SKILL.md
+  s_ad4313f963efd6::t_6e1abe1b938418 1-542
+.agents/skills/documents/agents/openai.yaml
+  s_ad4313f963efd6::t_47c67cd4403df1 1-7
+.agents/skills/documents/container_tools/mark_artifact_operation_started.mjs
+  s_ad4313f963efd6::t_ad3a35a1ab6a71 1-22
+.agents/skills/documents/examples/end_to_end_smoke_test.md
+  s_ad4313f963efd6::t_0f14acf580e491 1-32
+.agents/skills/documents/manifest.txt
+  s_ad4313f963efd6::t_d5b068f82f96b5 1-74
+.agents/skills/documents/ooxml/comments.md
+  s_ad4313f963efd6::t_9a12529df34a13 1-37
+.agents/skills/documents/ooxml/hyperlinks_and_fields.md
+  s_ad4313f963efd6::t_595296d75a304e 1-69
+.agents/skills/documents/ooxml/rels_and_content_types.md
+  s_ad4313f963efd6::t_5ec0d1337f2e85 1-37
+.agents/skills/documents/ooxml/tracked_changes.md
+  s_ad4313f963efd6::t_a6f9f3efe6aed0 1-41
+.agents/skills/documents/references/template-elicitation.md
+  s_ad4313f963efd6::t_f25da781f94185 1-11
+.agents/skills/documents/render_docx.py
+  s_ad4313f963efd6::t_b90078ac0fb209 1-546
+.agents/skills/documents/scripts/a11y_audit.py
+  s_ad4313f963efd6::t_abf7669bd7a91d 1-372
+.agents/skills/documents/scripts/accept_tracked_changes.py
+  s_ad4313f963efd6::t_c69b2f3cca198b 1-180
+.agents/skills/documents/scripts/add_tracked_replacements.py
+  s_ad4313f963efd6::t_83d9e002b2b0eb 1-190
+.agents/skills/documents/scripts/apply_template_styles.py
+  s_ad4313f963efd6::t_00bc0d49e78e75 1-131
+.agents/skills/documents/scripts/captions_and_crossrefs.py
+  s_ad4313f963efd6::t_1b770e9de228ce 1-305
+.agents/skills/documents/scripts/comments_add.py
+  s_ad4313f963efd6::t_6ec36fb608a50f 1-260
+.agents/skills/documents/scripts/comments_apply_patch.py
+  s_ad4313f963efd6::t_232fe80b926ed1 1-156
+.agents/skills/documents/scripts/comments_extract.py
+  s_ad4313f963efd6::t_f74064e7319b20 1-168
+.agents/skills/documents/scripts/comments_strip.py
+  s_ad4313f963efd6::t_b0159366f097f9 1-151
+.agents/skills/documents/scripts/content_controls.py
+  s_ad4313f963efd6::t_06e1a4721fd4fc 1-358
+.agents/skills/documents/scripts/docx_ooxml_patch.py
+  s_ad4313f963efd6::t_9da7a3784dd38d 1-649
+.agents/skills/documents/scripts/docx_table_to_csv.py
+  s_ad4313f963efd6::t_35942cf6c19435 1-72
+.agents/skills/documents/scripts/fields_materialize.py
+  s_ad4313f963efd6::t_f1622628516a44 1-310
+.agents/skills/documents/scripts/fields_report.py
+  s_ad4313f963efd6::t_c5ea1694a3c496 1-182
+.agents/skills/documents/scripts/flatten_ref_fields.py
+  s_ad4313f963efd6::t_53517c0bb0e70f 1-154
+.agents/skills/documents/scripts/footnotes_report.py
+  s_ad4313f963efd6::t_a2977c1797b199 1-99
+.agents/skills/documents/scripts/google_docs_title_sanitize.py
+  s_ad4313f963efd6::t_f6beb404d98cfd 1-310
+.agents/skills/documents/scripts/heading_audit.py
+  s_ad4313f963efd6::t_41fc33009b88b4 1-103
+.agents/skills/documents/scripts/images_audit.py
+  s_ad4313f963efd6::t_1461ca2bfe5628 1-171
+.agents/skills/documents/scripts/insert_note.py
+  s_ad4313f963efd6::t_f36c202b0d5915 1-244
+.agents/skills/documents/scripts/insert_ref_fields.py
+  s_ad4313f963efd6::t_c72b85f9bf05fa 1-239
+.agents/skills/documents/scripts/insert_toc.py
+  s_ad4313f963efd6::t_5d7133319f1411 1-154
+.agents/skills/documents/scripts/internal_nav.py
+  s_ad4313f963efd6::t_f0b5a5f2971505 1-365
+.agents/skills/documents/scripts/make_fixtures.py
+  s_ad4313f963efd6::t_f177e4f1d85a90 1-258
+.agents/skills/documents/scripts/merge_docx_append.py
+  s_ad4313f963efd6::t_c6faf55d4214d4 1-110
+.agents/skills/documents/scripts/privacy_scrub.py
+  s_ad4313f963efd6::t_4bbc97322c6a08 1-176
+.agents/skills/documents/scripts/redact_docx.py
+  s_ad4313f963efd6::t_4fcdbb61e9e234 1-315
+.agents/skills/documents/scripts/render_and_diff.py
+  s_ad4313f963efd6::t_3b4f7fc92473f0 1-166
+.agents/skills/documents/scripts/section_audit.py
+  s_ad4313f963efd6::t_167e1233f0b08b 1-86
+.agents/skills/documents/scripts/set_protection.py
+  s_ad4313f963efd6::t_60fc8e368cc685 1-149
+.agents/skills/documents/scripts/style_lint.py
+  s_ad4313f963efd6::t_9326fc68c77295 1-170
+.agents/skills/documents/scripts/style_normalize.py
+  s_ad4313f963efd6::t_5a658a7b670204 1-187
+.agents/skills/documents/scripts/table_geometry.py
+  s_ad4313f963efd6::t_575b9d4ee670a7 1-270
+.agents/skills/documents/scripts/watermark_add.py
+  s_ad4313f963efd6::t_df92b29c25a701 1-170
+.agents/skills/documents/scripts/watermark_audit_remove.py
+  s_ad4313f963efd6::t_385059421f6596 1-145
+.agents/skills/documents/scripts/xlsx_to_docx_table.py
+  s_ad4313f963efd6::t_dfa2f9555564bd 1-179
+.agents/skills/documents/tasks/accessibility_a11y.md
+  s_ad4313f963efd6::t_6c8ab2e41c950a 1-55
+.agents/skills/documents/tasks/captions_crossrefs.md
+  s_ad4313f963efd6::t_2b496d91badc38 1-97
+.agents/skills/documents/tasks/clean_tracked_changes.md
+  s_ad4313f963efd6::t_a2e27cdfd7d8ff 1-44
+.agents/skills/documents/tasks/comments_manage.md
+  s_ad4313f963efd6::t_3d3ecf0426ed19 1-71
+.agents/skills/documents/tasks/compare_diff.md
+  s_ad4313f963efd6::t_008c9efa619521 1-32
+.agents/skills/documents/tasks/create_edit.md
+  s_ad4313f963efd6::t_d3de550f4c3664 1-47
+.agents/skills/documents/tasks/equations.md
+  s_ad4313f963efd6::t_359867b1352874 1-103
+.agents/skills/documents/tasks/fields_update.md
+  s_ad4313f963efd6::t_1ae7f632046f3f 1-66
+.agents/skills/documents/tasks/fixtures_edge_cases.md
+  s_ad4313f963efd6::t_10ba45a3bc204a 1-42
+.agents/skills/documents/tasks/footnotes_endnotes.md
+  s_ad4313f963efd6::t_6cf5df9b89ed57 1-52
+.agents/skills/documents/tasks/forms_content_controls.md
+  s_ad4313f963efd6::t_b138001f954c67 1-49
+.agents/skills/documents/tasks/headings_numbering.md
+  s_ad4313f963efd6::t_0d1c0d8fd8cf75 1-44
+.agents/skills/documents/tasks/images_figures.md
+  s_ad4313f963efd6::t_567d1c0a468ed4 1-35
+.agents/skills/documents/tasks/multi_doc_merge.md
+  s_ad4313f963efd6::t_27b988d606700b 1-31
+.agents/skills/documents/tasks/navigation_internal_links.md
+  s_ad4313f963efd6::t_4be3065d9289af 1-62
+.agents/skills/documents/tasks/privacy_scrub_metadata.md
+  s_ad4313f963efd6::t_a5d92bacd27a16 1-24
+.agents/skills/documents/tasks/protection_restrict_editing.md
+  s_ad4313f963efd6::t_3c2980ea4efd49 1-36
+.agents/skills/documents/tasks/read_review.md
+  s_ad4313f963efd6::t_2bac37967c124b 1-60
+.agents/skills/documents/tasks/redaction_anonymization.md
+  s_ad4313f963efd6::t_bd7ec66dfd62c5 1-57
+.agents/skills/documents/tasks/sections_layout.md
+  s_ad4313f963efd6::t_2b5b90e866feae 1-62
+.agents/skills/documents/tasks/style_lint_normalize.md
+  s_ad4313f963efd6::t_1f1bab70469925 1-70
+.agents/skills/documents/tasks/tables_spreadsheets.md
+  s_ad4313f963efd6::t_0e20f9bfe0246f 1-36
+.agents/skills/documents/tasks/templates_style_packs.md
+  s_ad4313f963efd6::t_71db942321dba7 1-34
+.agents/skills/documents/tasks/toc_workflow.md
+  s_ad4313f963efd6::t_12f878a668ec6e 1-61
+.agents/skills/documents/tasks/verify_render.md
+  s_ad4313f963efd6::t_2c8659adf24850 1-54
+.agents/skills/documents/tasks/watermarks_background.md
+  s_ad4313f963efd6::t_066240e56fbc28 1-35
+.agents/skills/documents/troubleshooting/libreoffice_headless.md
+  s_ad4313f963efd6::t_4be2d9e7eed3d3 1-42
+.agents/skills/documents/troubleshooting/run_splitting.md
+  s_ad4313f963efd6::t_705d18108260d8 1-15
+.agents/skills/documents/writing_quality.md
+  s_ad4313f963efd6::t_3f6387becb30ae 1-179
+.agents/skills/imagegen/LICENSE.txt
+  s_ad4313f963efd6::t_b9cbf6a14c839e 1-201
+.agents/skills/imagegen/SKILL.md
+  s_ad4313f963efd6::t_7a0b6ca34f4766 1-315
+.agents/skills/imagegen/agents/openai.yaml
+  s_ad4313f963efd6::t_11067fae3e9560 1-6
+.agents/skills/imagegen/assets/imagegen-small.svg
+  s_ad4313f963efd6::t_9d968884211547 1-5
+.agents/skills/imagegen/references/cli.md
+  s_ad4313f963efd6::t_021675b352d62f 1-242
+.agents/skills/imagegen/references/codex-network.md
+  s_ad4313f963efd6::t_2472651110894a 1-33
+.agents/skills/imagegen/references/image-api.md
+  s_ad4313f963efd6::t_c33746956dd14a 1-90
+.agents/skills/imagegen/references/prompting.md
+  s_ad4313f963efd6::t_3633c4bcdd4082 1-112
+.agents/skills/imagegen/references/sample-prompts.md
+  s_ad4313f963efd6::t_ecf1838d1ce978 1-422
+.agents/skills/imagegen/scripts/image_gen.py
+  s_ad4313f963efd6::t_cf73b6e3cbe9ae 1-1030
+.agents/skills/imagegen/scripts/remove_chroma_key.py
+  s_ad4313f963efd6::t_424d00ad9e06f8 1-449
+.agents/skills/matt-skills-curated__skill-conductor/SKILL.md
+  s_ad4313f963efd6::t_ab9f6d7188f933 1-77
+.agents/skills/matt-skills-curated__skill-conductor/agents/openai.yaml
+  s_ad4313f963efd6::t_00355aef7d9170 1-3
+.agents/skills/matt-skills-curated__writing-for-agents/SKILL-MECHANICS.md
+  s_ad4313f963efd6::t_f80c225d722c71 1-22
+.agents/skills/matt-skills-curated__writing-for-agents/SKILL.md
+  s_ad4313f963efd6::t_34bec1eea8aa33 1-77
+.agents/skills/matt-skills-curated__writing-for-agents/agents/openai.yaml
+  s_ad4313f963efd6::t_a0dcf4a07382c5 1-3
+.agents/skills/openai-library__library/SKILL.md
+  s_ad4313f963efd6::t_6fadcd61c0c0db 1-269
+.agents/skills/openai-library__library/references/evidence-and-citations.md
+  s_ad4313f963efd6::t_5922b7d830f310 1-102
+.agents/skills/openai-library__library/references/library-management.md
+  s_ad4313f963efd6::t_d335daffbdbc5a 1-83
+.agents/skills/openai-library__library/references/materialization.md
+  s_ad4313f963efd6::t_eecf95cadf2f83 1-93
+.agents/skills/openai-library__library/references/prepared-uploads.md
+  s_ad4313f963efd6::t_829c85573c0d68 1-105
+.agents/skills/openai-library__library/references/writeback-and-conflicts.md
+  s_ad4313f963efd6::t_68a505f294eaf2 1-93
+.agents/skills/openai-library__library/scripts/library_download.py
+  s_ad4313f963efd6::t_8a9927e4df9a7f 1-622
+.agents/skills/openai-library__library/scripts/library_file_transfer.py
+  s_ad4313f963efd6::t_f7918c53c9b8fe 1-303
+.agents/skills/openai-library__library/scripts/library_hosted_apps.py
+  s_ad4313f963efd6::t_06b3be811e712d 1-340
+.agents/skills/openai-library__library/scripts/library_upload.py
+  s_ad4313f963efd6::t_c86849f7fce833 1-1071
+.agents/skills/operating-pdf-manual-control-plane/SKILL.md
+  s_ad4313f963efd6::t_47df3a7631f880 1-41
+.agents/skills/operating-pdf-manual-control-plane/agents/openai.yaml
+  s_ad4313f963efd6::t_ce2725b9a6403e 1-14
+.agents/skills/operating-pdf-manual-control-plane/assets/icon.svg
+  s_ad4313f963efd6::t_deb19eac299ad0 1-4
+.agents/skills/operating-pdf-manual-control-plane/references/connector-routing.md
+  s_ad4313f963efd6::t_3669fc142fac6e 1-21
+.agents/skills/pdf/SKILL.md
+  s_ad4313f963efd6::t_9f487c8cfe6aa0 1-164
+.agents/skills/pdf/agents/openai.yaml
+  s_ad4313f963efd6::t_1189cae203dc06 1-7
+.agents/skills/pdf/container_tools/mark_artifact_operation_started.mjs
+  s_ad4313f963efd6::t_12d32c06dfb9a2 1-22
+.agents/skills/personal-context/SKILL.md
+  s_ad4313f963efd6::t_5615769e1e6d83 1-10
+.agents/skills/school-safety-vtr-director/SKILL.md
+  s_ad4313f963efd6::t_0d0c08cf70897b 1-60
+.agents/skills/school-safety-vtr-director/agents/openai.yaml
+  s_ad4313f963efd6::t_205408119df6d5 1-15
+.agents/skills/school-safety-vtr-director/assets/vtr-dashboard.html
+  s_ad4313f963efd6::t_92e421c35236a2 1-575
+.agents/skills/school-safety-vtr-director/references/computer-control.md
+  s_ad4313f963efd6::t_d1bd47f22620c9 1-42
+.agents/skills/school-safety-vtr-director/references/dashboard-rules.md
+  s_ad4313f963efd6::t_4b19ec2b3938f5 1-42
+.agents/skills/school-safety-vtr-director/references/drive-source-registry.json
+  s_ad4313f963efd6::t_1c9a9812d9bacc 1-35
+.agents/skills/school-safety-vtr-director/references/editorial-standards.md
+  s_ad4313f963efd6::t_87c97e9734d1d0 1-37
+.agents/skills/school-safety-vtr-director/references/example-vtr-sources.md
+  s_ad4313f963efd6::t_2360e4ba7f9687 1-40
+.agents/skills/school-safety-vtr-director/references/intake-channel.md
+  s_ad4313f963efd6::t_df86898a18f6d2 1-17
+.agents/skills/school-safety-vtr-director/references/intake-response.md
+  s_ad4313f963efd6::t_0213fcce52846e 1-15
+.agents/skills/school-safety-vtr-director/references/media-inventory.json
+  s_ad4313f963efd6::t_5ded97e91c40ef 1-96
+.agents/skills/school-safety-vtr-director/references/project-facts.json
+  s_ad4313f963efd6::t_4adff7458f9d73 1-87
+.agents/skills/school-safety-vtr-director/references/project-schema.md
+  s_ad4313f963efd6::t_325ff7c5618047 1-57
+.agents/skills/school-safety-vtr-director/references/project-state.json
+  s_ad4313f963efd6::t_87c391afea4fa2 1-118
+.agents/skills/school-safety-vtr-director/references/quality-check.md
+  s_ad4313f963efd6::t_aecbbac64ab8cb 1-29
+.agents/skills/school-safety-vtr-director/references/remotion-extension.md
+  s_ad4313f963efd6::t_cd53617fdd8d99 1-13
+.agents/skills/school-safety-vtr-director/references/rubric-evidence-matrix.md
+  s_ad4313f963efd6::t_5748c0fc3f18a4 1-24
+.agents/skills/school-safety-vtr-director/references/rubric-workflow.md
+  s_ad4313f963efd6::t_66b4f3367c2a9e 1-35
+.agents/skills/school-safety-vtr-director/references/source-registry.json
+  s_ad4313f963efd6::t_6f176f549f7371 1-20
+.agents/skills/school-safety-vtr-director/scripts/build_standalone_dashboard.py
+  s_ad4313f963efd6::t_b6d09c4bd181e4 1-67
+.agents/skills/school-safety-vtr-director/scripts/inspect_media.py
+  s_ad4313f963efd6::t_9a2e0841e0f2d3 1-85
+.agents/skills/school-safety-vtr-director/scripts/manage_sources.py
+  s_ad4313f963efd6::t_77a1ca0953aa6e 1-145
+.agents/skills/school-safety-vtr-director/scripts/project_dashboard.py
+  s_ad4313f963efd6::t_5df8ceabb67ba1 1-151
+.agents/skills/school-safety-vtr-director/scripts/render_vtr.py
+  s_ad4313f963efd6::t_4719c0b6bc7d57 1-209
+.agents/skills/school-safety-vtr-director/scripts/serve_dashboard.py
+  s_ad4313f963efd6::t_d32fd8dae2083d 1-40
+.agents/skills/school-safety-vtr-director/scripts/validate_project.py
+  s_ad4313f963efd6::t_5780282a96c9fb 1-98
+.agents/skills/skill-creator/LICENSE.txt
+  s_ad4313f963efd6::t_7e91318266b52e 1-202
+.agents/skills/skill-creator/SKILL.md
+  s_ad4313f963efd6::t_f1b9a394fd7720 1-511
+.agents/skills/skill-creator/agents/openai.yaml
+  s_ad4313f963efd6::t_05e9beb36144fe 1-4
+.agents/skills/skill-creator/references/openai_yaml.md
+  s_ad4313f963efd6::t_4061c0a9829914 1-49
+.agents/skills/skill-creator/scripts/generate_openai_yaml.py
+  s_ad4313f963efd6::t_9437422cce041b 1-225
+.agents/skills/skill-creator/scripts/init_skill.py
+  s_ad4313f963efd6::t_ae7fb7930135e0 1-400
+.agents/skills/skill-creator/scripts/quick_validate.py
+  s_ad4313f963efd6::t_893439d79521e2 1-103
+.agents/skills/skill-submission-pack-writer__write-skill-submission-pack/SKILL.md
+  s_ad4313f963efd6::t_e890b1268e91f5 1-86
+.agents/skills/skill-submission-pack-writer__write-skill-submission-pack/agents/openai.yaml
+  s_ad4313f963efd6::t_47477ff66d8fca 1-4
+.agents/skills/skill-submission-pack-writer__write-skill-submission-pack/assets/submission-pack-template.md
+  s_ad4313f963efd6::t_a2620265805a2b 1-80
+.agents/skills/skill-submission-pack-writer__write-skill-submission-pack/references/submission-fields.md
+  s_ad4313f963efd6::t_8b2d6244895d94 1-128
+.agents/skills/skill-submission-pack-writer__write-skill-submission-pack/scripts/validate_submission_pack.py
+  s_ad4313f963efd6::t_5c477e72a7a25d 1-175
+.agents/skills/superpowers__test-driven-development/SKILL.md
+  s_ad4313f963efd6::t_a4b24d048fe2a3 1-330
+.agents/skills/superpowers__test-driven-development/agents/openai.yaml
+  s_ad4313f963efd6::t_f4ff8969582a29 1-3
+.agents/skills/superpowers__test-driven-development/writing-good-tests.md
+  s_ad4313f963efd6::t_252456422cf427 1-198
+.agents/skills/superpowers__writing-skills/SKILL.md
+  s_ad4313f963efd6::t_8be54803d22591 1-681
+.agents/skills/superpowers__writing-skills/agents/openai.yaml
+  s_ad4313f963efd6::t_959f50707c542c 1-3
+.agents/skills/superpowers__writing-skills/anthropic-best-practices.md
+  s_ad4313f963efd6::t_f903c1bb84340f 1-1150
+.agents/skills/superpowers__writing-skills/examples/CLAUDE_MD_TESTING.md
+  s_ad4313f963efd6::t_d8c823b60b0602 1-189
+.agents/skills/superpowers__writing-skills/graphviz-conventions.dot
+  s_ad4313f963efd6::t_837fbc976e49f6 1-172
+.agents/skills/superpowers__writing-skills/persuasion-principles.md
+  s_ad4313f963efd6::t_c1e0f57177c4a9 1-187
+.agents/skills/superpowers__writing-skills/render-graphs.js
+  s_ad4313f963efd6::t_7b1da62f0d3440 1-169
+.agents/skills/superpowers__writing-skills/testing-skills-with-subagents.md
+  s_ad4313f963efd6::t_249549a1dc01ff 1-384
+.agents/skills/template-creator__template-creator/SKILL.md
+  s_ad4313f963efd6::t_133832c16dc2a0 1-231
+.agents/skills/template-creator__template-creator/agents/openai.yaml
+  s_ad4313f963efd6::t_6d2036b45cae41 1-6
+.agents/skills/template-creator__template-creator/host/export-google-workspace-file.mjs
+  s_ad4313f963efd6::t_da423286e52418 1-352
+.agents/skills/template-creator__template-creator/host/google-workspace-export-stdin-receiver.mjs
+  s_ad4313f963efd6::t_e85801823d5693 1-180
+.agents/skills/template-creator__template-creator/scripts/create-template-skill.mjs
+  s_ad4313f963efd6::t_fe7046d0c51a8d 1-1231
+.agents/skills/template-creator__template-creator/scripts/package-template-skill.py
+  s_ad4313f963efd6::t_197a8204ac9638 1-120
+.agents/skills/template-creator__template-creator/scripts/tests/test_package_template_skill.py
+  s_ad4313f963efd6::t_002ca9c1c221a8 1-370
+.agents/skills/toffy-presentation-dna/SKILL.md
+  s_ad4313f963efd6::t_5a37e9cce6dd08 1-69
+.agents/skills/toffy-presentation-dna/agents/openai.yaml
+  s_ad4313f963efd6::t_6fc659fc8abcf6 1-14
+.agents/skills/toffy-presentation-dna/assets/icon.svg
+  s_ad4313f963efd6::t_8b0ec7a963f9f5 1-5
+.agents/skills/toffy-presentation-dna/references/learning-loop.md
+  s_ad4313f963efd6::t_cfab33c388abd1 1-20
+.agents/skills/toffy-presentation-dna/references/magic-layers-qc.md
+  s_ad4313f963efd6::t_4eea1f82a723cc 1-46
+.agents/skills/toffy-presentation-dna/references/narration-handoff.md
+  s_ad4313f963efd6::t_4afe125fb1e029 1-20
+.agents/skills/toffy-presentation-dna/references/style-profile-banwai-pa-2569.json
+  s_ad4313f963efd6::t_6f5454f7ea17e0 1-60
+.agents/skills/toffy-skill-engineering-standard/SKILL.md
+  s_ad4313f963efd6::t_fa8d748932a5b3 1-38
+.agents/skills/toffy-skill-engineering-standard/agents/openai.yaml
+  s_ad4313f963efd6::t_f5ebd35fc18e7e 1-14
+.agents/skills/toffy-skill-engineering-standard/assets/icon.svg
+  s_ad4313f963efd6::t_30cc2cfa674432 1-6
+.agents/skills/toffy-skill-engineering-standard/references/learning-record.md
+  s_ad4313f963efd6::t_14801e1734f10f 1-25
+.agents/skills/toffy-system-orchestrator/SKILL.md
+  s_ad4313f963efd6::t_9036baa90ccc15 1-56
+.agents/skills/toffy-system-orchestrator/agents/openai.yaml
+  s_ad4313f963efd6::t_65cc0de63d69ef 1-14
+.agents/skills/toffy-system-orchestrator/assets/icon.svg
+  s_ad4313f963efd6::t_d447708d2909f4 1-5
+.agents/skills/toffy-system-orchestrator/references/contracts.md
+  s_ad4313f963efd6::t_157ed898637905 1-41
+.agents/skills/toffy-system-orchestrator/references/learning.md
+  s_ad4313f963efd6::t_b1abbf640821ab 1-9
+.agents/skills/villagesql__vsql-extension-builder/README.md
+  s_ad4313f963efd6::t_64f8d1448db6a4 1-67
+.agents/skills/villagesql__vsql-extension-builder/SKILL.md
+  s_ad4313f963efd6::t_6b4fcffbdb5084 1-829
+.agents/skills/villagesql__vsql-extension-builder/references/capabilities.md
+  s_ad4313f963efd6::t_489dd457c1c8bc 1-90
+.agents/skills/villagesql__vsql-extension-builder/references/context-hygiene.md
+  s_ad4313f963efd6::t_fea6aed5027914 1-53
+.agents/skills/villagesql__vsql-extension-builder/references/cto-checklist.md
+  s_ad4313f963efd6::t_f16ce412607d10 1-87
+.agents/skills/villagesql__vsql-extension-builder/references/environment.md
+  s_ad4313f963efd6::t_e18345f326c4c3 1-156
+.agents/skills/villagesql__vsql-extension-builder/references/patterns.md
+  s_ad4313f963efd6::t_c2bdfb9881c7db 1-161
+.agents/skills/villagesql__vsql-extension-builder/references/pg-port-guide.md
+  s_ad4313f963efd6::t_c098225989dbac 1-235
+.agents/skills/villagesql__vsql-extension-builder/references/philosophy.md
+  s_ad4313f963efd6::t_e81b98dd907971 1-77
+.agents/skills/villagesql__vsql-extension-builder/references/rust-workflow.md
+  s_ad4313f963efd6::t_fa6fadcfcfedda 1-253
+.agents/skills/vtr-skill-studio/SKILL.md
+  s_ad4313f963efd6::t_b7ee2f2ed6ba67 1-63
+.agents/skills/vtr-skill-studio/agents/openai.yaml
+  s_ad4313f963efd6::t_4541f488d60767 1-16
+.agents/skills/vtr-skill-studio/references/automatic-source-intake.md
+  s_ad4313f963efd6::t_e2498d760869bf 1-36
+.agents/skills/vtr-skill-studio/references/capability-matrix.md
+  s_ad4313f963efd6::t_ae3c10e9eb97cd 1-24
+.agents/skills/vtr-skill-studio/references/project-instructions-template.md
+  s_ad4313f963efd6::t_b453267a0a5cbd 1-18
+.agents/skills/vtr-skill-studio/references/school-safety-profile.md
+  s_ad4313f963efd6::t_781c9e84526296 1-29
+.agents/skills/vtr-skill-studio/references/studio-defaults.md
+  s_ad4313f963efd6::t_9f53b46ce54ac7 1-26
+.agents/skills/vtr-skill-studio/references/studio-quality-gates.md
+  s_ad4313f963efd6::t_65b963108d8c0f 1-30
+.agents/skills/vtr-skill-studio/references/topic-profile-template.md
+  s_ad4313f963efd6::t_6bf7f118cba780 1-35
+.agents/skills/vtr-skill-studio/references/zero-command-operation.md
+  s_ad4313f963efd6::t_0fc3f683506b72 1-56
+.gitattributes
+  s_ad4313f963efd6::t_069ea8e00a26b4 1-3
+.gitignore
+  s_319f5f7948cb73::t_866957ee5993a7 1-6
+CLOUD_BINDING_PLAN.md
+  s_ad4313f963efd6::t_113d553f1b2812 1-13
+README.md
+  s_ad4313f963efd6::t_c386c985d6e32c 1-24
+SHA256SUMS.txt
+  s_ad4313f963efd6::t_6b1e4130163f18 1-1134
+SOURCE_INDEX.json
+  s_ad4313f963efd6::t_906a817ef52571 1-4704
+plugins/other-chat-skills/plugin.json
+  s_ad4313f963efd6::t_5005516b9566ed 1-6
+plugins/other-chat-skills/skills/Presentations/SKILL.md
+  s_ad4313f963efd6::t_8c5d10da72f353 1-245
+plugins/other-chat-skills/skills/Presentations/agents/openai.yaml
+  s_ad4313f963efd6::t_1321d2bc7f60b9 1-7
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/API_QUICK_START.md
+  s_ad4313f963efd6::t_c0012820ee514e 1-77
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/API_DOCS.md
+  s_ad4313f963efd6::t_3dba0d209c1f22 1-247
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/auto-layout.spec.md
+  s_ad4313f963efd6::t_9eebc7f399d837 1-100
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/charts.spec.md
+  s_ad4313f963efd6::t_494b197611abb8 1-270
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/comments.md
+  s_ad4313f963efd6::t_169c74c3f28517 1-103
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/connectors.md
+  s_ad4313f963efd6::t_3cf4d847bc10e6 1-206
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/cookbook/imported-deck.md
+  s_ad4313f963efd6::t_6382fd4eb34416 1-181
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/cookbook/layout.md
+  s_ad4313f963efd6::t_44746b761716cf 1-419
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/fill.spec.md
+  s_ad4313f963efd6::t_fdacc17e86c0a1 1-186
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/help.md
+  s_ad4313f963efd6::t_beeaa497a797c8 1-223
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/images.spec.md
+  s_ad4313f963efd6::t_75a718773f519f 1-248
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/inspect.md
+  s_ad4313f963efd6::t_8381c744cf47f8 1-176
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/jsx.md
+  s_ad4313f963efd6::t_dcb27da7b25746 1-231
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/layout.spec.md
+  s_ad4313f963efd6::t_1b188d251aac78 1-98
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/master.spec.md
+  s_ad4313f963efd6::t_daeb6a55b6f06b 1-57
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/presentation.spec.md
+  s_ad4313f963efd6::t_ab42441d3942fe 1-213
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/rich-text.spec.md
+  s_ad4313f963efd6::t_d9cc5f148a8f1d 1-253
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/shapes.spec.md
+  s_ad4313f963efd6::t_e599ae24d8fafd 1-239
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/slide.spec.md
+  s_ad4313f963efd6::t_3874c495569a07 1-187
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/speaker-notes.spec.md
+  s_ad4313f963efd6::t_c80be4d219fecc 1-49
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/styles.spec.md
+  s_ad4313f963efd6::t_8ff864d8f13289 1-85
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/tables.spec.md
+  s_ad4313f963efd6::t_f98f6ee82fca8f 1-187
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/theme.spec.md
+  s_ad4313f963efd6::t_d3a280ce746cc8 1-85
+plugins/other-chat-skills/skills/Presentations/artifact_tool_docs/api/references/tokens.md
+  s_ad4313f963efd6::t_276f86dc38f1f0 1-447
+plugins/other-chat-skills/skills/Presentations/container_tools/artifact_tool_utils.mjs
+  s_ad4313f963efd6::t_73191b8965a76e 1-1077
+plugins/other-chat-skills/skills/Presentations/container_tools/create_montage.py
+  s_ad4313f963efd6::t_7a88afec38f635 1-300
+plugins/other-chat-skills/skills/Presentations/container_tools/ensure_raster_image.py
+  s_ad4313f963efd6::t_2b28dafe64a40f 1-224
+plugins/other-chat-skills/skills/Presentations/container_tools/inspect_presentation_layout_geometry.py
+  s_ad4313f963efd6::t_0d0fb8eeeb9fe1 1-2659
+plugins/other-chat-skills/skills/Presentations/container_tools/inspect_presentation_package_integrity.py
+  s_ad4313f963efd6::t_4f5a1fafcd431c 1-710
+plugins/other-chat-skills/skills/Presentations/container_tools/mark_artifact_operation_started.mjs
+  s_ad4313f963efd6::t_bc4d79839d9c40 1-22
+plugins/other-chat-skills/skills/Presentations/container_tools/materialize_literal_chart_workbooks.py
+  s_ad4313f963efd6::t_e1e77dba172e62 1-849
+plugins/other-chat-skills/skills/Presentations/container_tools/native_chart_title_gate.py
+  s_ad4313f963efd6::t_1196ce362e2c17 1-143
+plugins/other-chat-skills/skills/Presentations/container_tools/native_quantitative_chart_gate.py
+  s_ad4313f963efd6::t_875e5777251291 1-1086
+plugins/other-chat-skills/skills/Presentations/container_tools/native_table_arithmetic_gate.py
+  s_ad4313f963efd6::t_061f524012e5e7 1-519
+plugins/other-chat-skills/skills/Presentations/container_tools/rasterize_svg.mjs
+  s_ad4313f963efd6::t_86aa0f679cb4cb 1-51
+plugins/other-chat-skills/skills/Presentations/container_tools/render_presentation.mjs
+  s_ad4313f963efd6::t_a86a0665ddf31f 1-97
+plugins/other-chat-skills/skills/Presentations/container_tools/render_slides.py
+  s_ad4313f963efd6::t_99a8602fad448e 1-250
+plugins/other-chat-skills/skills/Presentations/container_tools/runtime_helpers.mjs
+  s_ad4313f963efd6::t_6372fdd28ad803 1-49
+plugins/other-chat-skills/skills/Presentations/container_tools/runtime_helpers.py
+  s_ad4313f963efd6::t_ed33fea247f48c 1-87
+plugins/other-chat-skills/skills/Presentations/container_tools/slides_test.py
+  s_ad4313f963efd6::t_d42ad6a67e071c 1-200
+plugins/other-chat-skills/skills/Presentations/container_tools/template_source_fidelity_gate.py
+  s_ad4313f963efd6::t_842b787e44cede 1-532
+plugins/other-chat-skills/skills/Presentations/domain_guidance/finance.md
+  s_ad4313f963efd6::t_9c7fa55337842c 1-12
+plugins/other-chat-skills/skills/Presentations/references/cover_art_direction.md
+  s_ad4313f963efd6::t_793246c80fce17 1-11
+plugins/other-chat-skills/skills/Presentations/references/finalization.md
+  s_ad4313f963efd6::t_0b4e2a2ea270c4 1-68
+plugins/other-chat-skills/skills/Presentations/references/implementation.md
+  s_ad4313f963efd6::t_b7e5a6d37db20b 1-50
+plugins/other-chat-skills/skills/Presentations/references/native_bullets.md
+  s_ad4313f963efd6::t_20be0748366759 1-23
+plugins/other-chat-skills/skills/Presentations/references/native_evidence.md
+  s_ad4313f963efd6::t_f98260d35db673 1-19
+plugins/other-chat-skills/skills/Presentations/references/template-elicitation.md
+  s_ad4313f963efd6::t_905b7058d13419 1-11
+plugins/other-chat-skills/skills/Presentations/references/template_following.md
+  s_ad4313f963efd6::t_75270b5d678a89 1-23
+plugins/other-chat-skills/skills/Presentations/routing/google_slides.md
+  s_ad4313f963efd6::t_46333815897767 1-15
+plugins/other-chat-skills/skills/Presentations/style_guidelines.md
+  s_ad4313f963efd6::t_9e85cd4542490f 1-20
+plugins/other-chat-skills/skills/Presentations/template_following_scripts/check_template_fidelity.mjs
+  s_ad4313f963efd6::t_61ad4c0ef01a71 1-502
+plugins/other-chat-skills/skills/Presentations/template_following_scripts/inspect_template_deck.mjs
+  s_ad4313f963efd6::t_959de0642700fd 1-244
+plugins/other-chat-skills/skills/Presentations/template_following_scripts/make_contact_sheet.py
+  s_ad4313f963efd6::t_d773e5326450c0 1-58
+plugins/other-chat-skills/skills/Presentations/template_following_scripts/prepare_template_starter_deck.mjs
+  s_ad4313f963efd6::t_e2146d28b0cd1f 1-292
+plugins/other-chat-skills/skills/Presentations/template_following_scripts/validate_template_plan.mjs
+  s_ad4313f963efd6::t_d69165921e85da 1-549
+plugins/other-chat-skills/skills/Spreadsheets/SKILL.md
+  s_ad4313f963efd6::t_1eb74855376c77 1-462
+plugins/other-chat-skills/skills/Spreadsheets/agents/openai.yaml
+  s_ad4313f963efd6::t_6845d0969b7a73 1-7
+plugins/other-chat-skills/skills/Spreadsheets/artifact_tool_docs/API_QUICK_START.md
+  s_ad4313f963efd6::t_a575737623241a 1-444
+plugins/other-chat-skills/skills/Spreadsheets/artifact_tool_docs/DATA_TABLES.md
+  s_ad4313f963efd6::t_f54b99521bcab1 1-63
+plugins/other-chat-skills/skills/Spreadsheets/artifact_tool_docs/SPARKLINES.md
+  s_ad4313f963efd6::t_9805c83d70749b 1-56
+plugins/other-chat-skills/skills/Spreadsheets/container_tools/mark_artifact_operation_started.mjs
+  s_ad4313f963efd6::t_16198059f212d1 1-22
+plugins/other-chat-skills/skills/Spreadsheets/domain_guidance/financial_models.md
+  s_ad4313f963efd6::t_627cbcb29ac029 1-58
+plugins/other-chat-skills/skills/Spreadsheets/domain_guidance/healthcare.md
+  s_ad4313f963efd6::t_99a98ccc3dba96 1-41
+plugins/other-chat-skills/skills/Spreadsheets/domain_guidance/marketing_advertising.md
+  s_ad4313f963efd6::t_c5a791efdcc804 1-37
+plugins/other-chat-skills/skills/Spreadsheets/domain_guidance/scientific_research.md
+  s_ad4313f963efd6::t_9bc795c70d49ba 1-30
+plugins/other-chat-skills/skills/Spreadsheets/features/charts.md
+  s_ad4313f963efd6::t_ad29c372b22967 1-48
+plugins/other-chat-skills/skills/Spreadsheets/references/image-references.md
+  s_ad4313f963efd6::t_5394fe1a556489 1-4
+plugins/other-chat-skills/skills/Spreadsheets/references/read_only_qna.md
+  s_ad4313f963efd6::t_421b1af5b21194 1-7
+plugins/other-chat-skills/skills/Spreadsheets/references/template-elicitation.md
+  s_ad4313f963efd6::t_2a0bcb1cb6752e 1-11
+plugins/other-chat-skills/skills/Spreadsheets/routing/google_sheets.md
+  s_ad4313f963efd6::t_c526c66c59d222 1-14
+plugins/other-chat-skills/skills/Spreadsheets/style_guidelines.md
+  s_ad4313f963efd6::t_afdf1a67402b79 1-62
+plugins/other-chat-skills/skills/Spreadsheets/workflows/create_workflows.md
+  s_ad4313f963efd6::t_e47981a132280b 1-12
+plugins/other-chat-skills/skills/Spreadsheets/workflows/edit_workflows.md
+  s_ad4313f963efd6::t_6d114a875f1fcd 1-24
+plugins/other-chat-skills/skills/browser-control/SKILL.md
+  s_ad4313f963efd6::t_1c83bcc8681e83 1-36
+plugins/other-chat-skills/skills/browser-control/agents/openai.yaml
+  s_ad4313f963efd6::t_fe4502b07b13ba 1-14
+plugins/other-chat-skills/skills/browser-control/assets/icon.svg
+  s_ad4313f963efd6::t_82c0c8a0c40ecd 1-8
+plugins/other-chat-skills/skills/computer-control/SKILL.md
+  s_ad4313f963efd6::t_8a54bbe9de0d61 1-35
+plugins/other-chat-skills/skills/computer-control/agents/openai.yaml
+  s_ad4313f963efd6::t_f82794a3213ade 1-14
+plugins/other-chat-skills/skills/computer-control/assets/icon.svg
+  s_ad4313f963efd6::t_ef6308bb117e90 1-8
+plugins/other-chat-skills/skills/designing-pdf-manuals/README.md
+  s_ad4313f963efd6::t_6e78a64445764e 1-52
+plugins/other-chat-skills/skills/designing-pdf-manuals/SKILL.md
+  s_ad4313f963efd6::t_4bab1722a4d49e 1-51
+plugins/other-chat-skills/skills/designing-pdf-manuals/agents/openai.yaml
+  s_ad4313f963efd6::t_0793fac0526a70 1-14
+plugins/other-chat-skills/skills/designing-pdf-manuals/assets/icon.svg
+  s_ad4313f963efd6::t_221016dedf4f3a 1-4
+plugins/other-chat-skills/skills/designing-pdf-manuals/examples/visual-style-blueprint.md
+  s_ad4313f963efd6::t_859d47e4c41c9b 1-37
+plugins/other-chat-skills/skills/designing-pdf-manuals/plugin-ready/README.md
+  s_ad4313f963efd6::t_974d2467b3f94e 1-23
+plugins/other-chat-skills/skills/designing-pdf-manuals/plugin-ready/tool-contracts.yaml
+  s_ad4313f963efd6::t_72a9c38a09713d 1-35
+plugins/other-chat-skills/skills/designing-pdf-manuals/references/architecture.md
+  s_ad4313f963efd6::t_ccebbbc8989136 1-64
+plugins/other-chat-skills/skills/designing-pdf-manuals/references/design-system.md
+  s_ad4313f963efd6::t_ee8c2acf090a68 1-86
+plugins/other-chat-skills/skills/designing-pdf-manuals/references/qa-checklist.md
+  s_ad4313f963efd6::t_98d1d3db84b5e6 1-70
+plugins/other-chat-skills/skills/designing-pdf-manuals/references/tool-routing.md
+  s_ad4313f963efd6::t_b2b6d7dbc96996 1-41
+plugins/other-chat-skills/skills/designing-pdf-manuals/scripts/validate_skill.py
+  s_ad4313f963efd6::t_4674f416eeb73e 1-82
+plugins/other-chat-skills/skills/designing-pdf-manuals/templates/page-map.md
+  s_ad4313f963efd6::t_d971b1381deb32 1-19
+plugins/other-chat-skills/skills/designing-pdf-manuals/templates/project-brief.md
+  s_ad4313f963efd6::t_8cf676ad1f018b 1-52
+plugins/other-chat-skills/skills/designing-pdf-manuals/templates/revision-log.md
+  s_ad4313f963efd6::t_ea9c52a4ab9a76 1-19
+plugins/other-chat-skills/skills/designing-pdf-manuals/tests/baseline-scenarios.md
+  s_ad4313f963efd6::t_af88efb9271efc 1-18
+plugins/other-chat-skills/skills/designing-pdf-manuals/tests/test_skill_contract.py
+  s_ad4313f963efd6::t_a34c01e012c7e4 1-78
+plugins/other-chat-skills/skills/designing-pdf-manuals/tests/test_validator.py
+  s_ad4313f963efd6::t_b518f6a41f191f 1-31
+plugins/other-chat-skills/skills/diagram-design/SKILL.md
+  s_ad4313f963efd6::t_5d19c6d3aaeaf3 1-389
+plugins/other-chat-skills/skills/diagram-design/agents/openai.yaml
+  s_ad4313f963efd6::t_8c3faba5a22c0c 1-21
+plugins/other-chat-skills/skills/diagram-design/assets/example-architecture-dark.html
+  s_ad4313f963efd6::t_bc5b7ec3eeed4f 1-182
+plugins/other-chat-skills/skills/diagram-design/assets/example-architecture-delta-dark.html
+  s_ad4313f963efd6::t_60faac4e8077f8 1-193
+plugins/other-chat-skills/skills/diagram-design/assets/example-architecture-delta-full.html
+  s_ad4313f963efd6::t_d2095880cf3a52 1-210
+plugins/other-chat-skills/skills/diagram-design/assets/example-architecture-delta.html
+  s_ad4313f963efd6::t_0bcd73ae96bef5 1-193
+plugins/other-chat-skills/skills/diagram-design/assets/example-architecture-full.html
+  s_ad4313f963efd6::t_d1793161be588b 1-194
+plugins/other-chat-skills/skills/diagram-design/assets/example-architecture.html
+  s_ad4313f963efd6::t_b0a9cb6053c852 1-183
+plugins/other-chat-skills/skills/diagram-design/assets/example-bar-dark.html
+  s_ad4313f963efd6::t_76b4e97b623491 1-129
+plugins/other-chat-skills/skills/diagram-design/assets/example-bar-full.html
+  s_ad4313f963efd6::t_7b80a73c1d5329 1-105
+plugins/other-chat-skills/skills/diagram-design/assets/example-bar.html
+  s_ad4313f963efd6::t_95f4321de519e0 1-129
+plugins/other-chat-skills/skills/diagram-design/assets/example-beeswarm-dark.html
+  s_ad4313f963efd6::t_a852e3817d33e5 1-384
+plugins/other-chat-skills/skills/diagram-design/assets/example-beeswarm-full.html
+  s_ad4313f963efd6::t_f48b6fce16b16d 1-416
+plugins/other-chat-skills/skills/diagram-design/assets/example-beeswarm.html
+  s_ad4313f963efd6::t_b3d0433527dfea 1-384
+plugins/other-chat-skills/skills/diagram-design/assets/example-bubble-dark.html
+  s_ad4313f963efd6::t_a4d2b9269da271 1-147
+plugins/other-chat-skills/skills/diagram-design/assets/example-bubble-full.html
+  s_ad4313f963efd6::t_6fe38117ca98a0 1-177
+plugins/other-chat-skills/skills/diagram-design/assets/example-bubble.html
+  s_ad4313f963efd6::t_94c4ea838abedc 1-147
+plugins/other-chat-skills/skills/diagram-design/assets/example-bump-dark.html
+  s_ad4313f963efd6::t_b0cea679bbc012 1-142
+plugins/other-chat-skills/skills/diagram-design/assets/example-bump-full.html
+  s_ad4313f963efd6::t_218e51553145d3 1-172
+plugins/other-chat-skills/skills/diagram-design/assets/example-bump.html
+  s_ad4313f963efd6::t_e5b6420ba9ebb7 1-142
+plugins/other-chat-skills/skills/diagram-design/assets/example-data-flow-dark.html
+  s_ad4313f963efd6::t_dba295990a1c0e 1-143
+plugins/other-chat-skills/skills/diagram-design/assets/example-data-flow-full.html
+  s_ad4313f963efd6::t_14e8652a861a45 1-185
+plugins/other-chat-skills/skills/diagram-design/assets/example-data-flow.html
+  s_ad4313f963efd6::t_9578ace09eeec2 1-143
+plugins/other-chat-skills/skills/diagram-design/assets/example-datalake-dark.html
+  s_ad4313f963efd6::t_e980a16b295fe4 1-243
+plugins/other-chat-skills/skills/diagram-design/assets/example-datalake-full.html
+  s_ad4313f963efd6::t_62bcc6dca96f70 1-248
+plugins/other-chat-skills/skills/diagram-design/assets/example-datalake.html
+  s_ad4313f963efd6::t_ead4fb161cda5a 1-269
+plugins/other-chat-skills/skills/diagram-design/assets/example-db-schema-dark.html
+  s_ad4313f963efd6::t_35a2e7389cc0d9 1-302
+plugins/other-chat-skills/skills/diagram-design/assets/example-db-schema-full.html
+  s_ad4313f963efd6::t_cb33a401fcc705 1-305
+plugins/other-chat-skills/skills/diagram-design/assets/example-db-schema.html
+  s_ad4313f963efd6::t_26a43663cd0db4 1-302
+plugins/other-chat-skills/skills/diagram-design/assets/example-dependency-dark.html
+  s_ad4313f963efd6::t_a85335b4360331 1-224
+plugins/other-chat-skills/skills/diagram-design/assets/example-dependency-full.html
+  s_ad4313f963efd6::t_8f6ea30a6d4e78 1-227
+plugins/other-chat-skills/skills/diagram-design/assets/example-dependency.html
+  s_ad4313f963efd6::t_60cf8a1cfd3aec 1-224
+plugins/other-chat-skills/skills/diagram-design/assets/example-deployment-dark.html
+  s_ad4313f963efd6::t_b9b9d86354138c 1-190
+plugins/other-chat-skills/skills/diagram-design/assets/example-deployment-full.html
+  s_ad4313f963efd6::t_2a2fd73b74e0b9 1-202
+plugins/other-chat-skills/skills/diagram-design/assets/example-deployment.html
+  s_ad4313f963efd6::t_8dd1955aafe423 1-190
+plugins/other-chat-skills/skills/diagram-design/assets/example-dp-integration-dark.html
+  s_ad4313f963efd6::t_838a9074f4369e 1-80
+plugins/other-chat-skills/skills/diagram-design/assets/example-dp-integration-full.html
+  s_ad4313f963efd6::t_160a47ee7b7172 1-90
+plugins/other-chat-skills/skills/diagram-design/assets/example-dp-integration.html
+  s_ad4313f963efd6::t_fd2a954c1d130d 1-80
+plugins/other-chat-skills/skills/diagram-design/assets/example-dp-security-matrix-dark.html
+  s_ad4313f963efd6::t_0454993084bf45 1-31
+plugins/other-chat-skills/skills/diagram-design/assets/example-dp-security-matrix-full.html
+  s_ad4313f963efd6::t_d65b568126e108 1-32
+plugins/other-chat-skills/skills/diagram-design/assets/example-dp-security-matrix.html
+  s_ad4313f963efd6::t_f89110b4970bd8 1-88
+plugins/other-chat-skills/skills/diagram-design/assets/example-er-dark.html
+  s_ad4313f963efd6::t_baa02071eef690 1-202
+plugins/other-chat-skills/skills/diagram-design/assets/example-er-full.html
+  s_ad4313f963efd6::t_67e4f74c93ab39 1-205
+plugins/other-chat-skills/skills/diagram-design/assets/example-er.html
+  s_ad4313f963efd6::t_6efacc3c8f9c38 1-202
+plugins/other-chat-skills/skills/diagram-design/assets/example-fishbone-dark.html
+  s_ad4313f963efd6::t_07c9afe32fb21f 1-152
+plugins/other-chat-skills/skills/diagram-design/assets/example-fishbone-full.html
+  s_ad4313f963efd6::t_629023a551c5e0 1-146
+plugins/other-chat-skills/skills/diagram-design/assets/example-fishbone.html
+  s_ad4313f963efd6::t_14b31d1b9141ef 1-152
+plugins/other-chat-skills/skills/diagram-design/assets/example-flowchart-dark.html
+  s_ad4313f963efd6::t_13716451875668 1-156
+plugins/other-chat-skills/skills/diagram-design/assets/example-flowchart-full.html
+  s_ad4313f963efd6::t_fa7a222da47399 1-159
+plugins/other-chat-skills/skills/diagram-design/assets/example-flowchart.html
+  s_ad4313f963efd6::t_0ab25cd8533ce0 1-156
+plugins/other-chat-skills/skills/diagram-design/assets/example-gantt-dark.html
+  s_ad4313f963efd6::t_471ae6bd41b020 1-137
+plugins/other-chat-skills/skills/diagram-design/assets/example-gantt-full.html
+  s_ad4313f963efd6::t_0ec907c544cdd1 1-127
+plugins/other-chat-skills/skills/diagram-design/assets/example-gantt.html
+  s_ad4313f963efd6::t_0462dd008294df 1-137
+plugins/other-chat-skills/skills/diagram-design/assets/example-heatmap-dark.html
+  s_ad4313f963efd6::t_723ae0d89ee28f 1-224
+plugins/other-chat-skills/skills/diagram-design/assets/example-heatmap-full.html
+  s_ad4313f963efd6::t_9ad3a55384f794 1-270
+plugins/other-chat-skills/skills/diagram-design/assets/example-heatmap.html
+  s_ad4313f963efd6::t_cb6cd1becb5fbf 1-224
+plugins/other-chat-skills/skills/diagram-design/assets/example-high-level-dark.html
+  s_ad4313f963efd6::t_705110afc60617 1-251
+plugins/other-chat-skills/skills/diagram-design/assets/example-high-level-full.html
+  s_ad4313f963efd6::t_e48819216acea0 1-247
+plugins/other-chat-skills/skills/diagram-design/assets/example-high-level-vertical-dark.html
+  s_ad4313f963efd6::t_71f149c2f9057c 1-274
+plugins/other-chat-skills/skills/diagram-design/assets/example-high-level-vertical-full.html
+  s_ad4313f963efd6::t_8e05464c258591 1-252
+plugins/other-chat-skills/skills/diagram-design/assets/example-high-level-vertical.html
+  s_ad4313f963efd6::t_dc7025d9b5979a 1-325
+plugins/other-chat-skills/skills/diagram-design/assets/example-high-level.html
+  s_ad4313f963efd6::t_278d83854231f8 1-301
+plugins/other-chat-skills/skills/diagram-design/assets/example-import-drawio.html
+  s_ad4313f963efd6::t_84216b10343640 1-185
+plugins/other-chat-skills/skills/diagram-design/assets/example-import-excalidraw.html
+  s_ad4313f963efd6::t_af8d8b3770e939 1-70
+plugins/other-chat-skills/skills/diagram-design/assets/example-import-mermaid.html
+  s_ad4313f963efd6::t_ad5df9860ff00c 1-70
+plugins/other-chat-skills/skills/diagram-design/assets/example-it-state-dark.html
+  s_ad4313f963efd6::t_0cc152ed710dd1 1-90
+plugins/other-chat-skills/skills/diagram-design/assets/example-it-state-full.html
+  s_ad4313f963efd6::t_cbe57de5651db2 1-69
+plugins/other-chat-skills/skills/diagram-design/assets/example-it-state.html
+  s_ad4313f963efd6::t_59c33b77063f60 1-128
+plugins/other-chat-skills/skills/diagram-design/assets/example-journey-dark.html
+  s_ad4313f963efd6::t_161e00a14129ba 1-148
+plugins/other-chat-skills/skills/diagram-design/assets/example-journey-full.html
+  s_ad4313f963efd6::t_44f1a187cb02e7 1-142
+plugins/other-chat-skills/skills/diagram-design/assets/example-journey.html
+  s_ad4313f963efd6::t_33ef1cf0f41ad7 1-148
+plugins/other-chat-skills/skills/diagram-design/assets/example-kanban-dark.html
+  s_ad4313f963efd6::t_b43b2b63fccfd1 1-174
+plugins/other-chat-skills/skills/diagram-design/assets/example-kanban-full.html
+  s_ad4313f963efd6::t_5ac0e160ae3cab 1-178
+plugins/other-chat-skills/skills/diagram-design/assets/example-kanban.html
+  s_ad4313f963efd6::t_92912cecb266cc 1-174
+plugins/other-chat-skills/skills/diagram-design/assets/example-layers-dark.html
+  s_ad4313f963efd6::t_fcbc379b0c732f 1-123
+plugins/other-chat-skills/skills/diagram-design/assets/example-layers-full.html
+  s_ad4313f963efd6::t_01355c7f8cd409 1-126
+plugins/other-chat-skills/skills/diagram-design/assets/example-layers.html
+  s_ad4313f963efd6::t_eae08b95dd61f0 1-123
+plugins/other-chat-skills/skills/diagram-design/assets/example-line-dark.html
+  s_ad4313f963efd6::t_11dae8355d04ec 1-111
+plugins/other-chat-skills/skills/diagram-design/assets/example-line-full.html
+  s_ad4313f963efd6::t_4367c01c25f59a 1-105
+plugins/other-chat-skills/skills/diagram-design/assets/example-line.html
+  s_ad4313f963efd6::t_7ce0a6372284cb 1-111
+plugins/other-chat-skills/skills/diagram-design/assets/example-loop-dark.html
+  s_ad4313f963efd6::t_66057c55305ab2 1-100
+plugins/other-chat-skills/skills/diagram-design/assets/example-loop-full.html
+  s_ad4313f963efd6::t_dbfa6971aff1b9 1-137
+plugins/other-chat-skills/skills/diagram-design/assets/example-loop-terminal.html
+  s_ad4313f963efd6::t_39162351010e00 1-347
+plugins/other-chat-skills/skills/diagram-design/assets/example-loop.html
+  s_ad4313f963efd6::t_813db4ef4fe492 1-100
+plugins/other-chat-skills/skills/diagram-design/assets/example-marimekko-dark.html
+  s_ad4313f963efd6::t_ad6b7e2f6b4b0b 1-148
+plugins/other-chat-skills/skills/diagram-design/assets/example-marimekko-full.html
+  s_ad4313f963efd6::t_a35e5ec376ce0e 1-172
+plugins/other-chat-skills/skills/diagram-design/assets/example-marimekko.html
+  s_ad4313f963efd6::t_40f8bb87500e69 1-148
+plugins/other-chat-skills/skills/diagram-design/assets/example-medallion-dark.html
+  s_ad4313f963efd6::t_965da411a4b7dd 1-159
+plugins/other-chat-skills/skills/diagram-design/assets/example-medallion-full.html
+  s_ad4313f963efd6::t_f9c819fd93ddbd 1-201
+plugins/other-chat-skills/skills/diagram-design/assets/example-medallion.html
+  s_ad4313f963efd6::t_7cd455726f7424 1-159
+plugins/other-chat-skills/skills/diagram-design/assets/example-nested-dark.html
+  s_ad4313f963efd6::t_6b6b80fee20098 1-132
+plugins/other-chat-skills/skills/diagram-design/assets/example-nested-full.html
+  s_ad4313f963efd6::t_fecbcf3ae9f257 1-135
+plugins/other-chat-skills/skills/diagram-design/assets/example-nested.html
+  s_ad4313f963efd6::t_6932ca90db2232 1-136
+plugins/other-chat-skills/skills/diagram-design/assets/example-org-chart-dark.html
+  s_ad4313f963efd6::t_ed9e86f3f3999b 1-45
+plugins/other-chat-skills/skills/diagram-design/assets/example-org-chart-full.html
+  s_ad4313f963efd6::t_9e7eb77d82e30e 1-45
+plugins/other-chat-skills/skills/diagram-design/assets/example-org-chart.html
+  s_ad4313f963efd6::t_48ff04af46178e 1-45
+plugins/other-chat-skills/skills/diagram-design/assets/example-paved-road-animated.html
+  s_ad4313f963efd6::t_f6e462a917fc4f 1-546
+plugins/other-chat-skills/skills/diagram-design/assets/example-polar-dark.html
+  s_ad4313f963efd6::t_cbb05d0a005a2f 1-116
+plugins/other-chat-skills/skills/diagram-design/assets/example-polar-full.html
+  s_ad4313f963efd6::t_33e3cd375cc620 1-147
+plugins/other-chat-skills/skills/diagram-design/assets/example-polar.html
+  s_ad4313f963efd6::t_932e54ae8ebc8e 1-116
+plugins/other-chat-skills/skills/diagram-design/assets/example-policy-trace-animated.html
+  s_ad4313f963efd6::t_8f0a743e187bad 1-490
+plugins/other-chat-skills/skills/diagram-design/assets/example-process-dark.html
+  s_ad4313f963efd6::t_169d1256b70a76 1-64
+plugins/other-chat-skills/skills/diagram-design/assets/example-process-full.html
+  s_ad4313f963efd6::t_f13b004fadaaa5 1-74
+plugins/other-chat-skills/skills/diagram-design/assets/example-process.html
+  s_ad4313f963efd6::t_4fe39f1077d796 1-64
+plugins/other-chat-skills/skills/diagram-design/assets/example-pyramid-dark.html
+  s_ad4313f963efd6::t_b04b696291b11d 1-119
+plugins/other-chat-skills/skills/diagram-design/assets/example-pyramid-full.html
+  s_ad4313f963efd6::t_e20ed271714e8a 1-122
+plugins/other-chat-skills/skills/diagram-design/assets/example-pyramid.html
+  s_ad4313f963efd6::t_c6da0ba728dd11 1-119
+plugins/other-chat-skills/skills/diagram-design/assets/example-quadrant-consultant.html
+  s_ad4313f963efd6::t_6c4d4eef82d8c6 1-166
+plugins/other-chat-skills/skills/diagram-design/assets/example-quadrant-dark.html
+  s_ad4313f963efd6::t_22963aff7b3751 1-135
+plugins/other-chat-skills/skills/diagram-design/assets/example-quadrant-full.html
+  s_ad4313f963efd6::t_5a9e000250563c 1-138
+plugins/other-chat-skills/skills/diagram-design/assets/example-quadrant.html
+  s_ad4313f963efd6::t_92d93abf06b3b4 1-135
+plugins/other-chat-skills/skills/diagram-design/assets/example-queue-animated.html
+  s_ad4313f963efd6::t_c8de0a0c901e0d 1-577
+plugins/other-chat-skills/skills/diagram-design/assets/example-radar-dark.html
+  s_ad4313f963efd6::t_46718f3c64c29f 1-139
+plugins/other-chat-skills/skills/diagram-design/assets/example-radar-full.html
+  s_ad4313f963efd6::t_c59559e65e6da1 1-135
+plugins/other-chat-skills/skills/diagram-design/assets/example-radar.html
+  s_ad4313f963efd6::t_df54e98ab4c750 1-139
+plugins/other-chat-skills/skills/diagram-design/assets/example-ridgeline-dark.html
+  s_ad4313f963efd6::t_88d80bb513868e 1-104
+plugins/other-chat-skills/skills/diagram-design/assets/example-ridgeline-full.html
+  s_ad4313f963efd6::t_3d2db1dd947aa7 1-134
+plugins/other-chat-skills/skills/diagram-design/assets/example-ridgeline.html
+  s_ad4313f963efd6::t_04ae2a25a0c336 1-104
+plugins/other-chat-skills/skills/diagram-design/assets/example-sankey-dark.html
+  s_ad4313f963efd6::t_48063c9df2802c 1-150
+plugins/other-chat-skills/skills/diagram-design/assets/example-sankey-full.html
+  s_ad4313f963efd6::t_0a0c0254a9d3e5 1-151
+plugins/other-chat-skills/skills/diagram-design/assets/example-sankey.html
+  s_ad4313f963efd6::t_e4bed343f07450 1-150
+plugins/other-chat-skills/skills/diagram-design/assets/example-scatter-dark.html
+  s_ad4313f963efd6::t_7cde59ec9093c4 1-141
+plugins/other-chat-skills/skills/diagram-design/assets/example-scatter-full.html
+  s_ad4313f963efd6::t_1ed96ca1ae0ea0 1-116
+plugins/other-chat-skills/skills/diagram-design/assets/example-scatter.html
+  s_ad4313f963efd6::t_605fafd58798ff 1-141
+plugins/other-chat-skills/skills/diagram-design/assets/example-sequence-dark.html
+  s_ad4313f963efd6::t_4ce640fbcc23cc 1-222
+plugins/other-chat-skills/skills/diagram-design/assets/example-sequence-full.html
+  s_ad4313f963efd6::t_f79eabebf99382 1-388
+plugins/other-chat-skills/skills/diagram-design/assets/example-sequence-oauth-dark.html
+  s_ad4313f963efd6::t_3fffc7268f0cbe 1-188
+plugins/other-chat-skills/skills/diagram-design/assets/example-sequence-oauth-full.html
+  s_ad4313f963efd6::t_fd71f841580b0a 1-350
+plugins/other-chat-skills/skills/diagram-design/assets/example-sequence-oauth.html
+  s_ad4313f963efd6::t_0d2cf6bf8943f6 1-227
+plugins/other-chat-skills/skills/diagram-design/assets/example-sequence.html
+  s_ad4313f963efd6::t_d07223cf21c9eb 1-222
+plugins/other-chat-skills/skills/diagram-design/assets/example-slopegraph-dark.html
+  s_ad4313f963efd6::t_65d33e931c54ff 1-119
+plugins/other-chat-skills/skills/diagram-design/assets/example-slopegraph-full.html
+  s_ad4313f963efd6::t_b2e1e30294eeaa 1-149
+plugins/other-chat-skills/skills/diagram-design/assets/example-slopegraph.html
+  s_ad4313f963efd6::t_cec7393b5735cc 1-119
+plugins/other-chat-skills/skills/diagram-design/assets/example-state-dark.html
+  s_ad4313f963efd6::t_c934a8a9b58497 1-147
+plugins/other-chat-skills/skills/diagram-design/assets/example-state-full.html
+  s_ad4313f963efd6::t_b70a2e2fefdf5a 1-150
+plugins/other-chat-skills/skills/diagram-design/assets/example-state-lifecycle-dark.html
+  s_ad4313f963efd6::t_d5b3d6e62a88e0 1-88
+plugins/other-chat-skills/skills/diagram-design/assets/example-state-lifecycle-full.html
+  s_ad4313f963efd6::t_f50d2021070e94 1-112
+plugins/other-chat-skills/skills/diagram-design/assets/example-state-lifecycle.html
+  s_ad4313f963efd6::t_ffdd15418dc386 1-92
+plugins/other-chat-skills/skills/diagram-design/assets/example-state.html
+  s_ad4313f963efd6::t_1d366fc6623466 1-147
+plugins/other-chat-skills/skills/diagram-design/assets/example-story-map-dark.html
+  s_ad4313f963efd6::t_cf71e89f862227 1-184
+plugins/other-chat-skills/skills/diagram-design/assets/example-story-map-full.html
+  s_ad4313f963efd6::t_02c4d0236e9233 1-188
+plugins/other-chat-skills/skills/diagram-design/assets/example-story-map.html
+  s_ad4313f963efd6::t_e45dc8e9a335cb 1-184
+plugins/other-chat-skills/skills/diagram-design/assets/example-streamgraph-dark.html
+  s_ad4313f963efd6::t_66b5a752c8dcdb 1-99
+plugins/other-chat-skills/skills/diagram-design/assets/example-streamgraph-full.html
+  s_ad4313f963efd6::t_129a92a67fd9df 1-129
+plugins/other-chat-skills/skills/diagram-design/assets/example-streamgraph.html
+  s_ad4313f963efd6::t_6ba40e4235a33d 1-99
+plugins/other-chat-skills/skills/diagram-design/assets/example-swimlane-dark.html
+  s_ad4313f963efd6::t_d7524a31b85ed3 1-172
+plugins/other-chat-skills/skills/diagram-design/assets/example-swimlane-full.html
+  s_ad4313f963efd6::t_7d4b1348786aae 1-175
+plugins/other-chat-skills/skills/diagram-design/assets/example-swimlane.html
+  s_ad4313f963efd6::t_143561474b8b3d 1-172
+plugins/other-chat-skills/skills/diagram-design/assets/example-timeline-dark.html
+  s_ad4313f963efd6::t_3bbd92494693ff 1-135
+plugins/other-chat-skills/skills/diagram-design/assets/example-timeline-full.html
+  s_ad4313f963efd6::t_400dea62d9a54c 1-138
+plugins/other-chat-skills/skills/diagram-design/assets/example-timeline.html
+  s_ad4313f963efd6::t_737aee22e31d08 1-135
+plugins/other-chat-skills/skills/diagram-design/assets/example-tree-block-decomposition-dark.html
+  s_ad4313f963efd6::t_473d3166e765f4 1-151
+plugins/other-chat-skills/skills/diagram-design/assets/example-tree-block-decomposition-full.html
+  s_ad4313f963efd6::t_f3fc6ab4ad288d 1-154
+plugins/other-chat-skills/skills/diagram-design/assets/example-tree-block-decomposition.html
+  s_ad4313f963efd6::t_4d9416d71d9fe0 1-151
+plugins/other-chat-skills/skills/diagram-design/assets/example-tree-dark.html
+  s_ad4313f963efd6::t_ba2b689e6c50b9 1-173
+plugins/other-chat-skills/skills/diagram-design/assets/example-tree-full.html
+  s_ad4313f963efd6::t_d59ea7e6b4661b 1-176
+plugins/other-chat-skills/skills/diagram-design/assets/example-tree.html
+  s_ad4313f963efd6::t_7ac5fbb959c72b 1-173
+plugins/other-chat-skills/skills/diagram-design/assets/example-treemap-dark.html
+  s_ad4313f963efd6::t_9b4fbd5ddcfe67 1-107
+plugins/other-chat-skills/skills/diagram-design/assets/example-treemap-full.html
+  s_ad4313f963efd6::t_a071d474a486b3 1-134
+plugins/other-chat-skills/skills/diagram-design/assets/example-treemap.html
+  s_ad4313f963efd6::t_c5642990725ebb 1-107
+plugins/other-chat-skills/skills/diagram-design/assets/example-uml-class-dark.html
+  s_ad4313f963efd6::t_95ac0dd7974879 1-188
+plugins/other-chat-skills/skills/diagram-design/assets/example-uml-class-full.html
+  s_ad4313f963efd6::t_3a93110354e771 1-191
+plugins/other-chat-skills/skills/diagram-design/assets/example-uml-class.html
+  s_ad4313f963efd6::t_20155b7f8ac629 1-188
+plugins/other-chat-skills/skills/diagram-design/assets/example-venn-dark.html
+  s_ad4313f963efd6::t_fc1fb0225fc189 1-132
+plugins/other-chat-skills/skills/diagram-design/assets/example-venn-full.html
+  s_ad4313f963efd6::t_803358f414dd50 1-135
+plugins/other-chat-skills/skills/diagram-design/assets/example-venn.html
+  s_ad4313f963efd6::t_e7e21dd0fd7d4a 1-110
+plugins/other-chat-skills/skills/diagram-design/assets/example-wardley-dark.html
+  s_ad4313f963efd6::t_788158edc5eb13 1-153
+plugins/other-chat-skills/skills/diagram-design/assets/example-wardley-full.html
+  s_ad4313f963efd6::t_28c6a42389a411 1-146
+plugins/other-chat-skills/skills/diagram-design/assets/example-wardley.html
+  s_ad4313f963efd6::t_25bd306b88f27e 1-153
+plugins/other-chat-skills/skills/diagram-design/assets/example-waterfall-dark.html
+  s_ad4313f963efd6::t_45ed5163bac4e2 1-129
+plugins/other-chat-skills/skills/diagram-design/assets/example-waterfall-full.html
+  s_ad4313f963efd6::t_bbd458e91835ea 1-106
+plugins/other-chat-skills/skills/diagram-design/assets/example-waterfall.html
+  s_ad4313f963efd6::t_d3a8a45cfcc790 1-129
+plugins/other-chat-skills/skills/diagram-design/assets/icon.svg
+  s_ad4313f963efd6::t_0387293bedc078 1-5
+plugins/other-chat-skills/skills/diagram-design/assets/icons.html
+  s_ad4313f963efd6::t_3c5969c996e0e2 1-230
+plugins/other-chat-skills/skills/diagram-design/assets/index.html
+  s_ad4313f963efd6::t_c355bacb2040b7 1-500
+plugins/other-chat-skills/skills/diagram-design/assets/template-dark.html
+  s_ad4313f963efd6::t_5b1d03fc491358 1-99
+plugins/other-chat-skills/skills/diagram-design/assets/template-full.html
+  s_ad4313f963efd6::t_a812689f4179a5 1-421
+plugins/other-chat-skills/skills/diagram-design/assets/template-motion.html
+  s_ad4313f963efd6::t_ff23dd0ea1d6ea 1-448
+plugins/other-chat-skills/skills/diagram-design/assets/template-terminal.html
+  s_ad4313f963efd6::t_1cb679060f39ee 1-188
+plugins/other-chat-skills/skills/diagram-design/assets/template.html
+  s_ad4313f963efd6::t_c71698adb6712b 1-100
+plugins/other-chat-skills/skills/diagram-design/references/animation.md
+  s_ad4313f963efd6::t_bed06b82284c3f 1-141
+plugins/other-chat-skills/skills/diagram-design/references/doctor.md
+  s_ad4313f963efd6::t_ee95cae1cf4ee7 1-127
+plugins/other-chat-skills/skills/diagram-design/references/export-registry.md
+  s_ad4313f963efd6::t_e5192ad3a88999 1-78
+plugins/other-chat-skills/skills/diagram-design/references/export.md
+  s_ad4313f963efd6::t_061ea0413ea0cb 1-182
+plugins/other-chat-skills/skills/diagram-design/references/import-drawio.md
+  s_ad4313f963efd6::t_3a4cc325870809 1-171
+plugins/other-chat-skills/skills/diagram-design/references/import-excalidraw.md
+  s_ad4313f963efd6::t_8aa71f3d774cfc 1-128
+plugins/other-chat-skills/skills/diagram-design/references/import-mermaid.md
+  s_ad4313f963efd6::t_2cb8207461d15a 1-126
+plugins/other-chat-skills/skills/diagram-design/references/layout-budget.md
+  s_ad4313f963efd6::t_0b5f0529847b54 1-92
+plugins/other-chat-skills/skills/diagram-design/references/onboarding.md
+  s_ad4313f963efd6::t_0bff7ba380a49f 1-344
+plugins/other-chat-skills/skills/diagram-design/references/output-spec.md
+  s_ad4313f963efd6::t_237a5a761e8d1d 1-275
+plugins/other-chat-skills/skills/diagram-design/references/primitive-annotation.md
+  s_ad4313f963efd6::t_ebd0751d1fe2e8 1-36
+plugins/other-chat-skills/skills/diagram-design/references/primitive-icons.md
+  s_ad4313f963efd6::t_c167db1f2aec63 1-827
+plugins/other-chat-skills/skills/diagram-design/references/primitive-sketchy.md
+  s_ad4313f963efd6::t_781f554d13021d 1-43
+plugins/other-chat-skills/skills/diagram-design/references/primitive-terminal.md
+  s_ad4313f963efd6::t_d5464866ff6e3b 1-76
+plugins/other-chat-skills/skills/diagram-design/references/primitives-core.md
+  s_ad4313f963efd6::t_bc40b1bb4fcc91 1-140
+plugins/other-chat-skills/skills/diagram-design/references/profiles.md
+  s_ad4313f963efd6::t_3d2232880a1654 1-183
+plugins/other-chat-skills/skills/diagram-design/references/semantic-patterns.md
+  s_ad4313f963efd6::t_f67b9e5fe65a0e 1-154
+plugins/other-chat-skills/skills/diagram-design/references/style-guide.md
+  s_ad4313f963efd6::t_cc0087c94dd7b6 1-197
+plugins/other-chat-skills/skills/diagram-design/references/type-architecture-delta.md
+  s_ad4313f963efd6::t_1f1cc3c650e32c 1-143
+plugins/other-chat-skills/skills/diagram-design/references/type-architecture.md
+  s_ad4313f963efd6::t_e01f6e0a55532c 1-78
+plugins/other-chat-skills/skills/diagram-design/references/type-bar.md
+  s_ad4313f963efd6::t_c647126344c18a 1-106
+plugins/other-chat-skills/skills/diagram-design/references/type-data-flow.md
+  s_ad4313f963efd6::t_68ed4a2187c927 1-371
+plugins/other-chat-skills/skills/diagram-design/references/type-db-schema.md
+  s_ad4313f963efd6::t_ab16a6e75fbd67 1-48
+plugins/other-chat-skills/skills/diagram-design/references/type-dependency.md
+  s_ad4313f963efd6::t_8d9c36a834edff 1-44
+plugins/other-chat-skills/skills/diagram-design/references/type-deployment.md
+  s_ad4313f963efd6::t_6e42945d403bc4 1-45
+plugins/other-chat-skills/skills/diagram-design/references/type-dp-integration.md
+  s_ad4313f963efd6::t_77465c74d6dac6 1-407
+plugins/other-chat-skills/skills/diagram-design/references/type-dp-security-matrix.md
+  s_ad4313f963efd6::t_a7bff7cb2fc906 1-379
+plugins/other-chat-skills/skills/diagram-design/references/type-er.md
+  s_ad4313f963efd6::t_8a2700b62b5db8 1-25
+plugins/other-chat-skills/skills/diagram-design/references/type-fishbone.md
+  s_ad4313f963efd6::t_112828d666220d 1-75
+plugins/other-chat-skills/skills/diagram-design/references/type-flowchart.md
+  s_ad4313f963efd6::t_5c6f796a1ade21 1-23
+plugins/other-chat-skills/skills/diagram-design/references/type-gantt.md
+  s_ad4313f963efd6::t_425cd3f96c49a6 1-45
+plugins/other-chat-skills/skills/diagram-design/references/type-heatmap.md
+  s_ad4313f963efd6::t_673abdddc3f5c9 1-72
+plugins/other-chat-skills/skills/diagram-design/references/type-high-level.md
+  s_ad4313f963efd6::t_3cc99f475e03c3 1-461
+plugins/other-chat-skills/skills/diagram-design/references/type-it-state.md
+  s_ad4313f963efd6::t_cbdd37aff896ed 1-468
+plugins/other-chat-skills/skills/diagram-design/references/type-journey.md
+  s_ad4313f963efd6::t_9e65afc51f1f3b 1-53
+plugins/other-chat-skills/skills/diagram-design/references/type-kanban.md
+  s_ad4313f963efd6::t_700a0a162cb582 1-49
+plugins/other-chat-skills/skills/diagram-design/references/type-layers.md
+  s_ad4313f963efd6::t_83597cf1c08deb 1-26
+plugins/other-chat-skills/skills/diagram-design/references/type-line.md
+  s_ad4313f963efd6::t_df283e45503cd0 1-336
+plugins/other-chat-skills/skills/diagram-design/references/type-loop.md
+  s_ad4313f963efd6::t_eb3c8ebef53868 1-223
+plugins/other-chat-skills/skills/diagram-design/references/type-medallion.md
+  s_ad4313f963efd6::t_30c8baa02e5551 1-356
+plugins/other-chat-skills/skills/diagram-design/references/type-nested.md
+  s_ad4313f963efd6::t_5f2bae4467220b 1-22
+plugins/other-chat-skills/skills/diagram-design/references/type-org-chart.md
+  s_ad4313f963efd6::t_037a2a93b0ac52 1-44
+plugins/other-chat-skills/skills/diagram-design/references/type-polar.md
+  s_ad4313f963efd6::t_cd008598134db0 1-136
+plugins/other-chat-skills/skills/diagram-design/references/type-process.md
+  s_ad4313f963efd6::t_914dbe3129c5ae 1-492
+plugins/other-chat-skills/skills/diagram-design/references/type-pyramid.md
+  s_ad4313f963efd6::t_3266a9603d3905 1-33
+plugins/other-chat-skills/skills/diagram-design/references/type-quadrant.md
+  s_ad4313f963efd6::t_98fb927a7e1572 1-81
+plugins/other-chat-skills/skills/diagram-design/references/type-radar.md
+  s_ad4313f963efd6::t_13c20f37c89acc 1-80
+plugins/other-chat-skills/skills/diagram-design/references/type-sankey.md
+  s_ad4313f963efd6::t_5c690e9dba34e5 1-72
+plugins/other-chat-skills/skills/diagram-design/references/type-scatter.md
+  s_ad4313f963efd6::t_5a01547ed2c5b9 1-197
+plugins/other-chat-skills/skills/diagram-design/references/type-sequence.md
+  s_ad4313f963efd6::t_af5876f657ac70 1-130
+plugins/other-chat-skills/skills/diagram-design/references/type-state.md
+  s_ad4313f963efd6::t_594120ead7a37b 1-30
+plugins/other-chat-skills/skills/diagram-design/references/type-story-map.md
+  s_ad4313f963efd6::t_dcb7a5ad80f26d 1-46
+plugins/other-chat-skills/skills/diagram-design/references/type-swimlane.md
+  s_ad4313f963efd6::t_cbadf256f00280 1-20
+plugins/other-chat-skills/skills/diagram-design/references/type-timeline.md
+  s_ad4313f963efd6::t_db6dc1fbbd4822 1-20
+plugins/other-chat-skills/skills/diagram-design/references/type-tree.md
+  s_ad4313f963efd6::t_de52be5c8c37b0 1-24
+plugins/other-chat-skills/skills/diagram-design/references/type-treemap.md
+  s_ad4313f963efd6::t_0f47c35703d3b2 1-128
+plugins/other-chat-skills/skills/diagram-design/references/type-uml-class.md
+  s_ad4313f963efd6::t_c1e5f1e5e4ea81 1-65
+plugins/other-chat-skills/skills/diagram-design/references/type-venn.md
+  s_ad4313f963efd6::t_37f16ac0004f83 1-26
+plugins/other-chat-skills/skills/diagram-design/references/type-wardley.md
+  s_ad4313f963efd6::t_ca8818f586b871 1-39
+plugins/other-chat-skills/skills/diagram-design/references/type-waterfall.md
+  s_ad4313f963efd6::t_1af74cdc7a5371 1-74
+plugins/other-chat-skills/skills/diagram-design/scripts/drawio_extract.py
+  s_ad4313f963efd6::t_9bfa23eb024b0e 1-897
+plugins/other-chat-skills/skills/diagram-design/scripts/excalidraw_extract.py
+  s_ad4313f963efd6::t_b343d3006c9e49 1-706
+plugins/other-chat-skills/skills/diagram-design/scripts/export_svg.py
+  s_ad4313f963efd6::t_18dd50ffba1a30 1-418
+plugins/other-chat-skills/skills/diagram-design/scripts/mermaid_extract.py
+  s_ad4313f963efd6::t_0e72abf05876a0 1-1394
+plugins/other-chat-skills/skills/diagram-design/scripts/self_check.py
+  s_ad4313f963efd6::t_130cf403006664 1-457
+plugins/other-chat-skills/skills/doc-coauthoring/AGENTS.md
+  s_ad4313f963efd6::t_576482f7884fe1 1-3
+plugins/other-chat-skills/skills/doc-coauthoring/README-TH.md
+  s_ad4313f963efd6::t_b7848aae264e6e 1-28
+plugins/other-chat-skills/skills/doc-coauthoring/SKILL.md
+  s_ad4313f963efd6::t_a8672fd121de69 1-356
+plugins/other-chat-skills/skills/doc-coauthoring/agents/openai.yaml
+  s_ad4313f963efd6::t_8ac853f7c91e59 1-17
+plugins/other-chat-skills/skills/doc-coauthoring/assets/icon.svg
+  s_ad4313f963efd6::t_a63795897a0790 1-8
+plugins/other-chat-skills/skills/doc-coauthoring/scripts/install.ps1
+  s_ad4313f963efd6::t_da21c86cbd31c0 1-14
+plugins/other-chat-skills/skills/doc-coauthoring/scripts/validate.ps1
+  s_ad4313f963efd6::t_2d42dbf25e7957 1-17
+plugins/other-chat-skills/skills/documents/LICENSE.txt
+  s_ad4313f963efd6::t_10ac219ca9c36b 1-19
+plugins/other-chat-skills/skills/documents/SKILL.md
+  s_ad4313f963efd6::t_e3391d7ddb94b4 1-542
+plugins/other-chat-skills/skills/documents/agents/openai.yaml
+  s_ad4313f963efd6::t_a181a25f69cc0f 1-7
+plugins/other-chat-skills/skills/documents/container_tools/mark_artifact_operation_started.mjs
+  s_ad4313f963efd6::t_2f9796fad2896e 1-22
+plugins/other-chat-skills/skills/documents/examples/end_to_end_smoke_test.md
+  s_ad4313f963efd6::t_5aac3a559a0f05 1-32
+plugins/other-chat-skills/skills/documents/manifest.txt
+  s_ad4313f963efd6::t_ea14b8d96e573e 1-74
+plugins/other-chat-skills/skills/documents/ooxml/comments.md
+  s_ad4313f963efd6::t_bdf0bfba78dac4 1-37
+plugins/other-chat-skills/skills/documents/ooxml/hyperlinks_and_fields.md
+  s_ad4313f963efd6::t_1f693503a3d3b2 1-69
+plugins/other-chat-skills/skills/documents/ooxml/rels_and_content_types.md
+  s_ad4313f963efd6::t_5f38c2fc969a14 1-37
+plugins/other-chat-skills/skills/documents/ooxml/tracked_changes.md
+  s_ad4313f963efd6::t_5978e99d85b7d0 1-41
+plugins/other-chat-skills/skills/documents/references/template-elicitation.md
+  s_ad4313f963efd6::t_97875eed729e7f 1-11
+plugins/other-chat-skills/skills/documents/render_docx.py
+  s_ad4313f963efd6::t_2c92b1552e7c3a 1-546
+plugins/other-chat-skills/skills/documents/scripts/a11y_audit.py
+  s_ad4313f963efd6::t_b4c2ba70a5e965 1-372
+plugins/other-chat-skills/skills/documents/scripts/accept_tracked_changes.py
+  s_ad4313f963efd6::t_8ba2bfb6722b92 1-180
+plugins/other-chat-skills/skills/documents/scripts/add_tracked_replacements.py
+  s_ad4313f963efd6::t_f149e409438366 1-190
+plugins/other-chat-skills/skills/documents/scripts/apply_template_styles.py
+  s_ad4313f963efd6::t_5e255c7ff4019a 1-131
+plugins/other-chat-skills/skills/documents/scripts/captions_and_crossrefs.py
+  s_ad4313f963efd6::t_e06b88d41ac399 1-305
+plugins/other-chat-skills/skills/documents/scripts/comments_add.py
+  s_ad4313f963efd6::t_92977766334afd 1-260
+plugins/other-chat-skills/skills/documents/scripts/comments_apply_patch.py
+  s_ad4313f963efd6::t_28fe0af8dc2419 1-156
+plugins/other-chat-skills/skills/documents/scripts/comments_extract.py
+  s_ad4313f963efd6::t_53c8310633e6f1 1-168
+plugins/other-chat-skills/skills/documents/scripts/comments_strip.py
+  s_ad4313f963efd6::t_db5a9e86e15c85 1-151
+plugins/other-chat-skills/skills/documents/scripts/content_controls.py
+  s_ad4313f963efd6::t_3068b296d59608 1-358
+plugins/other-chat-skills/skills/documents/scripts/docx_ooxml_patch.py
+  s_ad4313f963efd6::t_2f2c540c266fbe 1-649
+plugins/other-chat-skills/skills/documents/scripts/docx_table_to_csv.py
+  s_ad4313f963efd6::t_3f79cb38631453 1-72
+plugins/other-chat-skills/skills/documents/scripts/fields_materialize.py
+  s_ad4313f963efd6::t_f849ae807bb03e 1-310
+plugins/other-chat-skills/skills/documents/scripts/fields_report.py
+  s_ad4313f963efd6::t_3b44621e32aac7 1-182
+plugins/other-chat-skills/skills/documents/scripts/flatten_ref_fields.py
+  s_ad4313f963efd6::t_1d5207a3cf9821 1-154
+plugins/other-chat-skills/skills/documents/scripts/footnotes_report.py
+  s_ad4313f963efd6::t_45ecd3714b6201 1-99
+plugins/other-chat-skills/skills/documents/scripts/google_docs_title_sanitize.py
+  s_ad4313f963efd6::t_4dce9d3843fcc7 1-310
+plugins/other-chat-skills/skills/documents/scripts/heading_audit.py
+  s_ad4313f963efd6::t_ab2ca76375f412 1-103
+plugins/other-chat-skills/skills/documents/scripts/images_audit.py
+  s_ad4313f963efd6::t_00c934ad511f3b 1-171
+plugins/other-chat-skills/skills/documents/scripts/insert_note.py
+  s_ad4313f963efd6::t_588d0df3ceebfe 1-244
+plugins/other-chat-skills/skills/documents/scripts/insert_ref_fields.py
+  s_ad4313f963efd6::t_0f8cfbbfe29e42 1-239
+plugins/other-chat-skills/skills/documents/scripts/insert_toc.py
+  s_ad4313f963efd6::t_abe9772d6a74c7 1-154
+plugins/other-chat-skills/skills/documents/scripts/internal_nav.py
+  s_ad4313f963efd6::t_fae4b60e727046 1-365
+plugins/other-chat-skills/skills/documents/scripts/make_fixtures.py
+  s_ad4313f963efd6::t_d532f6e3cbe4d8 1-258
+plugins/other-chat-skills/skills/documents/scripts/merge_docx_append.py
+  s_ad4313f963efd6::t_f611aec358296e 1-110
+plugins/other-chat-skills/skills/documents/scripts/privacy_scrub.py
+  s_ad4313f963efd6::t_b8eecd964c8392 1-176
+plugins/other-chat-skills/skills/documents/scripts/redact_docx.py
+  s_ad4313f963efd6::t_10c63917768480 1-315
+plugins/other-chat-skills/skills/documents/scripts/render_and_diff.py
+  s_ad4313f963efd6::t_28b97f3c7409c5 1-166
+plugins/other-chat-skills/skills/documents/scripts/section_audit.py
+  s_ad4313f963efd6::t_4c7294bea11683 1-86
+plugins/other-chat-skills/skills/documents/scripts/set_protection.py
+  s_ad4313f963efd6::t_157108b1b26b17 1-149
+plugins/other-chat-skills/skills/documents/scripts/style_lint.py
+  s_ad4313f963efd6::t_6e041cbaaff7e0 1-170
+plugins/other-chat-skills/skills/documents/scripts/style_normalize.py
+  s_ad4313f963efd6::t_ae3aeff540f786 1-187
+plugins/other-chat-skills/skills/documents/scripts/table_geometry.py
+  s_ad4313f963efd6::t_346b423d3a40bb 1-270
+plugins/other-chat-skills/skills/documents/scripts/watermark_add.py
+  s_ad4313f963efd6::t_6202b438f16718 1-170
+plugins/other-chat-skills/skills/documents/scripts/watermark_audit_remove.py
+  s_ad4313f963efd6::t_69cfce6aac06bd 1-145
+plugins/other-chat-skills/skills/documents/scripts/xlsx_to_docx_table.py
+  s_ad4313f963efd6::t_176b278aa5c6aa 1-179
+plugins/other-chat-skills/skills/documents/tasks/accessibility_a11y.md
+  s_ad4313f963efd6::t_a23c15a38e7c60 1-55
+plugins/other-chat-skills/skills/documents/tasks/captions_crossrefs.md
+  s_ad4313f963efd6::t_190879cd573fb2 1-97
+plugins/other-chat-skills/skills/documents/tasks/clean_tracked_changes.md
+  s_ad4313f963efd6::t_3b68f789bfa260 1-44
+plugins/other-chat-skills/skills/documents/tasks/comments_manage.md
+  s_ad4313f963efd6::t_06a74ad25d553c 1-71
+plugins/other-chat-skills/skills/documents/tasks/compare_diff.md
+  s_ad4313f963efd6::t_36f34fe7049c81 1-32
+plugins/other-chat-skills/skills/documents/tasks/create_edit.md
+  s_ad4313f963efd6::t_e63272814bb4e0 1-47
+plugins/other-chat-skills/skills/documents/tasks/equations.md
+  s_ad4313f963efd6::t_e1a1be39e653a3 1-103
+plugins/other-chat-skills/skills/documents/tasks/fields_update.md
+  s_ad4313f963efd6::t_b7bc0d36381db5 1-66
+plugins/other-chat-skills/skills/documents/tasks/fixtures_edge_cases.md
+  s_ad4313f963efd6::t_0f159fafbd62fa 1-42
+plugins/other-chat-skills/skills/documents/tasks/footnotes_endnotes.md
+  s_ad4313f963efd6::t_bfdb896a01f166 1-52
+plugins/other-chat-skills/skills/documents/tasks/forms_content_controls.md
+  s_ad4313f963efd6::t_802ed1bfc34f64 1-49
+plugins/other-chat-skills/skills/documents/tasks/headings_numbering.md
+  s_ad4313f963efd6::t_984d639749cf6a 1-44
+plugins/other-chat-skills/skills/documents/tasks/images_figures.md
+  s_ad4313f963efd6::t_18aa0dc5dc8ec4 1-35
+plugins/other-chat-skills/skills/documents/tasks/multi_doc_merge.md
+  s_ad4313f963efd6::t_ffa01f0a233000 1-31
+plugins/other-chat-skills/skills/documents/tasks/navigation_internal_links.md
+  s_ad4313f963efd6::t_8feee9f3211142 1-62
+plugins/other-chat-skills/skills/documents/tasks/privacy_scrub_metadata.md
+  s_ad4313f963efd6::t_b4b9881427881e 1-24
+plugins/other-chat-skills/skills/documents/tasks/protection_restrict_editing.md
+  s_ad4313f963efd6::t_6cfd80e3900ef3 1-36
+plugins/other-chat-skills/skills/documents/tasks/read_review.md
+  s_ad4313f963efd6::t_22675f40e9ee97 1-60
+plugins/other-chat-skills/skills/documents/tasks/redaction_anonymization.md
+  s_ad4313f963efd6::t_6599cc18f789cb 1-57
+plugins/other-chat-skills/skills/documents/tasks/sections_layout.md
+  s_ad4313f963efd6::t_11714e2df5100f 1-62
+plugins/other-chat-skills/skills/documents/tasks/style_lint_normalize.md
+  s_ad4313f963efd6::t_930c43382494f7 1-70
+plugins/other-chat-skills/skills/documents/tasks/tables_spreadsheets.md
+  s_ad4313f963efd6::t_0c3c256da94004 1-36
+plugins/other-chat-skills/skills/documents/tasks/templates_style_packs.md
+  s_ad4313f963efd6::t_d1741c25a47f4b 1-34
+plugins/other-chat-skills/skills/documents/tasks/toc_workflow.md
+  s_ad4313f963efd6::t_ce46dce072ebea 1-61
+plugins/other-chat-skills/skills/documents/tasks/verify_render.md
+  s_ad4313f963efd6::t_046113c087ff36 1-54
+plugins/other-chat-skills/skills/documents/tasks/watermarks_background.md
+  s_ad4313f963efd6::t_0b094d53d3a23f 1-35
+plugins/other-chat-skills/skills/documents/troubleshooting/libreoffice_headless.md
+  s_ad4313f963efd6::t_72670825c24d81 1-42
+plugins/other-chat-skills/skills/documents/troubleshooting/run_splitting.md
+  s_ad4313f963efd6::t_f5b86525ce93e4 1-15
+plugins/other-chat-skills/skills/documents/writing_quality.md
+  s_ad4313f963efd6::t_cd7ebeb6766c5a 1-179
+plugins/other-chat-skills/skills/imagegen/LICENSE.txt
+  s_ad4313f963efd6::t_f5ca217b920702 1-201
+plugins/other-chat-skills/skills/imagegen/SKILL.md
+  s_ad4313f963efd6::t_bf779be306a23f 1-315
+plugins/other-chat-skills/skills/imagegen/agents/openai.yaml
+  s_ad4313f963efd6::t_6a46b1ac6acce3 1-6
+plugins/other-chat-skills/skills/imagegen/assets/imagegen-small.svg
+  s_ad4313f963efd6::t_afd626a0d8436d 1-5
+plugins/other-chat-skills/skills/imagegen/references/cli.md
+  s_ad4313f963efd6::t_810e019084fd4b 1-242
+plugins/other-chat-skills/skills/imagegen/references/codex-network.md
+  s_ad4313f963efd6::t_ad8b89ef82d006 1-33
+plugins/other-chat-skills/skills/imagegen/references/image-api.md
+  s_ad4313f963efd6::t_92e81465eda9ba 1-90
+plugins/other-chat-skills/skills/imagegen/references/prompting.md
+  s_ad4313f963efd6::t_a02f24a99a2395 1-112
+plugins/other-chat-skills/skills/imagegen/references/sample-prompts.md
+  s_ad4313f963efd6::t_3b77826ee248bb 1-422
+plugins/other-chat-skills/skills/imagegen/scripts/image_gen.py
+  s_ad4313f963efd6::t_f721658ab8837d 1-1030
+plugins/other-chat-skills/skills/imagegen/scripts/remove_chroma_key.py
+  s_ad4313f963efd6::t_08855a18afe275 1-449
+plugins/other-chat-skills/skills/matt-skills-curated__skill-conductor/SKILL.md
+  s_ad4313f963efd6::t_da3f64517d0e41 1-77
+plugins/other-chat-skills/skills/matt-skills-curated__skill-conductor/agents/openai.yaml
+  s_ad4313f963efd6::t_92c6ad93e3a2d5 1-3
+plugins/other-chat-skills/skills/matt-skills-curated__writing-for-agents/SKILL-MECHANICS.md
+  s_ad4313f963efd6::t_5942cb2142a719 1-22
+plugins/other-chat-skills/skills/matt-skills-curated__writing-for-agents/SKILL.md
+  s_ad4313f963efd6::t_f1254a31d5b6e2 1-77
+plugins/other-chat-skills/skills/matt-skills-curated__writing-for-agents/agents/openai.yaml
+  s_ad4313f963efd6::t_6796bbfc93c92a 1-3
+plugins/other-chat-skills/skills/openai-library__library/SKILL.md
+  s_ad4313f963efd6::t_a46baf0a75216b 1-269
+plugins/other-chat-skills/skills/openai-library__library/references/evidence-and-citations.md
+  s_ad4313f963efd6::t_b80a16306224ac 1-102
+plugins/other-chat-skills/skills/openai-library__library/references/library-management.md
+  s_ad4313f963efd6::t_a725700cc693aa 1-83
+plugins/other-chat-skills/skills/openai-library__library/references/materialization.md
+  s_ad4313f963efd6::t_29c79d50fae998 1-93
+plugins/other-chat-skills/skills/openai-library__library/references/prepared-uploads.md
+  s_ad4313f963efd6::t_968c1ca2226932 1-105
+plugins/other-chat-skills/skills/openai-library__library/references/writeback-and-conflicts.md
+  s_ad4313f963efd6::t_c619613a61247e 1-93
+plugins/other-chat-skills/skills/openai-library__library/scripts/library_download.py
+  s_ad4313f963efd6::t_f99c7431650682 1-622
+plugins/other-chat-skills/skills/openai-library__library/scripts/library_file_transfer.py
+  s_ad4313f963efd6::t_59e30ef8152c9c 1-303
+plugins/other-chat-skills/skills/openai-library__library/scripts/library_hosted_apps.py
+  s_ad4313f963efd6::t_e41ccfca835e1b 1-340
+plugins/other-chat-skills/skills/openai-library__library/scripts/library_upload.py
+  s_ad4313f963efd6::t_423e54c443c760 1-1071
+plugins/other-chat-skills/skills/operating-pdf-manual-control-plane/SKILL.md
+  s_ad4313f963efd6::t_3387d678cafd67 1-41
+plugins/other-chat-skills/skills/operating-pdf-manual-control-plane/agents/openai.yaml
+  s_ad4313f963efd6::t_1ebd4f3150c326 1-14
+plugins/other-chat-skills/skills/operating-pdf-manual-control-plane/assets/icon.svg
+  s_ad4313f963efd6::t_98e79248bcae85 1-4
+plugins/other-chat-skills/skills/operating-pdf-manual-control-plane/references/connector-routing.md
+  s_ad4313f963efd6::t_de1e3606f6d6e9 1-21
+plugins/other-chat-skills/skills/pdf/SKILL.md
+  s_ad4313f963efd6::t_66329b0d42d67a 1-164
+plugins/other-chat-skills/skills/pdf/agents/openai.yaml
+  s_ad4313f963efd6::t_4730ba280c0033 1-7
+plugins/other-chat-skills/skills/pdf/container_tools/mark_artifact_operation_started.mjs
+  s_ad4313f963efd6::t_e1854062944f69 1-22
+plugins/other-chat-skills/skills/personal-context/SKILL.md
+  s_ad4313f963efd6::t_157bb1e9b1b0eb 1-10
+plugins/other-chat-skills/skills/school-safety-vtr-director/SKILL.md
+  s_ad4313f963efd6::t_04826bf106e051 1-60
+plugins/other-chat-skills/skills/school-safety-vtr-director/agents/openai.yaml
+  s_ad4313f963efd6::t_4671b2a0f60d15 1-15
+plugins/other-chat-skills/skills/school-safety-vtr-director/assets/vtr-dashboard.html
+  s_ad4313f963efd6::t_525a4bd2e8821e 1-575
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/computer-control.md
+  s_ad4313f963efd6::t_f16501bc13fd97 1-42
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/dashboard-rules.md
+  s_ad4313f963efd6::t_f8ab63fcbf8b78 1-42
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/drive-source-registry.json
+  s_ad4313f963efd6::t_9616c9ce0d7e6c 1-35
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/editorial-standards.md
+  s_ad4313f963efd6::t_fafff113269d53 1-37
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/example-vtr-sources.md
+  s_ad4313f963efd6::t_5f454e778ae7ef 1-40
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/intake-channel.md
+  s_ad4313f963efd6::t_086da3b67ab0c9 1-17
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/intake-response.md
+  s_ad4313f963efd6::t_1a4cc583dca76c 1-15
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/media-inventory.json
+  s_ad4313f963efd6::t_0d9beebb5cccbe 1-96
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/project-facts.json
+  s_ad4313f963efd6::t_ae05024a72e134 1-87
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/project-schema.md
+  s_ad4313f963efd6::t_33041ee4f6e70d 1-57
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/project-state.json
+  s_ad4313f963efd6::t_00d0e26e70cb09 1-118
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/quality-check.md
+  s_ad4313f963efd6::t_bd13e570b5c146 1-29
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/remotion-extension.md
+  s_ad4313f963efd6::t_c244fb04445bb3 1-13
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/rubric-evidence-matrix.md
+  s_ad4313f963efd6::t_a71383f3845080 1-24
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/rubric-workflow.md
+  s_ad4313f963efd6::t_190012a623d908 1-35
+plugins/other-chat-skills/skills/school-safety-vtr-director/references/source-registry.json
+  s_ad4313f963efd6::t_d8d9f757058e26 1-20
+plugins/other-chat-skills/skills/school-safety-vtr-director/scripts/build_standalone_dashboard.py
+  s_ad4313f963efd6::t_b05caa3a24600a 1-67
+plugins/other-chat-skills/skills/school-safety-vtr-director/scripts/inspect_media.py
+  s_ad4313f963efd6::t_fa78e4de0abfc9 1-85
+plugins/other-chat-skills/skills/school-safety-vtr-director/scripts/manage_sources.py
+  s_ad4313f963efd6::t_f29108cf37a6dd 1-145
+plugins/other-chat-skills/skills/school-safety-vtr-director/scripts/project_dashboard.py
+  s_ad4313f963efd6::t_e4f854870f8d69 1-151
+plugins/other-chat-skills/skills/school-safety-vtr-director/scripts/render_vtr.py
+  s_ad4313f963efd6::t_88657e77be6190 1-209
+plugins/other-chat-skills/skills/school-safety-vtr-director/scripts/serve_dashboard.py
+  s_ad4313f963efd6::t_88217e6bc58dce 1-40
+plugins/other-chat-skills/skills/school-safety-vtr-director/scripts/validate_project.py
+  s_ad4313f963efd6::t_8cb882d1341c10 1-98
+plugins/other-chat-skills/skills/skill-creator/LICENSE.txt
+  s_ad4313f963efd6::t_deacb9b7a1595b 1-202
+plugins/other-chat-skills/skills/skill-creator/SKILL.md
+  s_ad4313f963efd6::t_6caf7884396718 1-511
+plugins/other-chat-skills/skills/skill-creator/agents/openai.yaml
+  s_ad4313f963efd6::t_490ab795bfd668 1-4
+plugins/other-chat-skills/skills/skill-creator/references/openai_yaml.md
+  s_ad4313f963efd6::t_22b37205dd519b 1-49
+plugins/other-chat-skills/skills/skill-creator/scripts/generate_openai_yaml.py
+  s_ad4313f963efd6::t_c2b6267833e849 1-225
+plugins/other-chat-skills/skills/skill-creator/scripts/init_skill.py
+  s_ad4313f963efd6::t_53c4d753226fa7 1-400
+plugins/other-chat-skills/skills/skill-creator/scripts/quick_validate.py
+  s_ad4313f963efd6::t_b0df15affe09aa 1-103
+plugins/other-chat-skills/skills/skill-submission-pack-writer__write-skill-submission-pack/SKILL.md
+  s_ad4313f963efd6::t_e05c538fb71f2f 1-86
+plugins/other-chat-skills/skills/skill-submission-pack-writer__write-skill-submission-pack/agents/openai.yaml
+  s_ad4313f963efd6::t_2449624ce28828 1-4
+plugins/other-chat-skills/skills/skill-submission-pack-writer__write-skill-submission-pack/assets/submission-pack-template.md
+  s_ad4313f963efd6::t_33001415102024 1-80
+plugins/other-chat-skills/skills/skill-submission-pack-writer__write-skill-submission-pack/references/submission-fields.md
+  s_ad4313f963efd6::t_45d58b9cb058e7 1-128
+plugins/other-chat-skills/skills/skill-submission-pack-writer__write-skill-submission-pack/scripts/validate_submission_pack.py
+  s_ad4313f963efd6::t_b29a31b7215914 1-175
+plugins/other-chat-skills/skills/superpowers__test-driven-development/SKILL.md
+  s_ad4313f963efd6::t_83264d5f842a7e 1-330
+plugins/other-chat-skills/skills/superpowers__test-driven-development/agents/openai.yaml
+  s_ad4313f963efd6::t_a5836d9e729348 1-3
+plugins/other-chat-skills/skills/superpowers__test-driven-development/writing-good-tests.md
+  s_ad4313f963efd6::t_a6d9a7ddec243f 1-198
+plugins/other-chat-skills/skills/superpowers__writing-skills/SKILL.md
+  s_ad4313f963efd6::t_a03a16ab50135e 1-681
+plugins/other-chat-skills/skills/superpowers__writing-skills/agents/openai.yaml
+  s_ad4313f963efd6::t_542f5c8e09f067 1-3
+plugins/other-chat-skills/skills/superpowers__writing-skills/anthropic-best-practices.md
+  s_ad4313f963efd6::t_4f0c534f91011a 1-1150
+plugins/other-chat-skills/skills/superpowers__writing-skills/examples/CLAUDE_MD_TESTING.md
+  s_ad4313f963efd6::t_6e7a9d07013cbb 1-189
+plugins/other-chat-skills/skills/superpowers__writing-skills/graphviz-conventions.dot
+  s_ad4313f963efd6::t_6e3b0b2d4b0ca1 1-172
+plugins/other-chat-skills/skills/superpowers__writing-skills/persuasion-principles.md
+  s_ad4313f963efd6::t_6c97cb966d8393 1-187
+plugins/other-chat-skills/skills/superpowers__writing-skills/render-graphs.js
+  s_ad4313f963efd6::t_fb9f0d1fa101f1 1-169
+plugins/other-chat-skills/skills/superpowers__writing-skills/testing-skills-with-subagents.md
+  s_ad4313f963efd6::t_0e466459d7977b 1-384
+plugins/other-chat-skills/skills/template-creator__template-creator/SKILL.md
+  s_ad4313f963efd6::t_de829b14f7efb9 1-231
+plugins/other-chat-skills/skills/template-creator__template-creator/agents/openai.yaml
+  s_ad4313f963efd6::t_f05c19e984c89a 1-6
+plugins/other-chat-skills/skills/template-creator__template-creator/host/export-google-workspace-file.mjs
+  s_ad4313f963efd6::t_f35813eb2c87ca 1-352
+plugins/other-chat-skills/skills/template-creator__template-creator/host/google-workspace-export-stdin-receiver.mjs
+  s_ad4313f963efd6::t_76fa541618ac5d 1-180
+plugins/other-chat-skills/skills/template-creator__template-creator/scripts/create-template-skill.mjs
+  s_ad4313f963efd6::t_15a836daf0f089 1-1231
+plugins/other-chat-skills/skills/template-creator__template-creator/scripts/package-template-skill.py
+  s_ad4313f963efd6::t_aec7e8acc1ace6 1-120
+plugins/other-chat-skills/skills/template-creator__template-creator/scripts/tests/test_package_template_skill.py
+  s_ad4313f963efd6::t_75398d6eeffc29 1-370
+plugins/other-chat-skills/skills/toffy-presentation-dna/SKILL.md
+  s_ad4313f963efd6::t_b4e6b3197978f0 1-69
+plugins/other-chat-skills/skills/toffy-presentation-dna/agents/openai.yaml
+  s_ad4313f963efd6::t_598bd7f62b0c06 1-14
+plugins/other-chat-skills/skills/toffy-presentation-dna/assets/icon.svg
+  s_ad4313f963efd6::t_377a268508b4f4 1-5
+plugins/other-chat-skills/skills/toffy-presentation-dna/references/learning-loop.md
+  s_ad4313f963efd6::t_38a6c5509c1dc3 1-20
+plugins/other-chat-skills/skills/toffy-presentation-dna/references/magic-layers-qc.md
+  s_ad4313f963efd6::t_c8598c66119332 1-46
+plugins/other-chat-skills/skills/toffy-presentation-dna/references/narration-handoff.md
+  s_ad4313f963efd6::t_1e8b4911dd7709 1-20
+plugins/other-chat-skills/skills/toffy-presentation-dna/references/style-profile-banwai-pa-2569.json
+  s_ad4313f963efd6::t_ec3460f73ce88c 1-60
+plugins/other-chat-skills/skills/toffy-skill-engineering-standard/SKILL.md
+  s_ad4313f963efd6::t_4562625efb8c3b 1-38
+plugins/other-chat-skills/skills/toffy-skill-engineering-standard/agents/openai.yaml
+  s_ad4313f963efd6::t_3289f79d6a7f33 1-14
+plugins/other-chat-skills/skills/toffy-skill-engineering-standard/assets/icon.svg
+  s_ad4313f963efd6::t_9a706266acb130 1-6
+plugins/other-chat-skills/skills/toffy-skill-engineering-standard/references/learning-record.md
+  s_ad4313f963efd6::t_b4933ec5752c93 1-25
+plugins/other-chat-skills/skills/villagesql__vsql-extension-builder/README.md
+  s_ad4313f963efd6::t_7ab1e3c0fdf918 1-67
+plugins/other-chat-skills/skills/villagesql__vsql-extension-builder/SKILL.md
+  s_ad4313f963efd6::t_1cd0175f717a97 1-829
+plugins/other-chat-skills/skills/villagesql__vsql-extension-builder/references/capabilities.md
+  s_ad4313f963efd6::t_a575f1c793b412 1-90
+plugins/other-chat-skills/skills/villagesql__vsql-extension-builder/references/context-hygiene.md
+  s_ad4313f963efd6::t_47a25fe055b692 1-53
+plugins/other-chat-skills/skills/villagesql__vsql-extension-builder/references/cto-checklist.md
+  s_ad4313f963efd6::t_382ce650b18fe7 1-87
+plugins/other-chat-skills/skills/villagesql__vsql-extension-builder/references/environment.md
+  s_ad4313f963efd6::t_af92caae95cb60 1-156
+plugins/other-chat-skills/skills/villagesql__vsql-extension-builder/references/patterns.md
+  s_ad4313f963efd6::t_31de6c9f201c86 1-161
+plugins/other-chat-skills/skills/villagesql__vsql-extension-builder/references/pg-port-guide.md
+  s_ad4313f963efd6::t_08edc43a6bd817 1-235
+plugins/other-chat-skills/skills/villagesql__vsql-extension-builder/references/philosophy.md
+  s_ad4313f963efd6::t_8787792bb0a698 1-77
+plugins/other-chat-skills/skills/villagesql__vsql-extension-builder/references/rust-workflow.md
+  s_ad4313f963efd6::t_059ce89ac76155 1-253
+plugins/other-chat-skills/skills/vtr-skill-studio/SKILL.md
+  s_ad4313f963efd6::t_f58c82cb227021 1-63
+plugins/other-chat-skills/skills/vtr-skill-studio/agents/openai.yaml
+  s_ad4313f963efd6::t_bb1b6ceb8d5458 1-16
+plugins/other-chat-skills/skills/vtr-skill-studio/references/automatic-source-intake.md
+  s_ad4313f963efd6::t_9e494f36bfd442 1-36
+plugins/other-chat-skills/skills/vtr-skill-studio/references/capability-matrix.md
+  s_ad4313f963efd6::t_a03991d8065ccd 1-24
+plugins/other-chat-skills/skills/vtr-skill-studio/references/project-instructions-template.md
+  s_ad4313f963efd6::t_ac77ebb703adaf 1-18
+plugins/other-chat-skills/skills/vtr-skill-studio/references/school-safety-profile.md
+  s_ad4313f963efd6::t_571006de5395d5 1-29
+plugins/other-chat-skills/skills/vtr-skill-studio/references/studio-defaults.md
+  s_ad4313f963efd6::t_c5a170f5cbd834 1-26
+plugins/other-chat-skills/skills/vtr-skill-studio/references/studio-quality-gates.md
+  s_ad4313f963efd6::t_96787bd46b2ba1 1-30
+plugins/other-chat-skills/skills/vtr-skill-studio/references/topic-profile-template.md
+  s_ad4313f963efd6::t_6c3b2d90e45f31 1-35
+plugins/other-chat-skills/skills/vtr-skill-studio/references/zero-command-operation.md
+  s_ad4313f963efd6::t_d233359df7736c 1-56
+plugins/toffy-orchestrator/plugin.json
+  s_319f5f7948cb73::t_dfcf2fbd500b8d 1-6
+plugins/toffy-orchestrator/skills/toffy-system-orchestrator/SKILL.md
+  s_319f5f7948cb73::t_244be96e3a2cf7 1-56
+plugins/toffy-orchestrator/skills/toffy-system-orchestrator/agents/openai.yaml
+  s_319f5f7948cb73::t_271c783c0922de 1-14
+plugins/toffy-orchestrator/skills/toffy-system-orchestrator/assets/icon.svg
+  s_319f5f7948cb73::t_ff337f957598df 1-5
+plugins/toffy-orchestrator/skills/toffy-system-orchestrator/references/contracts.md
+  s_319f5f7948cb73::t_587ed965a7c85b 1-41
+plugins/toffy-orchestrator/skills/toffy-system-orchestrator/references/learning.md
+  s_319f5f7948cb73::t_d9edb775d38ced 1-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1e6bcc97a381787f7581118b8a1915c4d3257842",
+  "prompts": {},
+  "sessions": {
+    "s_319f5f7948cb73": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a10b88-2ccb-7771-b0f2-f019546202a2",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "KRU-OFFY <248393795+KRU-OFFY@users.noreply.github.com>"
+    },
+    "s_ad4313f963efd6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a10b88-2ccb-7771-b0f2-f019546202a2",
+        "model": "unknown"
+      },
+      "human_author": "KRU-OFFY <248393795+KRU-OFFY@users.noreply.github.com>"
+    }
+  }
+}
