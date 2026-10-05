@@ -1,0 +1,14 @@
+interface:
+  display_name: operating pdf manual control plane
+  short_description: Use when a PDF manual project must preserve durable stage state,
+    artifact versions, verification evidence, release approval, or publish-result
+    audit while using the designing-pdf-manuals workflow.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

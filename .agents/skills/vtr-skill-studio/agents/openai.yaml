@@ -1,0 +1,16 @@
+interface:
+  display_name: "\u0E2A\u0E15\u0E39\u0E14\u0E34\u0E42\u0E2D\u0E2A\u0E23\u0E49\u0E32\
+    \u0E07 Skills \u0E15\u0E31\u0E14\u0E15\u0E48\u0E2D VTR"
+  short_description: "\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E41\u0E25\u0E30\u0E1B\u0E23\
+    \u0E31\u0E1A Skills \u0E15\u0E31\u0E14\u0E15\u0E48\u0E2D\u0E27\u0E34\u0E14\u0E35\
+    \u0E42\u0E2D\u0E41\u0E25\u0E30\u0E40\u0E2A\u0E35\u0E22\u0E07\u0E04\u0E23\u0E1A\
+    \u0E27\u0E07\u0E08\u0E23"
+  default_prompt: Use $vtr-skill-studio to design or update a reusable video-editing
+    skill, using the school-safety VTR profile when appropriate.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

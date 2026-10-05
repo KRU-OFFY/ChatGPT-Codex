@@ -1,0 +1,60 @@
+{
+  "profile_id": "banwai-pa-2569-reference-v1",
+  "status": "MEASURED_REFERENCE_PROFILE_NOT_BRAND_STANDARD",
+  "reference_set": {
+    "slide_count": 14,
+    "actual_pixel_size_each": [1672, 941],
+    "aspect_ratio": 1.776833,
+    "combined_source_sha256": "cb4aac04a9ce7671b35166c0a610fa4c5ca05e36534261714ef2c75e237826a6",
+    "source_images_in_package": false,
+    "privacy_note": "Reference images are intentionally not bundled; approved source images may contain real people and student evidence."
+  },
+  "measured_palette": {
+    "royal_blue": "#012E86",
+    "emerald": "#01502D",
+    "warm_gold": "#F6D268",
+    "cream": "#FBFAF7"
+  },
+  "palette_role_note": "Measured medians from the 14-slide raster reference set; use as visual anchors, not immutable brand tokens.",
+  "layout_grammar": [
+    "deep royal-blue title plaque with gold bevel/outline",
+    "emerald secondary band or footer",
+    "cream-white content cards with gold framing",
+    "restrained Thai gold ornamental motifs",
+    "bright school-campus/daylight background when contextually appropriate",
+    "real portrait or evidence photo as a large anchor",
+    "gold-framed photo collage with diagonal/polygon variations",
+    "circular medallion icons with gold rim",
+    "navy body text with limited blue, green, magenta, orange KPI accents",
+    "bottom footer system with school/office identity, fiscal-year pill, and blue page-number wedge"
+  ],
+  "slide_role_examples": [
+    "hero-cover",
+    "welcome-committee",
+    "profile",
+    "workload",
+    "standards",
+    "active-learning",
+    "results-kpi-evidence",
+    "learner-support",
+    "ict-support",
+    "professional-development",
+    "method",
+    "result-reveal",
+    "ict-evidence-collage",
+    "closing-thanks"
+  ],
+  "evidence_rules": [
+    "Use canonical real school logo when logo is required.",
+    "Do not fabricate activity photos, certificates, statistics, or people as evidence.",
+    "Keep decorative generated visuals distinguishable from evidence.",
+    "Prefer replaceable photo regions and clean gutters between semantic regions."
+  ],
+  "production_target_when_magic_layers_is_required": {
+    "canvas": "16:9",
+    "target_pixels": [3840, 2160],
+    "format": "PNG",
+    "color_space": "sRGB",
+    "note": "Target is from the validated Magic Layers workflow and must be verified after export/upscale."
+  }
+}

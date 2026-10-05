@@ -1,0 +1,32 @@
+{
+  "name": "toffy-cloud-skills",
+  "interface": {
+    "displayName": "TOFFY Cloud Skills"
+  },
+  "plugins": [
+    {
+      "name": "toffy-orchestrator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/toffy-orchestrator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "other-chat-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/other-chat-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

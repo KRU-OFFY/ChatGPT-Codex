@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-14",
+  "sources": [
+    {"id":"web-osh-2569","url":"https://osh.labour.go.th/event/elementor-2095/","title":"กิจกรรม สถานศึกษาปลอดภัย ประจำปี 2569","category":"official-guidance","priority":"authoritative","selected_by_user":false,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"web-guide-2569","url":"https://angthong.labour.go.th/attachments/article/506/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2%20%E0%B8%9B%E0%B8%B5%202569.pdf","title":"คู่มือและแนวทางกิจกรรม สถานศึกษาปลอดภัย ประจำปี 2569","category":"official-guidance","priority":"authoritative","selected_by_user":false,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"youtube-pd9-uL15Tvs","url":"https://www.youtube.com/watch?v=pd9-uL15Tvs","title":"การประชุมชี้แจงกิจกรรมสถานศึกษาปลอดภัย ประจำปี 2569","category":"official-guidance","priority":"authoritative","selected_by_user":false,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"youtube-xGw8_Qnk2Jw","url":"https://www.youtube.com/watch?v=xGw8_Qnk2Jw","title":"VTR โรงเรียนบ้านสว่าง สถานศึกษาปลอดภัย 2569","category":"example-vtr","priority":"user-primary","selected_by_user":true,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"youtube-JK7J3SGcjGk","url":"https://www.youtube.com/watch?v=JK7J3SGcjGk","title":"VTR สถานศึกษาปลอดภัย โรงเรียนดงกลางพัฒนศึกษา ประจำปี 2569","category":"example-vtr","priority":"user-primary","selected_by_user":true,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"youtube-nqRU9__YLgY","url":"https://www.youtube.com/watch?v=nqRU9__YLgY","title":"รอตรวจสอบชื่อจากหน้าวิดีโอ","category":"example-vtr","priority":"user-primary","selected_by_user":true,"status":"pending-verification","checked_at":"2026-07-14"},
+    {"id":"youtube-7idi57xD1Bs","url":"https://www.youtube.com/watch?v=7idi57xD1Bs","title":"VTR โรงเรียนส่งเสริมความปลอดภัย 2569","category":"example-vtr","priority":"user-primary","selected_by_user":true,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"youtube-xLA0LWXmeLQ","url":"https://www.youtube.com/watch?v=xLA0LWXmeLQ","title":"VTR นำเสนอ สถานศึกษาปลอดภัย โรงเรียนบ้านนาตาลคำข่า 2569","category":"example-vtr","priority":"user-primary","selected_by_user":true,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"youtube-YPcfogq8aLw","url":"https://www.youtube.com/watch?v=YPcfogq8aLw","title":"VTR สถานศึกษาปลอดภัย โรงเรียนหนองขามพิทยาคม","category":"example-vtr","priority":"user-primary","selected_by_user":true,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"youtube-geiiFEQIo5s","url":"https://www.youtube.com/watch?v=geiiFEQIo5s","title":"กิจกรรมสถานศึกษาปลอดภัย 2569 โรงเรียนสามขาสว่างวิทย์","category":"example-vtr","priority":"research-comparison","selected_by_user":false,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"youtube-sDRkCoA-tfA","url":"https://www.youtube.com/watch?v=sDRkCoA-tfA","title":"โครงการสถานศึกษาปลอดภัย 2569 โรงเรียนบ้านเขามะปริง","category":"example-vtr","priority":"research-comparison","selected_by_user":false,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"youtube-ngP8-b6bZmo","url":"https://www.youtube.com/watch?v=ngP8-b6bZmo","title":"นำเสนอสถานศึกษาปลอดภัย 2569 โรงเรียนวัดสุคันธารมย์","category":"example-vtr","priority":"research-comparison","selected_by_user":false,"status":"verified","checked_at":"2026-07-14"},
+    {"id":"youtube-3M9maQ2fQeI","url":"https://www.youtube.com/watch?v=3M9maQ2fQeI","title":"วีดิทัศน์ประเมินสถานศึกษาปลอดภัย 2569 โรงเรียนสวายวิทยาคาร","category":"example-vtr","priority":"research-comparison","selected_by_user":false,"status":"verified","checked_at":"2026-07-14"}
+  ]
+}
+

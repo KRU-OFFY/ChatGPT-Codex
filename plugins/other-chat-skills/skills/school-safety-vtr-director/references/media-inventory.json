@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-15",
+  "summary": {
+    "total": 5,
+    "brand_assets": 2,
+    "evidence_images": 0,
+    "evidence_videos": 0,
+    "documents": 3,
+    "audio": 0
+  },
+  "items": [
+    {
+      "id": "MEDIA-0001",
+      "category": "brand-asset",
+      "subtype": "school-logo",
+      "original_filename": "94B970E0-B20E-41AC-A76B-890D55412F2B.jpeg",
+      "project_path": "assets/school-logo.jpeg",
+      "mime_type": "image/jpeg",
+      "width": 928,
+      "height": 1151,
+      "orientation": "portrait",
+      "size_bytes": 343237,
+      "sha256": "d9e4d34cd73e2abc7c0ce2e96e18bc40b8a095964281afa1fc9af11057b61916",
+      "technical_status": "usable-for-preview",
+      "approval_status": "superseded",
+      "warnings": [
+        "portrait-image",
+        "below-full-hd",
+        "jpeg-white-background",
+        "official-original-not-confirmed"
+      ],
+      "recommended_use": "Dashboard preview and draft VTR only",
+      "required_action": "None; retained as a backup"
+    },
+    {
+      "id": "MEDIA-0002",
+      "category": "brand-asset",
+      "subtype": "school-logo",
+      "original_filename": "ตรา รร.บ้านหวาย(7).png",
+      "project_path": "assets/school-logo.png",
+      "mime_type": "image/png",
+      "width": 2048,
+      "height": 2048,
+      "orientation": "square",
+      "sha256": "acabdbc75365d871cd7a6c21425a7fef6d9ee7251e4fc09a9dd89afccd75fee9",
+      "technical_status": "ready",
+      "approval_status": "primary-user-supplied",
+      "warnings": [],
+      "recommended_use": "Dashboard, VTR overlay, titles, end card, and final render",
+      "required_action": "None"
+    },
+    {
+      "id": "MEDIA-0003",
+      "category": "document",
+      "subtype": "assessment-rubric",
+      "original_filename": "25690714_133038_1860.pdf",
+      "mime_type": "application/pdf",
+      "pages": 3,
+      "size_bytes": 558738,
+      "sha256": "b97631ddd1ec13514b7b86526252df310b2468d8b2aea950806ddc824857a9ba",
+      "technical_status": "readable-scanned-pdf",
+      "approval_status": "authoritative",
+      "recommended_use": "Primary scoring rubric and content structure",
+      "required_action": "Verify separate VTR format and duration instruction"
+    },
+    {
+      "id": "MEDIA-0004",
+      "category": "document",
+      "subtype": "school-profile",
+      "original_filename": "ส่วนที่ 1 ข้อมูลพื้นฐานโรงเรียน(ครูท็อป).docx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "pages": 15,
+      "size_bytes": 220816,
+      "sha256": "a41f5e0660d200815c9072f5f9aca18d9c8a5a7af69a31ad352b93dee36fab22",
+      "technical_status": "readable",
+      "approval_status": "needs-current-year-review",
+      "recommended_use": "School introduction and factual captions",
+      "required_action": "Confirm 2569 student, personnel, and facility figures"
+    },
+    {
+      "id": "MEDIA-0005",
+      "category": "document",
+      "subtype": "school-safety-measures",
+      "original_filename": "มาตรการรักษาความปลอดภัยของสถานศึกษาโรงเรียนบ้านหวาย(หวายวิทยานุกูล).docx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "pages": 34,
+      "size_bytes": 119698,
+      "sha256": "15f8879c67cd187eab9608783d3315650e931a91226905aacbfb39d15a6b80fa",
+      "technical_status": "readable-with-legacy-font-mapping",
+      "approval_status": "usable-with-consistency-review",
+      "recommended_use": "Map policies and preventive measures to rubric criteria",
+      "required_action": "Confirm location wording, current year, and supporting activity evidence"
+    }
+  ]
+}

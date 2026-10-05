@@ -1,0 +1,14 @@
+interface:
+  display_name: TOFFY Skill Engineering Standard
+  short_description: สร้างสกิลจากหลักฐาน ทดสอบ และบทเรียนที่ตรวจแล้ว
+  default_prompt: ใช้ $toffy-skill-engineering-standard สร้างหรือปรับสกิลจากหลักฐาน
+    พร้อมทดสอบก่อนรับเป็นรุ่นใหม่
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

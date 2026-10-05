@@ -1,0 +1,6 @@
+output/
+local-evidence/
+*.zip
+__pycache__/
+.env
+.env.*

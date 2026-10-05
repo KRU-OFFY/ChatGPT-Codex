@@ -1,0 +1,14 @@
+interface:
+  display_name: computer control
+  short_description: ควบคุมคอมพิวเตอร์ Windows ผ่าน Windows-MCP สำหรับเปิดโปรแกรม
+    จัดการไฟล์ คลิกเมนู พิมพ์ข้อความ และตรวจสอบผล โดยหยุดก่อนรหัสผ่าน OTP CAPTCHA
+    การลบ การเผยแพร่ หรือการเปลี่ยนสิทธิ์สำคัญ
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

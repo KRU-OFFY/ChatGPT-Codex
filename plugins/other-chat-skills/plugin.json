@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "other-chat-skills",
+  "version": "0.1.0",
+  "description": "25 exact supplied other-chat skill source snapshots. Dependencies, original namespaces and runtime exposure require separate verification; no quality promotion."
+}

@@ -1,0 +1,14 @@
+interface:
+  display_name: browser control
+  short_description: ควบคุมเว็บเบราว์เซอร์ผ่าน Microsoft Playwright MCP สำหรับเปิดเว็บ
+    นำทาง กรอกแบบฟอร์ม อัปโหลดไฟล์ ตรวจหน้าเว็บ และทดสอบระบบ โดยหยุดก่อนรหัสผ่าน OTP
+    CAPTCHA การเผยแพร่ หรือการเปลี่ยนสิทธิ์สำคัญ
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

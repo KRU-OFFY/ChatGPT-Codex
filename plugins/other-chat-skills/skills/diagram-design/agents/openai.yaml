@@ -1,0 +1,21 @@
+interface:
+  display_name: diagram design
+  short_description: Create branded architecture, architecture delta, IT current-state,
+    flowchart, sequence, state machine, ER/data model, timeline, swimlane, quadrant,
+    radar/spider, polar chart (polar/radial lollipop), loop/flywheel, nested, tree,
+    org chart, layer stack, Venn, pyramid/funnel, treemap and marimekko, heatmap,
+    bar and dumbbell, waterfall, line (slopegraph, ridgeline, streamgraph, bump),
+    Gantt and scatter charts (bubble, beeswarm), high-level, process, medallion, data
+    flow, DP integration, DP security matrix, Sankey, fishbone, Wardley map, kanban,
+    user journey, deployment, dependency graph, UML class, story map, or database
+    schema diagrams as HTML/SVG/PNG, with .drawio, Mermaid, and .excalidraw import,
+    plus lifecycle phase maps, block decomposition trees, and onboarding guidance.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

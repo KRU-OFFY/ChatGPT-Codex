@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "toffy-orchestrator",
+  "version": "0.1.0",
+  "description": "Original TOFFY System Orchestrator instructions; recovered original bytes, candidate quality; runtime exposure must be verified."
+}

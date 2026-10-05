@@ -1,0 +1,14 @@
+interface:
+  display_name: TOFFY System Orchestrator
+  short_description: Plan systems, coordinate distinct lanes, and verify evidence
+  default_prompt: Use $toffy-system-orchestrator to plan and coordinate this system
+    from authoritative sources through verified integration.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

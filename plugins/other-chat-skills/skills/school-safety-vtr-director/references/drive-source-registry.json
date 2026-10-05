@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-15",
+  "connector": "google-drive",
+  "scope": "metadata and text intake only; large media remains in Drive",
+  "summary": {
+    "root_folders": 3,
+    "unique_files": 13,
+    "pdf": 11,
+    "image": 1,
+    "video": 1,
+    "text_extracted": 9,
+    "metadata_only": 4
+  },
+  "roots": [
+    {"id":"1h8DL2hIuwh0hWTvwKdIV1c9FQnQqJPcz","url":"https://drive.google.com/drive/folders/1h8DL2hIuwh0hWTvwKdIV1c9FQnQqJPcz","label":"เกียรติบัตร"},
+    {"id":"1y6t1HkfJ-x11J9dbWR-xzt6d0fAzjI2h","url":"https://drive.google.com/drive/folders/1y6t1HkfJ-x11J9dbWR-xzt6d0fAzjI2h","label":"SAR ปีการศึกษา 2567–2568"},
+    {"id":"1bNYdpqWJqFg03FZz7TMoDHk3axfkiCs3","url":"https://drive.google.com/drive/folders/1bNYdpqWJqFg03FZz7TMoDHk3axfkiCs3","label":"เอกสารผลงานด้านที่ 1–5 และวิดีโอ"}
+  ],
+  "items": [
+    {"id":"DRV-001","drive_id":"1MsfNGwLUuCzHILDPxLhbl-E_54varQOq","name":"รร.jpg","mime_type":"image/jpeg","size_bytes":91595,"category":"certificate-image","relevance":"supporting","read_status":"metadata-only"},
+    {"id":"DRV-002","drive_id":"1UuwZS10liHCDsibKctBGSNmqe826nQOA","name":"เกีบรติบัตรศิลปหัตถกรรมเขต-ครู.pdf","mime_type":"application/pdf","size_bytes":8738335,"category":"teacher-awards","relevance":"context-only","read_status":"text-extracted"},
+    {"id":"DRV-003","drive_id":"1Kpj13rm46f73h5A2guklupuWz96yOgYZ","name":"เกีบรติบัตรศิลปหัตถกรรมเขต-นักเรียน.pdf","mime_type":"application/pdf","size_bytes":8795904,"category":"student-awards","relevance":"context-only","read_status":"text-extracted","privacy_note":"do not expose student names unless necessary and authorized"},
+    {"id":"DRV-004","drive_id":"1iTSw7yNWHKo9m7wnRl4X5Na5jzgmr2Bj","name":"sar ระดับปฐมวัย โรงเรียนบ้านหวาย(หวายวิทยาน2.pdf","mime_type":"application/pdf","size_bytes":14227009,"category":"sar-2568-early-childhood","relevance":"high","read_status":"text-extracted"},
+    {"id":"DRV-005","drive_id":"1jQyO3-g6r2kWb0cBqy8iut4U8VX0XQqI","name":"รายงานSAR68 หวาย ขั้นพื้นฐาน.pdf","mime_type":"application/pdf","size_bytes":11652914,"category":"sar-2568-basic-education","relevance":"critical","read_status":"text-extracted"},
+    {"id":"DRV-006","drive_id":"1vyTINngCK5p-_iJ6bfALVqZPqPpFvU5m","name":"sar 67 ระดับการศึกษาขั้นพื้นฐาน โรงเรียนบ้านหวาย(หวายวิทยานุกูล).pdf","mime_type":"application/pdf","size_bytes":12541445,"category":"sar-2567-basic-education","relevance":"historical","read_status":"metadata-only"},
+    {"id":"DRV-007","drive_id":"16cfxhVSCxFquOKZ50ERd1vAIgXeP8elD","name":"sar 67 ระดับปฐมวัย โรงเรียนบ้านหวาย(หวายวิทยานุกูล).pdf","mime_type":"application/pdf","size_bytes":12167634,"category":"sar-2567-early-childhood","relevance":"historical","read_status":"metadata-only"},
+    {"id":"DRV-008","drive_id":"1TP4H69K0HovqknWQrsLjwE0kJc09hxXN","name":"คลินิกภาษาไทย.mp4","mime_type":"video/mp4","size_bytes":41081803,"category":"school-video","relevance":"low-not-safety-specific","read_status":"metadata-only"},
+    {"id":"DRV-009","drive_id":"1bASxvdP0gcNytilFESNEojy_eAYGXW_C","name":"ด้านที่ 5.pdf","mime_type":"application/pdf","size_bytes":1090642,"category":"professional-development-evidence","relevance":"supporting","read_status":"text-extracted"},
+    {"id":"DRV-010","drive_id":"17nZ1nSLnRYAvcXD4HQalpWLBzsxZ8ZNR","name":"ด้านที่ 4.pdf","mime_type":"application/pdf","size_bytes":664256,"category":"community-and-service-evidence","relevance":"supporting","read_status":"text-extracted"},
+    {"id":"DRV-011","drive_id":"1rPLwfFmFQvk23PX7wgAm-v5BDYRRFrkv","name":"ด้านที่ 3.pdf","mime_type":"application/pdf","size_bytes":1302285,"category":"innovation-and-network-evidence","relevance":"supporting","read_status":"text-extracted"},
+    {"id":"DRV-012","drive_id":"1SqeXWWIRf0CSKLVxFjAGb6RUziUWEbkK","name":"ด้านที่ 2.pdf","mime_type":"application/pdf","size_bytes":2381719,"category":"management-and-student-care-evidence","relevance":"high","read_status":"text-extracted"},
+    {"id":"DRV-013","drive_id":"1mt54-z4v75fvTZoy-aCKTg5lLJorK_r6","name":"ด้านที่ 1.pdf","mime_type":"application/pdf","size_bytes":3052987,"category":"academic-management-evidence","relevance":"supporting","read_status":"text-extracted"}
+  ]
+}

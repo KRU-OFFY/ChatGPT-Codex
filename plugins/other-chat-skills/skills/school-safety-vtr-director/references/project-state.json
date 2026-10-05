@@ -1,0 +1,118 @@
+{
+  "version": 2,
+  "updated_at": "2026-07-15",
+  "automatic_mode": true,
+  "project_name": "VTR สถานศึกษาปลอดภัย โรงเรียนบ้านหวาย(หวายวิทยานุกูล)",
+  "school": "โรงเรียนบ้านหวาย(หวายวิทยานุกูล)",
+  "district": "สำนักงานเขตพื้นที่การศึกษาประถมศึกษาร้อยเอ็ด เขต 3",
+  "video_profile": "school-safety-assessment",
+  "capabilities": {
+    "computer_control": {
+      "configured": true,
+      "mode": "optional-connected-tool",
+      "supported_surfaces": ["Windows-MCP", "computer-use", "desktop-control"],
+      "allowed_tasks": ["จัดไฟล์", "เปิดโปรแกรมตัดต่อ", "นำเข้าสื่อ", "ตั้งค่าโปรเจ็กต์", "ตัดต่อแบบย้อนกลับได้", "ตรวจ Preview", "เปิดหน้า Dashboard", "ช่วยนำทางการตั้งค่า"],
+      "user_takeover_required": ["รหัสผ่าน", "Passkey", "OTP", "CAPTCHA", "อนุญาตบัญชี", "เผยแพร่หรือแชร์", "ลบไฟล์", "ชำระเงิน"],
+      "connection_status": "not-detected"
+    }
+  },
+  "hard_duration_seconds": 300,
+  "target_duration_seconds": 285,
+  "current_stage": "consistency",
+  "workflow": {
+    "source-intake": {"label":"รับและจัดหมวดข้อมูล","status":"in-progress","progress":93,"note":"เชื่อม Google Drive เดิม 3 โฟลเดอร์และสร้างช่องรับหลักฐานจากคณะครูพร้อมทะเบียนกลางแล้ว รอเจ้าของบัญชี Deploy เว็บแอปหนึ่งครั้ง"},
+    "rubric": {"label":"เกณฑ์ประเมินของเขต","status":"completed","progress":100,"note":"สกัดเกณฑ์ 7 องค์ประกอบ 100 คะแนนและสร้างตารางเกณฑ์–หลักฐานแล้ว"},
+    "school-data": {"label":"ข้อมูลโรงเรียน","status":"needs-review","progress":90,"note":"SAR ปี 2568 ยืนยันนักเรียน 196 คน 11 ห้องเรียน และบุคลากรรวม 18 คน แต่จำนวนครูในเอกสารมีทั้ง 13 และ 14 คน"},
+    "images": {"label":"รูปภาพหลักฐาน","status":"needs-review","progress":10,"note":"พบภาพเกียรติบัตร 1 ไฟล์และภาพกิจกรรมภายใน PDF แต่ยังไม่มีคลังภาพกิจกรรมความปลอดภัยแบบไฟล์แยก"},
+    "videos": {"label":"คลิปวิดีโอหลักฐาน","status":"needs-review","progress":5,"note":"พบคลินิกภาษาไทย.mp4 1 ไฟล์ ซึ่งไม่ใช่คลิปความปลอดภัยที่ SAR อ้างถึง"},
+    "documents": {"label":"เอกสารหลักฐาน","status":"in-progress","progress":90,"note":"ลงทะเบียนเอกสารเดิม 3 ไฟล์และหลักฐานจาก Drive เพิ่ม 12 ไฟล์ พร้อมอ่าน SAR ปี 2568 และเอกสารผลงานด้านที่ 1–5"},
+    "audio": {"label":"เสียงพากย์ เพลง และสิทธิ์","status":"pending","progress":0,"note":"ยังไม่ได้จัดเตรียมและตรวจสิทธิ์"},
+    "consistency": {"label":"ตรวจความสอดคล้องข้อมูล","status":"in-progress","progress":60,"note":"ใช้ SAR ปี 2568 เป็นข้อมูลล่าสุดแล้ว เหลือยืนยันจำนวนครู 13/14 คน ข้อกำหนด VTR และไฟล์หลักฐานสื่อความปลอดภัย"},
+    "script": {"label":"บทพากย์","status":"pending","progress":0,"note":"รอตารางเกณฑ์และหลักฐาน"},
+    "storyboard": {"label":"Storyboard และ Timeline","status":"pending","progress":0,"note":"รอบทพากย์"},
+    "edit-plan": {"label":"แผนตัดต่อ","status":"pending","progress":0,"note":"รอบัญชีสื่อและ Timeline"},
+    "editing": {"label":"ตัดต่อภาพและเสียง","status":"pending","progress":0,"note":"ยังไม่เริ่ม"},
+    "subtitles": {"label":"ซับไตเติลและข้อความ","status":"pending","progress":0,"note":"ยังไม่เริ่ม"},
+    "render": {"label":"Render วิดีโอ","status":"pending","progress":0,"note":"ยังไม่เริ่ม"},
+    "quality-control": {"label":"ตรวจคุณภาพและจำลองกรรมการ","status":"pending","progress":0,"note":"รอไฟล์ Render"},
+    "delivery": {"label":"ส่งมอบไฟล์","status":"pending","progress":0,"note":"รอผ่าน QC"}
+  },
+  "source_summary": {"total":29,"official":19,"example_vtr":10,"pending_verification":1},
+  "intake_summary": {
+    "chat_files": 5,
+    "drive_folders": 3,
+    "drive_files": 13,
+    "reference_links": 13,
+    "upload_channels": 1,
+    "teacher_submissions": 0,
+    "project_sources": 29,
+    "note": "จำนวนแหล่งข้อมูลโครงการไม่นับโลโก้สำรอง 2 ไฟล์เป็นหลักฐานเนื้อหา"
+  },
+  "intake_channel": {
+    "name": "ช่องรับหลักฐาน VTR จากคณะครู",
+    "status": "setup-package-ready",
+    "privacy_mode": "authenticated-teachers-and-aggregated-dashboard",
+    "root_folder_id": "1KSTzwDY1WMh12UH5XOpA1v8KWUMjZ8AQ",
+    "root_folder_url": "https://drive.google.com/drive/folders/1KSTzwDY1WMh12UH5XOpA1v8KWUMjZ8AQ",
+    "registry_spreadsheet_id": "14dTnzf6tUP0CkNt1KI0jeTZv1vUoN7aDCw7E-DjrdG0",
+    "registry_spreadsheet_url": "https://docs.google.com/spreadsheets/d/14dTnzf6tUP0CkNt1KI0jeTZv1vUoN7aDCw7E-DjrdG0/edit",
+    "setup_package_file_id": "1RUrvhumsbVW5tQboQwrvcebw2-aTMP_x",
+    "setup_package_url": "https://drive.google.com/file/d/1RUrvhumsbVW5tQboQwrvcebw2-aTMP_x/view?usp=drivesdk",
+    "web_app_url": null,
+    "dashboard_api_url": null,
+    "deployment_requirement": "เจ้าของบัญชี Google ต้องอนุญาต Apps Script และ Deploy เป็น Web app หนึ่งครั้ง",
+    "limits": {"per_file_mb":20,"per_submission_mb":30,"large_video_method":"Google Drive link"}
+  },
+  "project_team": [
+    "นายวัชระพล วินะกะ",
+    "นายพงศกร ไชยดำ",
+    "นายนันพงษ์ มงคลแก้วเลิศ"
+  ],
+  "brand_assets": [
+    {
+      "id": "BRAND-001",
+      "type": "school-logo",
+      "original_filename": "94B970E0-B20E-41AC-A76B-890D55412F2B.jpeg",
+      "project_path": "assets/school-logo.jpeg",
+      "format": "JPEG",
+      "width": 928,
+      "height": 1151,
+      "sha256": "d9e4d34cd73e2abc7c0ce2e96e18bc40b8a095964281afa1fc9af11057b61916",
+      "status": "superseded",
+      "note": "เก็บเป็นไฟล์สำรอง ไฟล์ PNG ความละเอียดสูงถูกเลือกเป็นไฟล์หลักแทน"
+    },
+    {
+      "id": "BRAND-002",
+      "type": "school-logo",
+      "original_filename": "ตรา รร.บ้านหวาย(7).png",
+      "project_path": "assets/school-logo.png",
+      "format": "PNG RGBA",
+      "width": 2048,
+      "height": 2048,
+      "sha256": "acabdbc75365d871cd7a6c21425a7fef6d9ee7251e4fc09a9dd89afccd75fee9",
+      "status": "primary",
+      "note": "ไฟล์หลักสำหรับ Dashboard, Overlay และ Render VTR; พื้นหลังโปร่งใสและความละเอียดเพียงพอ"
+    }
+  ],
+  "issues": [
+    {"id":"ISSUE-001","severity":"critical","area":"rubric","message":"ได้รับและวิเคราะห์เกณฑ์ประเมินปี 2569 แล้ว","required_action":"ไม่ต้องดำเนินการเพิ่มเติม","status":"closed"},
+    {"id":"ISSUE-002","severity":"warning","area":"media","message":"ได้รับเอกสารจาก Drive แล้ว แต่ยังไม่มีคลังภาพและคลิปกิจกรรมความปลอดภัยแบบไฟล์แยก","required_action":"เมื่อมีภาพหรือคลิปใน Drive ระบบจะค้นและจัดเข้าตัวชี้วัดให้อัตโนมัติ","status":"open"},
+    {"id":"ISSUE-003","severity":"info","area":"branding","message":"ได้รับโลโก้โรงเรียน PNG โปร่งใสความละเอียดสูงแล้ว","required_action":"ไม่ต้องดำเนินการเพิ่มเติม เว้นแต่มีการเปลี่ยนตราโรงเรียน","status":"closed"},
+    {"id":"ISSUE-004","severity":"info","area":"sources","message":"ตัวอย่าง YouTube 1 รายการยังตรวจสอบชื่อไม่ได้","required_action":"เก็บเป็น pending-verification โดยไม่เดาชื่อ","status":"open"},
+    {"id":"ISSUE-005","severity":"warning","area":"school-data","message":"SAR ปี 2568 ระบุจำนวนครูไม่ตรงกัน: ตารางหนึ่ง 13 คน แต่อีกตาราง 14 คน; บุคลากรรวม 18 คน","required_action":"หลีกเลี่ยงการกล่าวจำนวนครูในบทพากย์จนกว่าจะมีการยืนยัน","status":"open"},
+    {"id":"ISSUE-006","severity":"warning","area":"rubric","message":"เกณฑ์ที่ได้รับระบุส่งรูปเล่ม แต่ไม่พบข้อกำหนด VTR หรือความยาวไม่เกิน 5 นาที","required_action":"เพิ่มหนังสือหรือข้อความคำสั่งที่กำหนดรูปแบบ VTR หากมี","status":"open"},
+    {"id":"ISSUE-007","severity":"warning","area":"media","message":"SAR อ้างถึงคลิปความปลอดภัยและซ้อมแผนที่ได้รับรางวัลดีเยี่ยม แต่ยังไม่พบไฟล์ดังกล่าวใน 3 โฟลเดอร์","required_action":"ระบบจะเชื่อมรายการนี้ทันทีเมื่อพบไฟล์หรือ URL ต้นฉบับ","status":"open"},
+    {"id":"ISSUE-008","severity":"info","area":"sources","message":"เชื่อม Google Drive 3 โฟลเดอร์และจัดหมวดไฟล์ 13 รายการสำเร็จ","required_action":"ไม่ต้องดำเนินการเพิ่มเติม","status":"closed"},
+    {"id":"ISSUE-009","severity":"info","area":"intake-channel","message":"สร้างโฟลเดอร์รับหลักฐาน 10 หมวด ทะเบียนกลาง และชุดติดตั้งเว็บรับไฟล์แล้ว","required_action":"เจ้าของบัญชีเปิด Apps Script จากทะเบียนกลาง อนุญาตสิทธิ์และ Deploy เป็น Web app หนึ่งครั้ง จากนั้นบันทึก Web app URL","status":"open"}
+  ],
+  "render_state": {
+    "status":"not-started",
+    "progress":0,
+    "attempt":0,
+    "output_file":null,
+    "started_at":null,
+    "finished_at":null,
+    "error":null
+  },
+  "next_automatic_action":"ใช้ SAR ปี 2568 เติมโครงเรื่อง 4:45 และสร้าง Shot List เฉพาะภาพ/คลิปความปลอดภัยที่ยังขาดตามเกณฑ์ 7 องค์ประกอบ"
+}

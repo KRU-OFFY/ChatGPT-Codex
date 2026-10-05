@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#6048ee">
+  <title>VTR Readiness Dashboard</title>
+  <style>
+    :root {
+      --ink: #19213e;
+      --muted: #6e7692;
+      --line: #e7e9f5;
+      --bg: #f7f8ff;
+      --surface: rgba(255, 255, 255, .96);
+      --violet: #6748ec;
+      --blue: #2587f7;
+      --cyan: #10bfe8;
+      --mint: #18c79b;
+      --amber: #f6ac2f;
+      --red: #ef466f;
+      --shadow: 0 14px 38px rgba(45, 38, 105, .09);
+      font-family: "Noto Sans Thai", "Leelawadee UI", Tahoma, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(circle at 88% -12%, rgba(88, 200, 255, .22), transparent 30%),
+        radial-gradient(circle at 5% 15%, rgba(140, 92, 246, .12), transparent 24%),
+        var(--bg);
+    }
+    button, input { font: inherit; }
+    h1, h2, h3, p { margin: 0; }
+    .shell { width: min(1480px, 100%); margin: auto; padding: 22px; }
+    .topbar, .brand, .actions, .live, .metric, .issue-head, .next, .foot,
+    .section-title, .render-head, .sync-meta { display: flex; align-items: center; }
+    .topbar { justify-content: space-between; gap: 18px; margin-bottom: 20px; }
+    .brand { gap: 13px; }
+    .mark {
+      width: 58px; height: 58px; border-radius: 17px; display: grid; place-items: center;
+      background: #fff; border: 1px solid var(--line); padding: 3px;
+      box-shadow: 0 10px 24px rgba(91, 72, 232, .16);
+    }
+    .mark img { width: 100%; height: 100%; object-fit: contain; }
+    h1 { font-size: clamp(1.35rem, 2vw, 1.9rem); line-height: 1.2; }
+    .subtitle { color: var(--muted); font-size: .88rem; margin-top: 4px; }
+    .actions { gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    .live {
+      gap: 8px; border-radius: 999px; padding: 8px 12px; font-size: .8rem; font-weight: 900;
+      color: #0e956d; background: #e9fbf5; border: 1px solid #c8f3e5;
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: #13c796; animation: pulse 2s infinite; }
+    .live.offline { color: #8b6470; background: #fff0f2; border-color: #ffd3da; }
+    .live.offline .dot { background: #ef5c74; animation: none; }
+    .live.snapshot { color: #99620d; background: #fff5df; border-color: #f9dfaa; }
+    .live.snapshot .dot { background: var(--amber); animation: none; }
+    @keyframes pulse { 50% { box-shadow: 0 0 0 8px rgba(19, 199, 150, 0); } }
+    .btn {
+      appearance: none; border: 0; border-radius: 12px; padding: 10px 14px; cursor: pointer;
+      font-weight: 900; color: #4a3ec8; background: #eeebff; transition: .2s;
+    }
+    .btn:hover { transform: translateY(-1px); background: #e3deff; }
+    .btn.primary { color: #fff; background: linear-gradient(135deg, var(--blue), var(--violet)); box-shadow: 0 8px 18px rgba(86, 71, 222, .22); }
+    .btn:focus-visible { outline: 3px solid rgba(37, 135, 247, .28); outline-offset: 2px; }
+
+    .card { background: var(--surface); border: 1px solid rgba(230, 230, 244, .9); border-radius: 20px; box-shadow: var(--shadow); }
+    .hero { display: grid; grid-template-columns: 1.05fr 2.25fr; gap: 18px; margin-bottom: 18px; }
+    .readiness { padding: 23px; display: grid; grid-template-columns: 145px 1fr; align-items: center; gap: 19px; }
+    .ring {
+      --p: 0; width: 142px; aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center;
+      background: conic-gradient(var(--violet) calc(var(--p) * 1%), #ececf7 0); position: relative;
+    }
+    .ring::after { content: ""; position: absolute; inset: 15px; border-radius: 50%; background: #fff; }
+    .ring-value { position: relative; z-index: 1; text-align: center; }
+    .ring-value strong { display: block; font-size: 2.2rem; line-height: 1; }
+    .ring-value span { font-size: .73rem; color: var(--muted); font-weight: 800; }
+    .eyebrow { color: var(--violet); font-size: .7rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+    .readiness h2 { font-size: 1.18rem; margin: 5px 0 8px; }
+    .current { color: var(--muted); line-height: 1.45; font-size: .87rem; }
+    .current b { color: var(--ink); }
+    .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .metric { padding: 20px; gap: 13px; min-width: 0; }
+    .metric-icon { width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center; flex: 0 0 auto; }
+    .metric:nth-child(1) .metric-icon { color: #267eed; background: #e9f3ff; }
+    .metric:nth-child(2) .metric-icon { color: #0caa88; background: #e8fbf6; }
+    .metric:nth-child(3) .metric-icon { color: #7352e8; background: #f0ebff; }
+    .metric:nth-child(4) .metric-icon { color: #ef5f68; background: #fff0f1; }
+    .metric strong { display: block; font-size: 1.65rem; line-height: 1; }
+    .metric span { color: var(--muted); font-size: .78rem; font-weight: 800; }
+    .metric small { display: block; color: #a0a5b8; margin-top: 4px; font-size: .67rem; }
+
+    .intake-strip { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 18px; }
+    .intake-stat { padding: 15px 17px; position: relative; overflow: hidden; }
+    .intake-stat::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--accent, var(--blue)); }
+    .intake-stat strong { display: block; font-size: 1.35rem; }
+    .intake-stat span { display: block; color: var(--muted); font-size: .73rem; font-weight: 800; }
+    .intake-stat small { color: #a0a5b8; font-size: .65rem; }
+
+    .main { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(310px, .75fr); gap: 18px; }
+    .left-stack, .side { display: grid; gap: 18px; align-content: start; }
+    .panel { padding: 21px; }
+    .panel-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 17px; }
+    .section-title { gap: 11px; align-items: flex-start; }
+    .section-icon { width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center; color: #fff; background: linear-gradient(135deg, var(--cyan), var(--violet)); flex: 0 0 auto; }
+    .section-icon.user { background: linear-gradient(135deg, #14b8a6, #2388f7); }
+    .panel h2 { font-size: 1.05rem; }
+    .panel-kicker { color: var(--muted); font-size: .72rem; margin-top: 4px; line-height: 1.45; }
+    .stamp { color: var(--muted); font-size: .7rem; text-align: right; white-space: nowrap; }
+    .section-progress { min-width: 86px; text-align: right; }
+    .section-progress strong { display: block; color: var(--violet); font-size: 1.15rem; }
+    .section-progress span { color: var(--muted); font-size: .64rem; }
+    .pipeline { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 19px; }
+    .stage { min-width: 0; text-align: center; color: var(--muted); font-size: .66rem; font-weight: 900; }
+    .stage i { display: grid; width: 31px; height: 31px; margin: 0 auto 7px; border-radius: 50%; place-items: center; font-style: normal; background: #ececf5; color: #8f94aa; }
+    .stage.active i { color: #fff; background: linear-gradient(135deg, var(--cyan), var(--violet)); }
+    .stage.blocked i { color: var(--red); background: #fff0f2; }
+    .workflow { display: grid; gap: 8px; }
+    .flow-row { display: grid; grid-template-columns: minmax(170px, 1.25fr) 135px minmax(120px, 1fr) 45px 30px; gap: 12px; align-items: center; padding: 11px 12px; border: 1px solid var(--line); border-radius: 14px; background: #fff; transition: .18s; }
+    .flow-row:hover { border-color: #d9d5fa; box-shadow: 0 7px 20px rgba(49, 43, 113, .06); }
+    .flow-name { overflow: hidden; font-size: .82rem; font-weight: 900; text-overflow: ellipsis; white-space: nowrap; }
+    .badge { justify-self: start; border-radius: 999px; padding: 5px 9px; font-size: .66rem; font-weight: 900; white-space: nowrap; }
+    .bar { height: 7px; overflow: hidden; border-radius: 99px; background: #eeeef6; }
+    .bar > i { display: block; width: var(--p); height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--cyan), var(--violet)); transition: width .4s; }
+    .pct { color: var(--muted); font-size: .72rem; font-weight: 900; text-align: right; }
+    .toggle { border: 0; padding: 3px; cursor: pointer; color: #a3a7ba; background: transparent; }
+    .flow-note { display: none; grid-column: 1 / -1; padding-top: 9px; border-top: 1px dashed var(--line); color: var(--muted); font-size: .72rem; line-height: 1.5; }
+    .flow-row.open .flow-note { display: block; }
+    .flow-row.open .toggle { transform: rotate(180deg); }
+    .status-missing, .status-blocked, .status-failed { color: #d94566; background: #fff0f4; }
+    .status-needs-review { color: #b66c0d; background: #fff4dd; }
+    .status-pending, .status-not-started { color: #72798f; background: #f0f1f5; }
+    .status-in-progress, .status-queued, .status-rendering { color: #3d63cf; background: #eaf0ff; }
+    .status-ready { color: #0b8fb0; background: #e4faff; }
+    .status-completed { color: #078d6b; background: #e6faf4; }
+    .status-not-applicable { color: #777; background: #eee; }
+
+    .render { overflow: hidden; }
+    .render-head { justify-content: space-between; padding: 18px 20px; color: #fff; background: linear-gradient(120deg, #127eea, #6a44e8); }
+    .render-head small { opacity: .8; }
+    .render-body { padding: 20px; }
+    .render-line { display: flex; justify-content: space-between; gap: 10px; color: var(--muted); font-size: .75rem; }
+    .render-meter { height: 10px; overflow: hidden; margin: 13px 0 10px; border-radius: 99px; background: #ececf5; }
+    .render-meter i { display: block; width: var(--p); height: 100%; background: linear-gradient(90deg, var(--cyan), var(--violet)); transition: width .5s; }
+    .render-file { margin-top: 15px; padding: 11px; border-radius: 12px; background: #f7f7fb; font-size: .72rem; word-break: break-all; }
+    .error { display: none; margin-top: 10px; padding: 9px; border-radius: 10px; color: #cf3557; background: #fff0f4; font-size: .72rem; }
+    .error.show { display: block; }
+    .issues, .team { padding: 20px; }
+    .issue-list, .team-list { display: grid; gap: 10px; }
+    .issue { padding: 12px; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+    .issue-head { justify-content: space-between; gap: 9px; }
+    .issue-title { font-size: .76rem; font-weight: 900; }
+    .severity { padding: 4px 8px; border-radius: 99px; font-size: .62rem; font-weight: 900; white-space: nowrap; }
+    .sev-critical { color: #d53a60; background: #ffe9ef; }
+    .sev-warning { color: #ae690b; background: #fff4dc; }
+    .sev-info { color: #2474c4; background: #eaf4ff; }
+    .issue p { margin-top: 6px; color: var(--muted); font-size: .7rem; line-height: 1.5; }
+    .member { display: flex; align-items: center; gap: 10px; padding: 9px 10px; border-radius: 12px; background: #f7f7fd; font-size: .75rem; font-weight: 900; }
+    .avatar { width: 29px; height: 29px; border-radius: 10px; display: grid; place-items: center; color: #fff; background: linear-gradient(135deg, var(--cyan), var(--violet)); font-size: .67rem; }
+    .empty { padding: 26px 8px; color: #0b9974; font-weight: 900; text-align: center; }
+    .next { gap: 12px; padding: 17px 20px; border: 1px solid #dfe2ff; border-radius: 18px; background: linear-gradient(100deg, #edf5ff, #f0ebff); }
+    .next-icon { width: 40px; height: 40px; border-radius: 13px; display: grid; place-items: center; color: #fff; background: linear-gradient(135deg, var(--cyan), var(--violet)); flex: 0 0 auto; }
+    .next strong { display: block; font-size: .78rem; }
+    .next p { margin-top: 3px; color: #555d7c; font-size: .74rem; line-height: 1.5; }
+    .sync-card { padding: 14px 16px; border-radius: 16px; background: #fff; border: 1px dashed #d8dbec; }
+    .sync-meta { justify-content: space-between; gap: 12px; color: var(--muted); font-size: .68rem; }
+    .sync-meta strong { color: var(--ink); }
+    .foot { justify-content: space-between; gap: 12px; padding: 17px 4px 0; color: #8a90a8; font-size: .68rem; }
+    .hidden { display: none !important; }
+
+    @media (max-width: 1100px) {
+      .hero { grid-template-columns: 1fr; }
+      .metrics, .intake-strip { grid-template-columns: repeat(2, 1fr); }
+      .main { grid-template-columns: 1fr; }
+      .side { grid-template-columns: 1fr 1fr; }
+      .next, .sync-card { grid-column: 1 / -1; }
+    }
+    @media (max-width: 700px) {
+      .shell { padding: 14px; }
+      .topbar { align-items: flex-start; flex-direction: column; }
+      .actions { justify-content: flex-start; }
+      .readiness { grid-template-columns: 112px 1fr; padding: 17px; }
+      .ring { width: 108px; }
+      .ring::after { inset: 12px; }
+      .ring-value strong { font-size: 1.7rem; }
+      .metrics, .intake-strip { grid-template-columns: 1fr 1fr; gap: 9px; }
+      .metric { padding: 14px; }
+      .metric strong { font-size: 1.35rem; }
+      .panel { padding: 15px; }
+      .pipeline { grid-template-columns: repeat(3, 1fr); row-gap: 13px; }
+      .flow-row { grid-template-columns: minmax(120px, 1fr) 110px 36px 22px; gap: 7px; }
+      .flow-row .bar { grid-column: 1 / 3; }
+      .flow-row .pct { grid-column: 3; }
+      .flow-row .toggle { grid-column: 4; grid-row: 1; }
+      .side { grid-template-columns: 1fr; }
+      .next, .sync-card { grid-column: auto; }
+      .foot { align-items: flex-start; flex-direction: column; }
+      .btn { padding: 9px 11px; }
+      .stamp { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="mark"><img src="school-logo.png" alt="ตราโรงเรียนบ้านหวาย"></div>
+        <div>
+          <h1>VTR Readiness Dashboard</h1>
+          <p class="subtitle" id="projectName">VTR สถานศึกษาปลอดภัย</p>
+        </div>
+      </div>
+      <div class="actions">
+        <div class="live offline" id="live"><i class="dot"></i><span>กำลังตรวจแหล่งข้อมูล</span></div>
+        <button class="btn" id="refreshBtn" type="button">รีเฟรช</button>
+        <button class="btn primary" id="connectBtn" type="button">เชื่อมไฟล์สถานะ</button>
+        <input id="fileInput" class="hidden" type="file" accept="application/json,.json">
+      </div>
+    </header>
+
+    <section class="hero" aria-label="ภาพรวมความพร้อม">
+      <article class="card readiness">
+        <div class="ring" id="ring"><div class="ring-value"><strong id="overall">0%</strong><span>ความพร้อมรวม</span></div></div>
+        <div>
+          <div class="eyebrow">Current readiness</div>
+          <h2 id="readinessText">กำลังอ่านข้อมูลโครงการ</h2>
+          <p class="current">ขั้นปัจจุบัน<br><b id="currentStage">—</b></p>
+        </div>
+      </article>
+      <div class="metrics">
+        <article class="card metric"><div class="metric-icon">◆</div><div><strong id="totalSources">0</strong><span>แหล่งข้อมูลโครงการ</span><small>Project sources</small></div></article>
+        <article class="card metric"><div class="metric-icon">✓</div><div><strong id="officialSources">0</strong><span>ข้อมูลทางการ</span><small>Official</small></div></article>
+        <article class="card metric"><div class="metric-icon">▶</div><div><strong id="examples">0</strong><span>ตัวอย่าง VTR</span><small>Reference videos</small></div></article>
+        <article class="card metric"><div class="metric-icon">!</div><div><strong id="issueCount">0</strong><span>ประเด็นที่ต้องแก้</span><small>Open issues</small></div></article>
+      </div>
+    </section>
+
+    <section class="intake-strip" aria-label="สรุปข้อมูลที่ผู้ใช้นำเข้า">
+      <article class="card intake-stat" style="--accent:#18c79b"><strong id="chatFiles">0</strong><span>ไฟล์อัปโหลดในแชท</span><small>โลโก้ เกณฑ์ และเอกสาร</small></article>
+      <article class="card intake-stat" style="--accent:#2587f7"><strong id="driveFiles">0</strong><span>ไฟล์จาก Google Drive</span><small id="driveFolders">0 โฟลเดอร์</small></article>
+      <article class="card intake-stat" style="--accent:#6748ec"><strong id="referenceLinks">0</strong><span>ลิงก์อ้างอิง</span><small>YouTube และแหล่งทางการ</small></article>
+      <article class="card intake-stat" style="--accent:#f06ca0"><strong id="teacherSubmissions">0</strong><span>รายการจากคณะครู</span><small id="uploadChannel">ช่องรับไฟล์กำลังตั้งค่า</small></article>
+      <article class="card intake-stat" style="--accent:#f6ac2f"><strong id="projectSources">0</strong><span>แหล่งข้อมูลที่ใช้ในโครงการ</span><small>ไม่นับโลโก้สำรองเป็นหลักฐาน</small></article>
+    </section>
+
+    <section class="main">
+      <div class="left-stack">
+        <article class="card panel">
+          <div class="panel-head">
+            <div class="section-title">
+              <div class="section-icon user">⇧</div>
+              <div><h2>ส่วนที่ 1 — ข้อมูลที่ผู้ใช้อัปโหลดหรือเชื่อมต่อ</h2><p class="panel-kicker">แสดงความครบถ้วนของข้อมูลต้นทาง แยกจากขั้นตอนผลิต VTR</p></div>
+            </div>
+            <div class="section-progress"><strong id="inputProgress">0%</strong><span>ความพร้อมข้อมูล</span></div>
+          </div>
+          <div class="workflow" id="inputWorkflow"></div>
+        </article>
+
+        <article class="card panel">
+          <div class="panel-head">
+            <div class="section-title">
+              <div class="section-icon">▶</div>
+              <div><h2>ส่วนที่ 2 — Work Flow การผลิต VTR</h2><p class="panel-kicker">บทพากย์ Storyboard ตัดต่อ Render ตรวจคุณภาพ และส่งมอบ</p></div>
+            </div>
+            <div class="section-progress"><strong id="productionProgress">0%</strong><span>ความคืบหน้าผลิต</span></div>
+          </div>
+          <div class="pipeline" id="pipeline"></div>
+          <div class="workflow" id="productionWorkflow"></div>
+        </article>
+      </div>
+
+      <aside class="side">
+        <article class="card render">
+          <div class="render-head"><div><small>สถานะ Render</small><br><strong id="renderStatus">ยังไม่เริ่ม</strong></div><strong id="renderPct">0%</strong></div>
+          <div class="render-body">
+            <div class="render-line"><span id="renderAttempt">ครั้งที่ 0</span><span id="renderTimes">—</span></div>
+            <div class="render-meter"><i id="renderBar" style="--p:0%"></i></div>
+            <div class="render-file" id="renderFile">ยังไม่มีไฟล์ผลลัพธ์</div>
+            <div class="error" id="renderError"></div>
+          </div>
+        </article>
+
+        <article class="card issues">
+          <div class="panel-head"><div><h2>ข้อมูลที่ต้องเพิ่มหรือปรับปรุง</h2><p class="panel-kicker">เฉพาะประเด็นที่ยังเปิดอยู่</p></div></div>
+          <div class="issue-list" id="issues"></div>
+        </article>
+
+        <article class="card team">
+          <div class="panel-head"><div><h2>คณะทำงาน VTR</h2><p class="panel-kicker">ผู้รับผิดชอบโครงการ</p></div></div>
+          <div class="team-list" id="team"></div>
+        </article>
+
+        <article class="next"><div class="next-icon">↗</div><div><strong>ขั้นตอนถัดไปอัตโนมัติ</strong><p id="nextAction">—</p></div></article>
+
+        <article class="sync-card">
+          <div class="sync-meta"><span>ข้อมูลโครงการ</span><strong id="updatedAt">—</strong></div>
+          <div class="sync-meta"><span>ตรวจแหล่งข้อมูลล่าสุด</span><strong id="checkedAt">—</strong></div>
+          <p class="panel-kicker" id="connectionDetail">ใช้ข้อมูลล่าสุดที่ฝังในหน้า</p>
+        </article>
+      </aside>
+    </section>
+
+    <footer class="foot"><span id="schoolName">—</span><span>Dashboard แยกข้อมูลนำเข้าออกจาก Work Flow แล้ว</span></footer>
+  </main>
+
+  <script>
+    const embeddedState = /*__STATE_START__*/{"version":2,"updated_at":"2026-07-15","automatic_mode":true,"project_name":"VTR สถานศึกษาปลอดภัย โรงเรียนบ้านหวาย(หวายวิทยานุกูล)","school":"โรงเรียนบ้านหวาย(หวายวิทยานุกูล)","district":"สำนักงานเขตพื้นที่การศึกษาประถมศึกษาร้อยเอ็ด เขต 3","video_profile":"school-safety-assessment","hard_duration_seconds":300,"target_duration_seconds":285,"current_stage":"consistency","workflow":{"source-intake":{"label":"รับและจัดหมวดข้อมูล","status":"in-progress","progress":93,"note":"เชื่อม Google Drive เดิม 3 โฟลเดอร์และสร้างช่องรับหลักฐานจากคณะครูพร้อมทะเบียนกลางแล้ว รอเจ้าของบัญชี Deploy เว็บแอปหนึ่งครั้ง"},"rubric":{"label":"เกณฑ์ประเมินของเขต","status":"completed","progress":100,"note":"สกัดเกณฑ์ 7 องค์ประกอบ 100 คะแนนและสร้างตารางเกณฑ์–หลักฐานแล้ว"},"school-data":{"label":"ข้อมูลโรงเรียน","status":"needs-review","progress":90,"note":"SAR ปี 2568 ยืนยันนักเรียน 196 คน 11 ห้องเรียน และบุคลากรรวม 18 คน แต่จำนวนครูในเอกสารมีทั้ง 13 และ 14 คน"},"images":{"label":"รูปภาพหลักฐาน","status":"needs-review","progress":10,"note":"พบภาพเกียรติบัตร 1 ไฟล์และภาพกิจกรรมภายใน PDF แต่ยังไม่มีคลังภาพกิจกรรมความปลอดภัยแบบไฟล์แยก"},"videos":{"label":"คลิปวิดีโอหลักฐาน","status":"needs-review","progress":5,"note":"พบคลินิกภาษาไทย.mp4 1 ไฟล์ ซึ่งไม่ใช่คลิปความปลอดภัยที่ SAR อ้างถึง"},"documents":{"label":"เอกสารหลักฐาน","status":"in-progress","progress":90,"note":"ลงทะเบียนเอกสารเดิม 3 ไฟล์และหลักฐานจาก Drive เพิ่ม 12 ไฟล์ พร้อมอ่าน SAR ปี 2568 และเอกสารผลงานด้านที่ 1–5"},"audio":{"label":"เสียงพากย์ เพลง และสิทธิ์","status":"pending","progress":0,"note":"ยังไม่ได้จัดเตรียมและตรวจสิทธิ์"},"consistency":{"label":"ตรวจความสอดคล้องข้อมูล","status":"in-progress","progress":60,"note":"ใช้ SAR ปี 2568 เป็นข้อมูลล่าสุดแล้ว เหลือยืนยันจำนวนครู 13/14 คน ข้อกำหนด VTR และไฟล์หลักฐานสื่อความปลอดภัย"},"script":{"label":"บทพากย์","status":"pending","progress":0,"note":"รอตารางเกณฑ์และหลักฐาน"},"storyboard":{"label":"Storyboard และ Timeline","status":"pending","progress":0,"note":"รอบทพากย์"},"edit-plan":{"label":"แผนตัดต่อ","status":"pending","progress":0,"note":"รอบัญชีสื่อและ Timeline"},"editing":{"label":"ตัดต่อภาพและเสียง","status":"pending","progress":0,"note":"ยังไม่เริ่ม"},"subtitles":{"label":"ซับไตเติลและข้อความ","status":"pending","progress":0,"note":"ยังไม่เริ่ม"},"render":{"label":"Render วิดีโอ","status":"pending","progress":0,"note":"ยังไม่เริ่ม"},"quality-control":{"label":"ตรวจคุณภาพและจำลองกรรมการ","status":"pending","progress":0,"note":"รอไฟล์ Render"},"delivery":{"label":"ส่งมอบไฟล์","status":"pending","progress":0,"note":"รอผ่าน QC"}},"source_summary":{"total":29,"official":19,"example_vtr":10,"pending_verification":1},"intake_summary":{"chat_files":5,"drive_folders":3,"drive_files":13,"reference_links":13,"upload_channels":1,"teacher_submissions":0,"project_sources":29,"note":"จำนวนแหล่งข้อมูลโครงการไม่นับโลโก้สำรอง 2 ไฟล์เป็นหลักฐานเนื้อหา"},"intake_channel":{"name":"ช่องรับหลักฐาน VTR จากคณะครู","status":"setup-package-ready","privacy_mode":"authenticated-teachers-and-aggregated-dashboard","root_folder_id":"1KSTzwDY1WMh12UH5XOpA1v8KWUMjZ8AQ","root_folder_url":"https://drive.google.com/drive/folders/1KSTzwDY1WMh12UH5XOpA1v8KWUMjZ8AQ","registry_spreadsheet_id":"14dTnzf6tUP0CkNt1KI0jeTZv1vUoN7aDCw7E-DjrdG0","registry_spreadsheet_url":"https://docs.google.com/spreadsheets/d/14dTnzf6tUP0CkNt1KI0jeTZv1vUoN7aDCw7E-DjrdG0/edit","setup_package_file_id":"1RUrvhumsbVW5tQboQwrvcebw2-aTMP_x","setup_package_url":"https://drive.google.com/file/d/1RUrvhumsbVW5tQboQwrvcebw2-aTMP_x/view?usp=drivesdk","web_app_url":null,"dashboard_api_url":null,"deployment_requirement":"เจ้าของบัญชี Google ต้องอนุญาต Apps Script และ Deploy เป็น Web app หนึ่งครั้ง","limits":{"per_file_mb":20,"per_submission_mb":30,"large_video_method":"Google Drive link"}},"project_team":["นายวัชระพล วินะกะ","นายพงศกร ไชยดำ","นายนันพงษ์ มงคลแก้วเลิศ"],"brand_assets":[{"id":"BRAND-001","type":"school-logo","original_filename":"94B970E0-B20E-41AC-A76B-890D55412F2B.jpeg","project_path":"assets/school-logo.jpeg","format":"JPEG","width":928,"height":1151,"sha256":"d9e4d34cd73e2abc7c0ce2e96e18bc40b8a095964281afa1fc9af11057b61916","status":"superseded","note":"เก็บเป็นไฟล์สำรอง ไฟล์ PNG ความละเอียดสูงถูกเลือกเป็นไฟล์หลักแทน"},{"id":"BRAND-002","type":"school-logo","original_filename":"ตรา รร.บ้านหวาย(7).png","project_path":"assets/school-logo.png","format":"PNG RGBA","width":2048,"height":2048,"sha256":"acabdbc75365d871cd7a6c21425a7fef6d9ee7251e4fc09a9dd89afccd75fee9","status":"primary","note":"ไฟล์หลักสำหรับ Dashboard, Overlay และ Render VTR; พื้นหลังโปร่งใสและความละเอียดเพียงพอ"}],"issues":[{"id":"ISSUE-001","severity":"critical","area":"rubric","message":"ได้รับและวิเคราะห์เกณฑ์ประเมินปี 2569 แล้ว","required_action":"ไม่ต้องดำเนินการเพิ่มเติม","status":"closed"},{"id":"ISSUE-002","severity":"warning","area":"media","message":"ได้รับเอกสารจาก Drive แล้ว แต่ยังไม่มีคลังภาพและคลิปกิจกรรมความปลอดภัยแบบไฟล์แยก","required_action":"เมื่อมีภาพหรือคลิปใน Drive ระบบจะค้นและจัดเข้าตัวชี้วัดให้อัตโนมัติ","status":"open"},{"id":"ISSUE-003","severity":"info","area":"branding","message":"ได้รับโลโก้โรงเรียน PNG โปร่งใสความละเอียดสูงแล้ว","required_action":"ไม่ต้องดำเนินการเพิ่มเติม เว้นแต่มีการเปลี่ยนตราโรงเรียน","status":"closed"},{"id":"ISSUE-004","severity":"info","area":"sources","message":"ตัวอย่าง YouTube 1 รายการยังตรวจสอบชื่อไม่ได้","required_action":"เก็บเป็น pending-verification โดยไม่เดาชื่อ","status":"open"},{"id":"ISSUE-005","severity":"warning","area":"school-data","message":"SAR ปี 2568 ระบุจำนวนครูไม่ตรงกัน: ตารางหนึ่ง 13 คน แต่อีกตาราง 14 คน; บุคลากรรวม 18 คน","required_action":"หลีกเลี่ยงการกล่าวจำนวนครูในบทพากย์จนกว่าจะมีการยืนยัน","status":"open"},{"id":"ISSUE-006","severity":"warning","area":"rubric","message":"เกณฑ์ที่ได้รับระบุส่งรูปเล่ม แต่ไม่พบข้อกำหนด VTR หรือความยาวไม่เกิน 5 นาที","required_action":"เพิ่มหนังสือหรือข้อความคำสั่งที่กำหนดรูปแบบ VTR หากมี","status":"open"},{"id":"ISSUE-007","severity":"warning","area":"media","message":"SAR อ้างถึงคลิปความปลอดภัยและซ้อมแผนที่ได้รับรางวัลดีเยี่ยม แต่ยังไม่พบไฟล์ดังกล่าวใน 3 โฟลเดอร์","required_action":"ระบบจะเชื่อมรายการนี้ทันทีเมื่อพบไฟล์หรือ URL ต้นฉบับ","status":"open"},{"id":"ISSUE-008","severity":"info","area":"sources","message":"เชื่อม Google Drive 3 โฟลเดอร์และจัดหมวดไฟล์ 13 รายการสำเร็จ","required_action":"ไม่ต้องดำเนินการเพิ่มเติม","status":"closed"},{"id":"ISSUE-009","severity":"info","area":"intake-channel","message":"สร้างโฟลเดอร์รับหลักฐาน 10 หมวด ทะเบียนกลาง และชุดติดตั้งเว็บรับไฟล์แล้ว","required_action":"เจ้าของบัญชีเปิด Apps Script จากทะเบียนกลาง อนุญาตสิทธิ์และ Deploy เป็น Web app หนึ่งครั้ง จากนั้นบันทึก Web app URL","status":"open"}],"render_state":{"status":"not-started","progress":0,"attempt":0,"output_file":null,"started_at":null,"finished_at":null,"error":null},"next_automatic_action":"ใช้ SAR ปี 2568 เติมโครงเรื่อง 4:45 และสร้าง Shot List เฉพาะภาพ/คลิปความปลอดภัยที่ยังขาดตามเกณฑ์ 7 องค์ประกอบ"}/*__STATE_END__*/;
+
+    const statusLabels = {
+      "missing":"ขาดข้อมูล", "blocked":"ติดขัด", "needs-review":"ต้องตรวจ/ปรับปรุง",
+      "pending":"รอดำเนินการ", "ready":"พร้อม", "in-progress":"กำลังดำเนินการ",
+      "completed":"เสร็จแล้ว", "failed":"ไม่สำเร็จ", "not-applicable":"ไม่เกี่ยวข้อง",
+      "not-started":"ยังไม่เริ่ม", "queued":"รอ Render", "rendering":"กำลัง Render"
+    };
+    const severityLabels = {critical:"สำคัญ", warning:"ต้องปรับปรุง", info:"ข้อมูล"};
+    const inputKeys = ["source-intake", "rubric", "school-data", "images", "videos", "documents", "audio", "consistency"];
+    const productionKeys = ["script", "storyboard", "edit-plan", "editing", "subtitles", "render", "quality-control", "delivery"];
+    const pipelineGroups = [
+      {label:"บท", keys:["script"]},
+      {label:"วางภาพ", keys:["storyboard", "edit-plan"]},
+      {label:"ตัดต่อ", keys:["editing", "subtitles"]},
+      {label:"Render", keys:["render"]},
+      {label:"ส่งมอบ", keys:["quality-control", "delivery"]}
+    ];
+    const $ = id => document.getElementById(id);
+    let state = embeddedState;
+    let fileHandle = null;
+    let connection = {mode:"embedded", live:false, detail:"ใช้ข้อมูลล่าสุดที่ฝังในหน้า"};
+    let lastPayload = "";
+    let lastCheckedAt = "ยังไม่เชื่อม Live";
+    let pollBusy = false;
+
+    function clamp(n) { return Math.max(0, Math.min(100, Number(n) || 0)); }
+    function escapeHTML(value) {
+      return String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;", "<":"&lt;", ">":"&gt;", "'":"&#39;", '"':"&quot;"}[char]));
+    }
+    function valid(data) { return data && typeof data === "object" && data.workflow && data.render_state; }
+    function progressFor(workflow, keys) {
+      const rows = keys.map(key => workflow[key]).filter(row => row && row.status !== "not-applicable");
+      return rows.length ? Math.round(rows.reduce((sum, row) => sum + clamp(row.progress), 0) / rows.length) : 0;
+    }
+    function overall(data) {
+      return progressFor(data.workflow || {}, [...inputKeys, ...productionKeys]);
+    }
+    function nowTime() {
+      return new Intl.DateTimeFormat("th-TH", {hour:"2-digit", minute:"2-digit", second:"2-digit"}).format(new Date());
+    }
+    function workflowRows(workflow, keys) {
+      return keys.map(key => [key, workflow[key]]).filter(([, row]) => row).map(([key, row]) => `
+        <div class="flow-row">
+          <div class="flow-name" title="${escapeHTML(row.label || key)}">${escapeHTML(row.label || key)}</div>
+          <span class="badge status-${escapeHTML(row.status)}">${escapeHTML(statusLabels[row.status] || row.status)}</span>
+          <div class="bar"><i style="--p:${clamp(row.progress)}%"></i></div>
+          <div class="pct">${clamp(row.progress)}%</div>
+          <button class="toggle" aria-label="ดูรายละเอียด" type="button">⌄</button>
+          <div class="flow-note">${escapeHTML(row.note || "ไม่มีหมายเหตุ")}</div>
+        </div>`).join("");
+    }
+    function bindToggles() {
+      document.querySelectorAll(".toggle").forEach(button => {
+        button.onclick = () => button.closest(".flow-row").classList.toggle("open");
+      });
+    }
+    function renderConnection() {
+      const badge = $("live");
+      badge.classList.toggle("offline", !connection.live && connection.mode !== "snapshot");
+      badge.classList.toggle("snapshot", connection.mode === "snapshot" || connection.mode === "embedded");
+      const label = connection.live ? "อัปเดตสดทุก 2 วินาที" : connection.mode === "snapshot" ? "ไฟล์สำเนา — ไม่ใช่ Live" : connection.mode === "embedded" ? "ข้อมูล ณ ตอนสร้างไฟล์" : "ขาดการเชื่อมต่อ";
+      badge.querySelector("span").textContent = label;
+      $("connectionDetail").textContent = connection.detail;
+      $("checkedAt").textContent = lastCheckedAt;
+    }
+    function render(data) {
+      if (!valid(data)) return;
+      state = data;
+      const workflow = data.workflow || {};
+      const summary = data.source_summary || {};
+      const intake = data.intake_summary || {};
+      const openIssues = (data.issues || []).filter(issue => issue.status !== "closed");
+      const allProgress = overall(data);
+
+      $("ring").style.setProperty("--p", allProgress);
+      $("overall").textContent = allProgress + "%";
+      $("readinessText").textContent = allProgress < 25 ? "ยังต้องเติมข้อมูลสำคัญ" : allProgress < 70 ? "กำลังเตรียมองค์ประกอบ" : allProgress < 100 ? "ใกล้พร้อมผลิต" : "พร้อมส่งมอบ";
+      $("projectName").textContent = data.project_name || "โครงการ VTR";
+      $("schoolName").textContent = (data.school || "—") + (data.district ? " • " + data.district : "");
+      $("currentStage").textContent = workflow[data.current_stage]?.label || data.current_stage || "—";
+      $("updatedAt").textContent = data.updated_at || "—";
+      $("totalSources").textContent = summary.total || 0;
+      $("officialSources").textContent = summary.official || 0;
+      $("examples").textContent = summary.example_vtr || 0;
+      $("issueCount").textContent = openIssues.length;
+      $("nextAction").textContent = data.next_automatic_action || "—";
+
+      $("chatFiles").textContent = intake.chat_files ?? 0;
+      $("driveFiles").textContent = intake.drive_files ?? 0;
+      $("driveFolders").textContent = `${intake.drive_folders ?? 0} โฟลเดอร์`;
+      $("referenceLinks").textContent = intake.reference_links ?? 0;
+      $("teacherSubmissions").textContent = intake.teacher_submissions ?? 0;
+      $("uploadChannel").textContent = data.intake_channel?.web_app_url ? "ช่องรับไฟล์ออนไลน์แล้ว" : `${intake.upload_channels ?? 0} ช่อง · รอ Deploy ครั้งแรก`;
+      $("projectSources").textContent = intake.project_sources ?? summary.total ?? 0;
+
+      $("inputProgress").textContent = progressFor(workflow, inputKeys) + "%";
+      $("productionProgress").textContent = progressFor(workflow, productionKeys) + "%";
+      $("inputWorkflow").innerHTML = workflowRows(workflow, inputKeys);
+      $("productionWorkflow").innerHTML = workflowRows(workflow, productionKeys);
+      bindToggles();
+
+      $("pipeline").innerHTML = pipelineGroups.map((group, index) => {
+        const rows = group.keys.map(key => workflow[key]).filter(Boolean);
+        const blocked = rows.some(row => ["blocked", "missing", "failed"].includes(row.status));
+        const done = rows.length && rows.every(row => ["completed", "not-applicable"].includes(row.status));
+        const active = !blocked && !done && rows.some(row => ["in-progress", "ready", "needs-review"].includes(row.status));
+        return `<div class="stage ${blocked ? "blocked" : active || done ? "active" : ""}"><i>${done ? "✓" : blocked ? "!" : index + 1}</i>${escapeHTML(group.label)}</div>`;
+      }).join("");
+
+      const severityOrder = {critical:0, warning:1, info:2};
+      openIssues.sort((a, b) => (severityOrder[a.severity] ?? 3) - (severityOrder[b.severity] ?? 3));
+      $("issues").innerHTML = openIssues.length ? openIssues.map(issue => `
+        <div class="issue">
+          <div class="issue-head"><span class="issue-title">${escapeHTML(issue.message)}</span><span class="severity sev-${escapeHTML(issue.severity)}">${escapeHTML(severityLabels[issue.severity] || issue.severity)}</span></div>
+          <p>${escapeHTML(issue.required_action || "")}</p>
+        </div>`).join("") : `<div class="empty">✓ ไม่มีประเด็นค้าง</div>`;
+
+      const team = data.project_team || [];
+      $("team").innerHTML = team.length ? team.map((name, index) => `<div class="member"><span class="avatar">${index + 1}</span>${escapeHTML(name)}</div>`).join("") : `<div class="empty">ยังไม่มีรายชื่อ</div>`;
+
+      const renderState = data.render_state || {};
+      $("renderStatus").textContent = statusLabels[renderState.status] || renderState.status || "ยังไม่เริ่ม";
+      $("renderPct").textContent = clamp(renderState.progress) + "%";
+      $("renderBar").style.setProperty("--p", clamp(renderState.progress) + "%");
+      $("renderAttempt").textContent = "ครั้งที่ " + (renderState.attempt || 0);
+      $("renderTimes").textContent = renderState.finished_at ? "เสร็จ " + renderState.finished_at : renderState.started_at ? "เริ่ม " + renderState.started_at : "—";
+      $("renderFile").textContent = renderState.output_file || "ยังไม่มีไฟล์ผลลัพธ์";
+      $("renderError").textContent = renderState.error || "";
+      $("renderError").classList.toggle("show", Boolean(renderState.error));
+      renderConnection();
+    }
+
+    function stateTarget() {
+      return new URLSearchParams(location.search).get("state") || "../references/project-state.json";
+    }
+    async function loadUrl() {
+      if (location.protocol === "file:") return false;
+      const target = stateTarget();
+      try {
+        const response = await fetch(target + (target.includes("?") ? "&" : "?") + "t=" + Date.now(), {cache:"no-store"});
+        if (!response.ok) throw new Error(String(response.status));
+        const data = await response.json();
+        if (!valid(data)) throw new Error("schema");
+        const payload = JSON.stringify(data);
+        lastCheckedAt = nowTime();
+        connection = {mode:"url", live:true, detail:"เชื่อมต่อ " + target};
+        if (payload !== lastPayload) { lastPayload = payload; render(data); } else { renderConnection(); }
+        return true;
+      } catch (error) {
+        connection = {mode:"offline", live:false, detail:"อ่าน project-state.json ไม่สำเร็จ — แสดงข้อมูลล่าสุดที่มี"};
+        renderConnection();
+        return false;
+      }
+    }
+    async function readHandle() {
+      if (!fileHandle) return false;
+      try {
+        const file = await fileHandle.getFile();
+        const text = await file.text();
+        const data = JSON.parse(text);
+        if (!valid(data)) throw new Error("schema");
+        lastCheckedAt = nowTime();
+        connection = {mode:"handle", live:true, detail:"ติดตามไฟล์ " + file.name};
+        if (text !== lastPayload) { lastPayload = text; render(data); } else { renderConnection(); }
+        return true;
+      } catch (error) {
+        connection = {mode:"offline", live:false, detail:"อ่านไฟล์สถานะไม่สำเร็จ — กรุณาเชื่อมใหม่"};
+        renderConnection();
+        return false;
+      }
+    }
+    function openDatabase() {
+      return new Promise((resolve, reject) => {
+        const request = indexedDB.open("vtr-readiness-dashboard", 1);
+        request.onupgradeneeded = () => request.result.createObjectStore("handles");
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+    async function saveHandle(handle) {
+      try {
+        const database = await openDatabase();
+        const transaction = database.transaction("handles", "readwrite");
+        transaction.objectStore("handles").put(handle, "project-state");
+      } catch (_) {}
+    }
+    async function restoreHandle() {
+      if (!window.showOpenFilePicker) return false;
+      try {
+        const database = await openDatabase();
+        const handle = await new Promise((resolve, reject) => {
+          const request = database.transaction("handles").objectStore("handles").get("project-state");
+          request.onsuccess = () => resolve(request.result);
+          request.onerror = () => reject(request.error);
+        });
+        if (!handle) return false;
+        const permission = await handle.queryPermission({mode:"read"});
+        if (permission !== "granted") return false;
+        fileHandle = handle;
+        return readHandle();
+      } catch (_) { return false; }
+    }
+    async function connect() {
+      if (window.showOpenFilePicker) {
+        try {
+          [fileHandle] = await window.showOpenFilePicker({
+            types: [{description:"VTR project-state.json", accept:{"application/json":[".json"]}}],
+            multiple: false
+          });
+          const permission = await fileHandle.requestPermission({mode:"read"});
+          if (permission !== "granted") throw new Error("permission");
+          await saveHandle(fileHandle);
+          await readHandle();
+          return;
+        } catch (error) {
+          if (error.name === "AbortError") return;
+        }
+      }
+      $("fileInput").click();
+    }
+    async function boot() {
+      const builtAt = document.body.dataset.builtAt;
+      connection = {mode:"embedded", live:false, detail: builtAt ? "ข้อมูลฝังในไฟล์เมื่อ " + builtAt : "ใช้ข้อมูลล่าสุดที่ฝังในหน้า"};
+      render(embeddedState);
+      if (await restoreHandle()) return;
+      if (location.protocol !== "file:") await loadUrl();
+    }
+
+    $("connectBtn").onclick = connect;
+    $("refreshBtn").onclick = () => fileHandle ? readHandle() : location.protocol === "file:" ? render(state) : loadUrl();
+    $("fileInput").onchange = async event => {
+      const file = event.target.files[0];
+      if (!file) return;
+      try {
+        const data = JSON.parse(await file.text());
+        if (!valid(data)) throw new Error("schema");
+        connection = {mode:"snapshot", live:false, detail:"โหลดสำเนา " + file.name + " — เลือกใหม่เมื่อข้อมูลเปลี่ยน"};
+        render(data);
+      } catch (_) {
+        alert("ไฟล์นี้ไม่ใช่ project-state.json ที่ถูกต้อง");
+      }
+    };
+    if ("BroadcastChannel" in window) {
+      const channel = new BroadcastChannel("vtr-project-state");
+      channel.onmessage = event => {
+        if (!valid(event.data)) return;
+        lastCheckedAt = nowTime();
+        connection = {mode:"url", live:true, detail:"รับสถานะสดจากระบบโครงการ"};
+        render(event.data);
+      };
+    }
+    async function pollState() {
+      if (pollBusy) return;
+      pollBusy = true;
+      try {
+        if (fileHandle) await readHandle();
+        else if (location.protocol !== "file:") await loadUrl();
+      } finally {
+        pollBusy = false;
+      }
+    }
+    setInterval(pollState, 2000);
+    boot();
+  </script>
+</body>
+</html>

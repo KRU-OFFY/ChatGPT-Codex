@@ -1,0 +1,14 @@
+interface:
+  display_name: TOFFY Presentation DNA
+  short_description: Create reviewed slides with Canva, motion and voice gates
+  default_prompt: Use $toffy-presentation-dna to build reviewed slide images, then
+    verify Canva layers, motion, voice and export under TOFFY learning standards.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: designing pdf manuals
+  short_description: Use when creating or redesigning multi-page PDF manuals, technical
+    guides, field manuals, educational handbooks, infographic-heavy documents, or
+    graphic-realistic manuals from briefs, files, references, or mixed visual assets.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

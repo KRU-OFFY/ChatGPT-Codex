@@ -1,0 +1,35 @@
+version: 1
+kind: vendor-neutral-tool-contracts
+note: "Design contract only; not an official plugin manifest."
+contracts:
+  - id: files.read
+    mode: read
+    purpose: "Read project source content and metadata."
+    required_controls: [source_identity, least_privilege]
+  - id: research.web
+    mode: read
+    purpose: "Retrieve current authoritative public information."
+    required_controls: [citation_capture, freshness_check]
+  - id: image.generate
+    mode: create
+    purpose: "Create original explanatory or realistic virtual visuals."
+    required_controls: [prompt_log, simulation_label_when_needed]
+  - id: design.adobe_express
+    mode: create
+    optional: true
+    purpose: "Template exploration and supported design operations."
+    required_controls: [connector_status, no_silent_fallback]
+  - id: pdf.create_preflight
+    mode: create
+    purpose: "Create and technically verify PDF output."
+    required_controls: [artifact_reopen, all_page_render, preflight_result]
+  - id: storage.save
+    mode: write
+    optional: true
+    purpose: "Save versioned artifacts to external storage."
+    required_controls: [explicit_target, versioning, authorization]
+  - id: publish.external
+    mode: write
+    optional: true
+    purpose: "Publish or send an approved final artifact."
+    required_controls: [human_approval, explicit_authorization, audit_record]
