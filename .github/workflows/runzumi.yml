@@ -1,8 +1,36 @@
-on: workflow_dispatch
+name: Validate repository content
+
+on:
+  workflow_dispatch:
+    inputs:
+      runner:
+        description: Choose the runner (GitHub-hosted is the free default for this public repository)
+        type: choice
+        required: true
+        default: github-hosted
+        options:
+          - github-hosted
+          - runzumi
+
+permissions:
+  contents: read
 
 jobs:
-  build:
-    runs-on: runzumi-ubuntu-24.04-x64-2
+  validate:
+    name: Validate on ${{ inputs.runner }}
+    runs-on: ${{ inputs.runner == 'runzumi' && 'runzumi-ubuntu-24.04-x64-2' || 'ubuntu-24.04' }}
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - run: echo "Hello, Runzumi"
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run package tests
+        run: python -m unittest discover -s .agents/skills/designing-pdf-manuals/tests -v
+
+      - name: Validate package
+        run: python .agents/skills/designing-pdf-manuals/scripts/validate_skill.py .agents/skills/designing-pdf-manuals
